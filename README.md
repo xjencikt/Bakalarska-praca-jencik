@@ -5,8 +5,14 @@ ROCNE SPRAVY  2021: testovacia databáza
 all_text_info.csv: spracované textové dáta s rozdelenými častami
 data_from_text.csv: spracované textové dáta v jednoduchom formáte (text rozdelený po čiarkách)
 
-file_analyzer.py: spracovanie dokumentu a rozdelenie textu podľa čiarok
-highlight_all_files.py: vyznačenie vyhľadávaných výrazov v databáze.
+text_analyzer.py: spracovanie dokumentu a rozdelenie textu podľa čiarok. Vstupný parameter:
+- open_file: cesta k danému priečinku.
+
+
+highlight_all_files.py: vyznačenie vyhľadávaných výrazov v databáze. Vstupné parametre:
+- dir = cesta k danému priečinku,
+- dictionary = slovník slov s farbami prislúchajúcimi k slovnému výrazu,
+- new_path = novo vytvorený dokument s označenými prvkami
 
 xhtml_analysis_beautiful_soup_Libre_Office.ipynb: bližšie spracovanie Libre Office dokumentu
 xhtml_analysis_beautiful_soup_Open_Office.ipynb: bližšie spracovanie Open Office dokumentu

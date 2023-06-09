@@ -95,31 +95,7 @@ class text_analyzer:
             return print("EMPTY")
         return data
 
-    @staticmethod
-    def write_xhtml(new_file):
-        with open(new_file, "w", encoding="utf8") as file_html:
-            file_html.write("""<?xml version='1.0' encoding='utf-8' standalone='no'?>
-    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-    <html xmlns="http://www.w3.org/1999/xhtml">
-      <head>
-        <title>Test page</title>
-      </head>
-      <body>
-        <p>Hello world</p>
-      </body>
-    </html>""")
-        file_html.close()
 
-    @staticmethod
-    def append_to_xhtml(open_file, new_file):
-        xhtml = open(open_file, encoding="utf8").read()
-        soup2 = BeautifulSoup(xhtml, 'html.parser')
-
-        for match in soup2.findAll('span'):
-            match.unwrap()
-
-        with open(new_file, "w", encoding="utf8") as outf:
-            outf.write(str(soup2))
 
     @staticmethod
     def get_text(open_file):
@@ -156,8 +132,6 @@ class text_analyzer:
         return df.to_csv('data_from_text.txt', encoding="utf-16")
 
 open_file = 'ROCNE SPRAVY  2021/test/highlighted/ACROSS FUNDING správa 2021.xhtml'
-new_file = 'ROCNE SPRAVY  2021/test/highlighted/ACROSS FUNDING správa 2021-COPY.xhtml'
-searched_word = 'Payment titles'
 
 text_analyzer.get_text(open_file)
 

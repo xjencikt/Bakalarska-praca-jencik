@@ -204,6 +204,7 @@ def create_test_doc(file_path):
 
 def main():
     dir = "ROCNE SPRAVY  2021/test/"
+    new_path = "ROCNE SPRAVY  2021/test/highlighted/"
     dictionary = {
         "word1": ("Telefónne číslo:", "red"),
         "word2": ("Webové sídlo, kde sa nachádzajú regulované informácie", "lightblue"),
@@ -217,7 +218,7 @@ def main():
         "word10": ("Statement of Financial Position", "yellow")
     }
 
-    new_path = "ROCNE SPRAVY  2021/test/highlighted/"
+
 
 
     highlightDir(dir, dictionary, new_path)
