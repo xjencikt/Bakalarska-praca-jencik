@@ -1,0 +1,18 @@
+<taxonomyPackage
+  xmlns="http://xbrl.org/2016/taxonomy-package"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd"
+  xml:lang="en"
+>
+  <identifier>https://www.unicreditbank.cz/esef/2021-12-31</identifier>
+  <name>KR6LSKV3BTSJRD41IF75-2021-12-31</name>
+  <version>0.0.1</version>
+  <publisher>CoreFiling</publisher>
+  <publicationDate>2022-04-08</publicationDate>
+  <entryPoints>
+    <entryPoint>
+      <name>Unicredit CZ extension taxonomy for 2021-12-31</name>
+      <entryPointDocument href="https://www.unicreditbank.cz/esef/2021-12-31/KR6LSKV3BTSJRD41IF75-2021-12-31.xsd"/>
+    </entryPoint>
+  </entryPoints>
+</taxonomyPackage>

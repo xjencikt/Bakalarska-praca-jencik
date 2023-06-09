@@ -1,0 +1,7 @@
+<catalog
+  xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:entity:xmlns:xml:catalog http://www.xbrl.org/2016/taxonomy-package-catalog.xsd"
+>
+  <rewriteURI uriStartString="https://www.slsp.sk/esef/2021-12-31/" rewritePrefix="../taxonomy/"/>
+</catalog>

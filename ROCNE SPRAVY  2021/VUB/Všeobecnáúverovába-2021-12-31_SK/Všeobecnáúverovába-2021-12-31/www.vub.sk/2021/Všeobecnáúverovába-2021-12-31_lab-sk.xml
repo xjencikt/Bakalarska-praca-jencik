@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<link:linkbase xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_NonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" xlink:label="loc_1" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssetsAtFvThroughOciOfWhichPledgedAsCollateral" xlink:label="loc_2" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssestsAtAmortisedCostDueFromOtherBanks" xlink:label="loc_3" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssetsAtAmortisedCostDueFromCustomers" xlink:label="loc_4" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssetsAtAmortisedCostOfWhichPledgedAsCollateral" xlink:label="loc_5" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialLiabilitiesAtAmortisedCostDueToBanks" xlink:label="loc_6" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialLiabilitiesAtAmortisedCostDueToCustomers" xlink:label="loc_7" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialLiabilitiesAtAmortisedCostLeaseLiabilities" xlink:label="loc_8" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_OtherInterestIncome" xlink:label="loc_9" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_InterestAndSimilarExpense" xlink:label="loc_10" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_SpecialLevyOfSelectedFinancialInstitution" xlink:label="loc_11" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_NetModificationLosses" xlink:label="loc_12" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_ProvisionsNet" xlink:label="loc_13" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_ReversalOfDeferredIncomeTaxOnDisposedPropertyAndEquipment" xlink:label="loc_14" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_ReversalOfDeferredIncomeTaxOnFtaReserveDueToVubLeasingMergerIntoVubBank" xlink:label="loc_15" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskAssets" xlink:label="loc_16" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskLiabilities" xlink:label="loc_17" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_DisposalOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" xlink:label="loc_18" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_RepaymentsOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" xlink:label="loc_19" />
+    <link:labelArc xlink:from="loc_1" xlink:to="label_9598" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_2" xlink:to="label_9586" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_3" xlink:to="label_9614" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_4" xlink:to="label_9588" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_5" xlink:to="label_9590" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_6" xlink:to="label_9592" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_7" xlink:to="label_9594" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_8" xlink:to="label_9596" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_9" xlink:to="label_9600" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_10" xlink:to="label_9602" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_11" xlink:to="label_9604" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_12" xlink:to="label_9606" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_13" xlink:to="label_9608" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_14" xlink:to="label_9610" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_15" xlink:to="label_9612" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_16" xlink:to="label_9616" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_17" xlink:to="label_9618" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_18" xlink:to="label_9620" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_19" xlink:to="label_9622" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:label xlink:type="resource" xlink:label="label_9598" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9598">Neobchodný finančný majetok oceňovaný reálnou hodnotou cez výkaz ziskov a strát</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9586" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9586">Finančný majetok oceňovaný reálnou hodnotou cez ostatné súčasti komplexného výsledku z toho založené ako kolaterál</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9614" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9614">Finančný majetok oceňovaný umorovanou hodnotou Pohľadávky voči ostatným bankám</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9588" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9588">Finančný majetok oceňovaný umorovanou hodnotou Úvery poskytnuté klientom</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9590" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9590">Finančný majetok oceňovaný umorovanou hodnotou z toho založené ako kolaterál</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9592" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9592">Finančné záväzky oceňované umorovanou hodnotou Záväzky voči bankám</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9594" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9594">Finančné záväzky oceňované umorovanou hodnotou Vklady a úvery od klientov</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9596" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9596">Finančné záväzky oceňované umorovanou hodnotou Záväzky z lízingu</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9600" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9600">Ostatné úrokové Výnosy</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9602" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9602">Úrokové a obdobné náklady</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9604" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9604">Osobitný odvod vybraných finančných inštitúcií</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9606" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9606">Čisté straty z modifikácií</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9608" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9608">Rezervy Netto</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9610" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9610">Odúčtovanie odloženej dane k predanému hmotnému majetku</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9612" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9612">Odúčtovanie odloženej dane k FTA rezerve vo VÚB Leasing z dôvodu zlúčenie VÚB Leasing do VÚB Banky</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9616" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9616">Nárast v reálnej hodnote zabezpečených položiek v portfóliovom zabezpečení úrokového rizika majetok</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9618" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9618">Nárast v zmenách reálnej hodnoty zabezpečených položiek v portfóliovom zabezpečení úrokového rizika záväzky</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9620" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9620">Predaj finančného majetku oceňovaného reálnou hodnotou cez ostatné súčasti komplexného výsledku</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9622" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" id="label_9622">Splatenie finančného majetku oceňovaného reálnou hodnotou cez ostatné súčasti komplexného výsledku</link:label>
+  </link:labelLink>
+</link:linkbase>

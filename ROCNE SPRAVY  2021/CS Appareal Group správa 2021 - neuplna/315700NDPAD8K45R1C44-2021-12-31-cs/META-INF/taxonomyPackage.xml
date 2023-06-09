@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+	                <tp:identifier>http://across.sk/2021-12-31/315700NDPAD8K45R1C44-2021-12-31</tp:identifier>
+	                <tp:name>315700NDPAD8K45R1C44-2021-12-31</tp:name>
+	                <tp:description>Taxonomy extension</tp:description>
+	                <tp:version>Final</tp:version>
+	                <tp:publisher>CS Apparel Group a.s. (ďalej len „Emitent“)</tp:publisher>
+	                <tp:publisherURL>www.across.sk</tp:publisherURL>
+	                <tp:publisherCountry>CZ</tp:publisherCountry>
+	                <tp:publicationDate>2022-04-29</tp:publicationDate>  
+	                <tp:entryPoints>
+		                <tp:entryPoint>
+			                <tp:name>315700NDPAD8K45R1C44-2021-12-31</tp:name>
+			                <tp:description>Entry point to be used to load Custom Taxonomy</tp:description><tp:entryPointDocument href="http://across.sk/2021-12-31/315700NDPAD8K45R1C44-2021-12-31.xsd"/><tp:languages><tp:language>en</tp:language><tp:language>cs</tp:language></tp:languages>
+	                    </tp:entryPoint>	
+                    </tp:entryPoints>	
+                    </tp:taxonomyPackage>

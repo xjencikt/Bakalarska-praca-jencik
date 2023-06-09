@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rbi="http://rbinternational.com" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" targetNamespace="http://rbinternational.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/instance" />
+  <xs:import schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd" namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" />
+  <xs:import schemaLocation="http://www.xbrl.org/lrr/arcrole/esma-arcrole-2018-11-21.xsd" namespace="http://www.esma.europa.eu/xbrl/esef/arcrole/wider-narrower" />
+  <xs:import schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" namespace="http://xbrl.org/2005/xbrldt" />
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rbi-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rbi-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rbi-2021-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="rbi-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-gen-en.xml" xlink:type="simple" />
+      <link:roleType id="Anchoring" roleURI="http://rbinternational.com/roles/Anchoring">
+        <link:definition>99 - Groups all anchored elements</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NotesAndMandatoryItems" roleURI="http://rbinternational.com/roles/NotesAndMandatoryItems">
+        <link:definition>01 - Notes And Mandatory Items</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeStatement" roleURI="http://rbinternational.com/roles/IncomeStatement">
+        <link:definition>02 - Income statement</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="OtherComprehensiveIncomeAndTotalComprehensiveIncome" roleURI="http://rbinternational.com/roles/OtherComprehensiveIncomeAndTotalComprehensiveIncome">
+        <link:definition>03 - Other comprehensive income and total comprehensive income</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="BalanceSheet" roleURI="http://rbinternational.com/roles/BalanceSheet">
+        <link:definition>04 - Balance sheet</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ChangesInEquity" roleURI="http://rbinternational.com/roles/ChangesInEquity">
+        <link:definition>05 - Changes in equity</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="StatementOfCashFlows" roleURI="http://rbinternational.com/roles/StatementOfCashFlows">
+        <link:definition>06 - Statement of cash flows</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="RBI_NetTradingIncomeAndFairValueResult" xbrli:balance="credit" xbrli:periodType="duration" name="NetTradingIncomeAndFairValueResult" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_NetGainsLossesFromHedgeAccounting" xbrli:balance="credit" xbrli:periodType="duration" name="NetGainsLossesFromHedgeAccounting" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_OperatingIncome" xbrli:balance="credit" xbrli:periodType="duration" name="OperatingIncome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_OtherAdministrativeExpenses" xbrli:balance="debit" xbrli:periodType="duration" name="OtherAdministrativeExpenses" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_LevisAndSpecialGovernmentalMeasures" xbrli:balance="debit" xbrli:periodType="duration" name="LevisAndSpecialGovernmentalMeasures" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_HedgeAccountingAktiva" xbrli:balance="debit" xbrli:periodType="instant" name="HedgeAccountingAktiva" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_TangibleFixedAssets" xbrli:balance="debit" xbrli:periodType="instant" name="TangibleFixedAssets" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_HedgeAccountingPassiva" xbrli:balance="credit" xbrli:periodType="instant" name="HedgeAccountingPassiva" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_AllocationDividendAT1" xbrli:balance="credit" xbrli:periodType="duration" name="AllocationDividendAT1" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_ProfitLossBeforeTaxCashFlow" xbrli:balance="credit" xbrli:periodType="duration" name="ProfitLossBeforeTaxCashFlow" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_NetProvisioningForLiabilitiesAndChargesAndImpairmentLossesOnFinancialAssets" xbrli:balance="debit" xbrli:periodType="duration" name="NetProvisioningForLiabilitiesAndChargesAndImpairmentLossesOnFinancialAssets" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_GainsLossesFromTheMeasurementAndDerecognitionOfAssetsAndLiabilities" xbrli:balance="debit" xbrli:periodType="duration" name="GainsLossesFromTheMeasurementAndDerecognitionOfAssetsAndLiabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FianancialAssetsAmortizedCost" xbrli:balance="credit" xbrli:periodType="duration" name="FianancialAssetsAmortizedCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FinancialAssetsFairValueThroughOtherComprehensiveIncome" xbrli:balance="credit" xbrli:periodType="duration" name="FinancialAssetsFairValueThroughOtherComprehensiveIncome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_NonTradingFinancialAssetsMandatorilyFairValueThroughProfitLoss" xbrli:balance="credit" xbrli:periodType="duration" name="NonTradingFinancialAssetsMandatorilyFairValueThroughProfitLoss" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FinancialAssetsDesignatedFairValueThroughProfitLoss" xbrli:balance="credit" xbrli:periodType="duration" name="FinancialAssetsDesignatedFairValueThroughProfitLoss" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FinancialAssetsHeldForTrading" xbrli:balance="credit" xbrli:periodType="duration" name="FinancialAssetsHeldForTrading" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_OtherAssets" xbrli:balance="credit" xbrli:periodType="duration" name="OtherAssets" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FinancialLiabilitiesAmortizedCost" xbrli:balance="credit" xbrli:periodType="duration" name="FinancialLiabilitiesAmortizedCost" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FinancialLiabilitesDesignatedFairValueThroughProfitLoss" xbrli:balance="credit" xbrli:periodType="duration" name="FinancialLiabilitesDesignatedFairValueThroughProfitLoss" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_FinancialLiabilitesHeldForTrading" xbrli:balance="credit" xbrli:periodType="duration" name="FinancialLiabilitesHeldForTrading" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_ProvisionsForLiabilitesAndCharges" xbrli:balance="credit" xbrli:periodType="duration" name="ProvisionsForLiabilitesAndCharges" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_OtherLiabilities" xbrli:balance="credit" xbrli:periodType="duration" name="OtherLiabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_TangibleAndIntangibleFixedAssetsPurchase" xbrli:balance="credit" xbrli:periodType="duration" name="TangibleAndIntangibleFixedAssetsPurchase" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+  <xs:element id="RBI_TangibleAndIntangibleFixedAssetsSale" xbrli:balance="debit" xbrli:periodType="duration" name="TangibleAndIntangibleFixedAssetsSale" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" />
+</xs:schema>

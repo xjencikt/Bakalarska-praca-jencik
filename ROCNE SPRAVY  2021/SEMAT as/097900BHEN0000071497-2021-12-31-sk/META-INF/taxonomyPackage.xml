@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tp:taxonomyPackage xml:lang="sk" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+<tp:identifier>http://www.semat.sk/xbrl/2021/</tp:identifier>
+<tp:name>SEMAT, a.s. XBRL Taxonomy 2020</tp:name>
+<tp:description>Taxonomy for ESEF reporting</tp:description>
+<tp:version>Final</tp:version>
+<tp:publisher>SEMAT, a.s.</tp:publisher>
+<tp:publisherURL>http://www.semat.sk/</tp:publisherURL>
+<tp:publisherCountry>SK</tp:publisherCountry>
+<tp:publicationDate>2022-05-04</tp:publicationDate>
+<tp:entryPoints>
+<tp:entryPoint>
+<tp:name>SEMAT, a.s. XBRL Taxonomy 2021 Entry point</tp:name>
+<tp:description>Entry point to be used to load SEMAT, a.s. Taxonomy and Annual Report for 2021</tp:description>
+<tp:entryPointDocument href="http://www.semat.sk/xbrl/2021/097900BHEN0000071497-2021-12-31.xsd" />
+<tp:languages>
+<tp:language>sk</tp:language>
+</tp:languages>
+</tp:entryPoint>
+</tp:entryPoints>
+</tp:taxonomyPackage>

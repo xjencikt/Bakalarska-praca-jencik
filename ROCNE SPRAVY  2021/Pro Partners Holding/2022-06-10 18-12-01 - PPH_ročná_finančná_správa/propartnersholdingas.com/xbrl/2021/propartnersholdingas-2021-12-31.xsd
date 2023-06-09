@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:propartnersholdingas="http://propartnersholdingas.com/xbrl/2021" targetNamespace="http://propartnersholdingas.com/xbrl/2021" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/instance" />
+  <xs:import schemaLocation="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor.xsd" namespace="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor" />
+  <xs:import schemaLocation="http://www.xbrl.org/lrr/arcrole/esma-arcrole-2018-11-21.xsd" namespace="http://www.esma.europa.eu/xbrl/esef/arcrole/wider-narrower" />
+  <xs:annotation>
+    <xs:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="propartnersholdingas-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="propartnersholdingas-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="propartnersholdingas-2021-12-31_lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="propartnersholdingas-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor-lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor-gen-sk.xml" xlink:type="simple" />
+      <link:roleType id="Anchoring" roleURI="http://propartnersholdingas.com/xbrl/2021/roles/Anchoring">
+        <link:definition>99 - Groups all anchored elements</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="NotesAndMandatoryItems" roleURI="http://propartnersholdingas.com/xbrl/2021/roles/NotesAndMandatoryItems">
+        <link:definition>01 - Notes And Mandatory Items</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VykazOFinancnejSituacii" roleURI="http://propartnersholdingas.com/xbrl/2021/roles/VykazOFinancnejSituacii">
+        <link:definition>02 - Výkaz o finančnej situácii</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="VysledokHospodarenia" roleURI="http://propartnersholdingas.com/xbrl/2021/roles/VysledokHospodarenia">
+        <link:definition>03 - Výsledok hospodárenia</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:labelLink</link:usedOn>
+      </link:roleType>
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

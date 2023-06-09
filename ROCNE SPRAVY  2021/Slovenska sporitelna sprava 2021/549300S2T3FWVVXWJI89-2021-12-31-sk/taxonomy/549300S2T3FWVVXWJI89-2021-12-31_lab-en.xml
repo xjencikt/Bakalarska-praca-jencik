@@ -1,0 +1,165 @@
+<link:linkbase
+    xmlns:link="http://www.xbrl.org/2003/linkbase"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_AllDimensionsAbstract" xlink:label="ext_AllDimensionsAbstract" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_AllDimensionsAbstract" xlink:to="ext_AllDimensionsAbstract_lbl" xlink:type="arc"/>
+      <link:label id="id_9587" xlink:label="ext_AllDimensionsAbstract_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">All Dimensions [abstract]</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_AllDimensionsLineItems" xlink:label="ext_AllDimensionsLineItems" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_AllDimensionsLineItems" xlink:to="ext_AllDimensionsLineItems_lbl" xlink:type="arc"/>
+      <link:label id="id_9589" xlink:label="ext_AllDimensionsLineItems_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">All Dimensions [line items]</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_CapitalIncreasesDecrease" xlink:label="ext_CapitalIncreasesDecrease" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_CapitalIncreasesDecrease" xlink:to="ext_CapitalIncreasesDecrease_lbl" xlink:type="arc"/>
+      <link:label id="id_9591" xlink:label="ext_CapitalIncreasesDecrease_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Capital Increases (decrease)</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_CashFlowsFromOperatingActivitiesFinanceLeaseReceivables" xlink:label="ext_CashFlowsFromOperatingActivitiesFinanceLeaseReceivables" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_CashFlowsFromOperatingActivitiesFinanceLeaseReceivables" xlink:to="ext_CashFlowsFromOperatingActivitiesFinanceLeaseReceivables_lbl" xlink:type="arc"/>
+      <link:label id="id_9593" xlink:label="ext_CashFlowsFromOperatingActivitiesFinanceLeaseReceivables_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Finance lease receivables</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_CashFlowsFromOperatingActivitiesFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeDebtSecurities" xlink:label="ext_CashFlowsFromOperatingActivitiesFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeDebtSecurities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_CashFlowsFromOperatingActivitiesFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeDebtSecurities" xlink:to="ext_CashFlowsFromOperatingActivitiesFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeDebtSecurities_lbl" xlink:type="arc"/>
+      <link:label id="id_9595" xlink:label="ext_CashFlowsFromOperatingActivitiesFinancialAssetsAtFairValueThroughOtherComprehensiveIncomeDebtSecurities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial assets at fair value through other comprehensive income debt securities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_CashFlowsFromOperatingActivitiesFinancialLiabilitiesHeldForTrading" xlink:label="ext_CashFlowsFromOperatingActivitiesFinancialLiabilitiesHeldForTrading" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_CashFlowsFromOperatingActivitiesFinancialLiabilitiesHeldForTrading" xlink:to="ext_CashFlowsFromOperatingActivitiesFinancialLiabilitiesHeldForTrading_lbl" xlink:type="arc"/>
+      <link:label id="id_9597" xlink:label="ext_CashFlowsFromOperatingActivitiesFinancialLiabilitiesHeldForTrading_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial liabilities held for trading</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_CashFlowsFromOperatingActivitiesOtherLiabilitiesFromOperatingActivities" xlink:label="ext_CashFlowsFromOperatingActivitiesOtherLiabilitiesFromOperatingActivities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_CashFlowsFromOperatingActivitiesOtherLiabilitiesFromOperatingActivities" xlink:to="ext_CashFlowsFromOperatingActivitiesOtherLiabilitiesFromOperatingActivities_lbl" xlink:type="arc"/>
+      <link:label id="id_9599" xlink:label="ext_CashFlowsFromOperatingActivitiesOtherLiabilitiesFromOperatingActivities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Other liabilities from operating activities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_ChangeFromRemeasurementOfDefinedBenefitPlans" xlink:label="ext_ChangeFromRemeasurementOfDefinedBenefitPlans" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ChangeFromRemeasurementOfDefinedBenefitPlans" xlink:to="ext_ChangeFromRemeasurementOfDefinedBenefitPlans_lbl" xlink:type="arc"/>
+      <link:label id="id_9601" xlink:label="ext_ChangeFromRemeasurementOfDefinedBenefitPlans_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Change From Remeasurement Of Defined Benefit Plans</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_ChangeInFairValueReserve" xlink:label="ext_ChangeInFairValueReserve" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ChangeInFairValueReserve" xlink:to="ext_ChangeInFairValueReserve_lbl" xlink:type="arc"/>
+      <link:label id="id_9603" xlink:label="ext_ChangeInFairValueReserve_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Change In Fair Value Reserve</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbAdditionalEquityInstruments" xlink:label="ext_EgbAdditionalEquityInstruments" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbAdditionalEquityInstruments" xlink:to="ext_EgbAdditionalEquityInstruments_lbl" xlink:type="arc"/>
+      <link:label id="id_9605" xlink:label="ext_EgbAdditionalEquityInstruments_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Additional equity instruments</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCapitalIncreaseDecrease" xlink:label="ext_EgbCapitalIncreaseDecrease" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCapitalIncreaseDecrease" xlink:to="ext_EgbCapitalIncreaseDecrease_lbl" xlink:type="arc"/>
+      <link:label id="id_9607" xlink:label="ext_EgbCapitalIncreaseDecrease_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Capital Increase (decrease)</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostDebtSecurities" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostDebtSecurities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostDebtSecurities" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostDebtSecurities_lbl" xlink:type="arc"/>
+      <link:label id="id_9610" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostDebtSecurities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial Assets at amortised cost Debt securities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks_lbl" xlink:type="arc"/>
+      <link:label id="id_9612" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial assets at amortised cost Loans and advances to banks</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers_lbl" xlink:type="arc"/>
+      <link:label id="id_9614" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial assets at amortised cost Loans and advances to customers</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromBanks" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromBanks" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromBanks" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromBanks_lbl" xlink:type="arc"/>
+      <link:label id="id_9616" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromBanks_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial liabilities measured at amortised cost Deposits from banks</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromCustomers" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromCustomers" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromCustomers" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromCustomers_lbl" xlink:type="arc"/>
+      <link:label id="id_9618" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostDepositsFromCustomers_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial liabilities measured at amortised cost Deposits from customers</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostOtherFinancialLiabilities" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostOtherFinancialLiabilities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostOtherFinancialLiabilities" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostOtherFinancialLiabilities_lbl" xlink:type="arc"/>
+      <link:label id="id_9620" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesFinancialLiabilitiesMeasuredAtAmortisedCostOtherFinancialLiabilities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Financial liabilities measured at amortised cost Other financial liabilities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtSecurities" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtSecurities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtSecurities" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtSecurities_lbl" xlink:type="arc"/>
+      <link:label id="id_9622" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtSecurities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Non trading financial assets at fair value through profit or loss Debt securities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments" xlink:to="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments_lbl" xlink:type="arc"/>
+      <link:label id="id_9624" xlink:label="ext_EgbCashFlowsFromOperatingActivitiesNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Non trading financial assets at fair value through profit or loss Equity instruments</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbCashFlowsRelatedToTaxesInterestAndDividendsIncludedInCashFlowFromOperatingActivities" xlink:label="ext_EgbCashFlowsRelatedToTaxesInterestAndDividendsIncludedInCashFlowFromOperatingActivities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbCashFlowsRelatedToTaxesInterestAndDividendsIncludedInCashFlowFromOperatingActivities" xlink:to="ext_EgbCashFlowsRelatedToTaxesInterestAndDividendsIncludedInCashFlowFromOperatingActivities_lbl" xlink:type="arc"/>
+      <link:label id="id_9626" xlink:label="ext_EgbCashFlowsRelatedToTaxesInterestAndDividendsIncludedInCashFlowFromOperatingActivities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash flows related to taxes, interest and dividends (included in cash flow from operating activities)</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers" xlink:label="ext_EgbFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers" xlink:to="ext_EgbFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers_lbl" xlink:type="arc"/>
+      <link:label id="id_9628" xlink:label="ext_EgbFinancialAssetsAtAmortisedCostLoansAndAdvancesToCustomers_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial assets at amortised cost Loans and advances to customers</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_EgbNonCashAdjustmentsGainsLossesFromMeasurementAndDerecognitionOfFinancialAssetAndFinancialLiabilities" xlink:label="ext_EgbNonCashAdjustmentsGainsLossesFromMeasurementAndDerecognitionOfFinancialAssetAndFinancialLiabilities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_EgbNonCashAdjustmentsGainsLossesFromMeasurementAndDerecognitionOfFinancialAssetAndFinancialLiabilities" xlink:to="ext_EgbNonCashAdjustmentsGainsLossesFromMeasurementAndDerecognitionOfFinancialAssetAndFinancialLiabilities_lbl" xlink:type="arc"/>
+      <link:label id="id_9633" xlink:label="ext_EgbNonCashAdjustmentsGainsLossesFromMeasurementAndDerecognitionOfFinancialAssetAndFinancialLiabilities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Non Cash Adjustments Gains Losses From Measurement And Derecognition Of Financial Asset And Financial Liabilities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_FinancialLiabilitiesAtAmortisedCostDebtSecuritiesIssued" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostDebtSecuritiesIssued" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_FinancialLiabilitiesAtAmortisedCostDebtSecuritiesIssued" xlink:to="ext_FinancialLiabilitiesAtAmortisedCostDebtSecuritiesIssued_lbl" xlink:type="arc"/>
+      <link:label id="id_9635" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostDebtSecuritiesIssued_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial liabilities at amortised cost Debt securities issued</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_FinancialLiabilitiesAtAmortisedCostDepositsFromBanks" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromBanks" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromBanks" xlink:to="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromBanks_lbl" xlink:type="arc"/>
+      <link:label id="id_9637" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromBanks_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial liabilities at amortised cost Deposits from banks</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_FinancialLiabilitiesAtAmortisedCostDepositsFromCustomers" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromCustomers" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromCustomers" xlink:to="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromCustomers_lbl" xlink:type="arc"/>
+      <link:label id="id_9639" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostDepositsFromCustomers_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial liabilities at amortised cost Deposits from customers</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_FinancialLiabilitiesAtAmortisedCostOtherFinancialLiabilities" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostOtherFinancialLiabilities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_FinancialLiabilitiesAtAmortisedCostOtherFinancialLiabilities" xlink:to="ext_FinancialLiabilitiesAtAmortisedCostOtherFinancialLiabilities_lbl" xlink:type="arc"/>
+      <link:label id="id_9641" xlink:label="ext_FinancialLiabilitiesAtAmortisedCostOtherFinancialLiabilities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial liabilities at amortised cost Other financial liabilities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiaries" xlink:label="ext_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiaries" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiaries" xlink:to="ext_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiaries_lbl" xlink:type="arc"/>
+      <link:label id="id_9643" xlink:label="ext_IncreaseDecreaseThroughChangesInOwnershipInterestsInSubsidiaries_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Increase (decrease) through changes in ownership interests in subsidiaries</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_ReclassificationsFromOtherComprehensiveIncome" xlink:label="ext_ReclassificationsFromOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ReclassificationsFromOtherComprehensiveIncome" xlink:to="ext_ReclassificationsFromOtherComprehensiveIncome_lbl" xlink:type="arc"/>
+      <link:label id="id_9645" xlink:label="ext_ReclassificationsFromOtherComprehensiveIncome_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Reclassifications From Other Comprehensive Income</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPCashFlowsFromOperatingActivitiesOtherAssetsFromOperatingActivities" xlink:label="ext_SLSPCashFlowsFromOperatingActivitiesOtherAssetsFromOperatingActivities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPCashFlowsFromOperatingActivitiesOtherAssetsFromOperatingActivities" xlink:to="ext_SLSPCashFlowsFromOperatingActivitiesOtherAssetsFromOperatingActivities_lbl" xlink:type="arc"/>
+      <link:label id="id_9661" xlink:label="ext_SLSPCashFlowsFromOperatingActivitiesOtherAssetsFromOperatingActivities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Cash Flows From Operating Activities Other assets from operating activities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPChangeInCurrencyReserve" xlink:label="ext_SLSPChangeInCurrencyReserve" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPChangeInCurrencyReserve" xlink:to="ext_SLSPChangeInCurrencyReserve_lbl" xlink:type="arc"/>
+      <link:label id="id_9666" xlink:label="ext_SLSPChangeInCurrencyReserve_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Change In Currency Reserve</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPFinancialAssetsAtAmortisedCostDebtSecurities" xlink:label="ext_SLSPFinancialAssetsAtAmortisedCostDebtSecurities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPFinancialAssetsAtAmortisedCostDebtSecurities" xlink:to="ext_SLSPFinancialAssetsAtAmortisedCostDebtSecurities_lbl" xlink:type="arc"/>
+      <link:label id="id_9668" xlink:label="ext_SLSPFinancialAssetsAtAmortisedCostDebtSecurities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial assets at amortised cost Debt securities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks" xlink:label="ext_SLSPFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks" xlink:to="ext_SLSPFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks_lbl" xlink:type="arc"/>
+      <link:label id="id_9670" xlink:label="ext_SLSPFinancialAssetsAtAmortisedCostLoansAndAdvancesToBanks_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial assets at amortised cost Loans and advances to banks</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPFinancialAssetsAtAmortisedCostPledgedAsCollateral" xlink:label="ext_SLSPFinancialAssetsAtAmortisedCostPledgedAsCollateral" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPFinancialAssetsAtAmortisedCostPledgedAsCollateral" xlink:to="ext_SLSPFinancialAssetsAtAmortisedCostPledgedAsCollateral_lbl" xlink:type="arc"/>
+      <link:label id="id_9672" xlink:label="ext_SLSPFinancialAssetsAtAmortisedCostPledgedAsCollateral_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Financial assets at amortised cost Pledged as collateral</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPLeviesOnBankingActivities" xlink:label="ext_SLSPLeviesOnBankingActivities" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPLeviesOnBankingActivities" xlink:to="ext_SLSPLeviesOnBankingActivities_lbl" xlink:type="arc"/>
+      <link:label id="id_9675" xlink:label="ext_SLSPLeviesOnBankingActivities_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Levies On Banking Activities</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" xlink:label="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" xlink:to="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLoss_lbl" xlink:type="arc"/>
+      <link:label id="id_9680" xlink:label="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLoss_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Non trading financial assets at fair value through profit or loss</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtInstruments" xlink:label="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtInstruments" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtInstruments" xlink:to="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtInstruments_lbl" xlink:type="arc"/>
+      <link:label id="id_9682" xlink:label="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossDebtInstruments_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Non trading financial assets at fair value through profit or loss Debt Instruments</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments" xlink:label="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments" xlink:to="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments_lbl" xlink:type="arc"/>
+      <link:label id="id_9684" xlink:label="ext_SLSPNonTradingFinancialAssetsAtFairValueThroughProfitOrLossEquityInstruments_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Non trading financial assets at fair value through profit or loss Equity Instruments</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_SLSPRetainedEarningsAndOtherReserves" xlink:label="ext_SLSPRetainedEarningsAndOtherReserves" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_SLSPRetainedEarningsAndOtherReserves" xlink:to="ext_SLSPRetainedEarningsAndOtherReserves_lbl" xlink:type="arc"/>
+      <link:label id="id_9694" xlink:label="ext_SLSPRetainedEarningsAndOtherReserves_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Egb Retained earnings and other reserves</link:label>
+
+      <link:loc xlink:href="549300S2T3FWVVXWJI89-2021-12-31.xsd#ext_AllDimensionsTable" xlink:label="ext_AllDimensionsTable" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_AllDimensionsTable" xlink:to="ext_AllDimensionsTable_lbl" xlink:type="arc"/>
+      <link:label id="id_9696" xlink:label="ext_AllDimensionsTable_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">All Dimensions [table]</link:label>
+
+   </link:labelLink>
+
+</link:linkbase>

@@ -1,0 +1,141 @@
+<link:linkbase
+    xmlns:link="http://www.xbrl.org/2003/linkbase"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+   <link:labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended">
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_DaňovéPohľadávky" xlink:label="ext_DaňovéPohľadávky" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_DaňovéPohľadávky" xlink:to="ext_DaňovéPohľadávky_lbl" xlink:type="arc"/>
+      <link:label id="id_9588" xlink:label="ext_DaňovéPohľadávky_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Receivables</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_DaňovéZáväzky" xlink:label="ext_DaňovéZáväzky" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_DaňovéZáväzky" xlink:to="ext_DaňovéZáväzky_lbl" xlink:type="arc"/>
+      <link:label id="id_9590" xlink:label="ext_DaňovéZáväzky_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Tax Liabilities</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_DlhovéCennéPapiereEmitovanéASplatené" xlink:label="ext_DlhovéCennéPapiereEmitovanéASplatené" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_DlhovéCennéPapiereEmitovanéASplatené" xlink:to="ext_DlhovéCennéPapiereEmitovanéASplatené_lbl" xlink:type="arc"/>
+      <link:label id="id_9592" xlink:label="ext_DlhovéCennéPapiereEmitovanéASplatené_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Proceeds Repayments Of Bonds Notes And Debentures</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_FondyZPrecenenia" xlink:label="ext_FondyZPrecenenia" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_FondyZPrecenenia" xlink:to="ext_FondyZPrecenenia_lbl" xlink:type="arc"/>
+      <link:label id="id_9594" xlink:label="ext_FondyZPrecenenia_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Reserve Fund From Revaluation</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_NerozdelenýZiskARezervnéFondy" xlink:label="ext_NerozdelenýZiskARezervnéFondy" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_NerozdelenýZiskARezervnéFondy" xlink:to="ext_NerozdelenýZiskARezervnéFondy_lbl" xlink:type="arc"/>
+      <link:label id="id_9596" xlink:label="ext_NerozdelenýZiskARezervnéFondy_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Retained Earnings And Other Reserves</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" xlink:label="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" xlink:to="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity_lbl" xlink:type="arc"/>
+      <link:label id="id_9598" xlink:label="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other Cash Payments Receipts From Sales Of Equity Or Debt Instruments Of Other Entities Classified As Investing Activities</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:to="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:type="arc"/>
+      <link:label id="id_9600" xlink:label="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Impairment Loss On Financial Assets At Fair Value Through Other Comprehensive Income</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:label="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:to="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote_lbl" xlink:type="arc"/>
+      <link:label id="id_9602" xlink:label="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Impairment Loss On Financial Assets As Amortised Cost</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOInéRezervy" xlink:label="ext_ÚpravyOInéRezervy" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyOInéRezervy" xlink:to="ext_ÚpravyOInéRezervy_lbl" xlink:type="arc"/>
+      <link:label id="id_9604" xlink:label="ext_ÚpravyOInéRezervy_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Adjustments For Provisions Other Net Provisions</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:label="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:to="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky_lbl" xlink:type="arc"/>
+      <link:label id="id_9606" xlink:label="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Adjustments For Provisions Loan Commitments And Financial Guarantees Given</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:to="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:type="arc"/>
+      <link:label id="id_9608" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Adjustments For Impairment Loss Reversal Of Impairment Loss Recognised In Profit Or Loss Financial Assets At Fair Value Through Other Comprehensive Income</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:to="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote_lbl" xlink:type="arc"/>
+      <link:label id="id_9610" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Adjustments For Impairment Loss Reversal Of Impairment Loss Recognised In Profit Or Loss Financial Assets At Amortised Costs</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" xlink:label="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" xlink:to="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia_lbl" xlink:type="arc"/>
+      <link:label id="id_9612" xlink:label="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other Adjustments For Noncash Items Net Income Loss From The Sale Or Repurchase Of</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:to="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:type="arc"/>
+      <link:label id="id_9614" xlink:label="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Other Adjustments For Noncash Items Financial Assets At Fair Value Through Other Comprehensive Income </link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" xlink:label="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" xlink:to="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote_lbl" xlink:type="arc"/>
+      <link:label id="id_9616" xlink:label="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Adjustments For Decrease Increase In Financial Assets Mandatorily At Fair Value</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:label="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:to="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane_lbl" xlink:type="arc"/>
+      <link:label id="id_9618" xlink:label="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Reclassification Adjustments On Revaluation Reserve Net Of Tax</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskStrataZMajetkovýchÚčastí" xlink:label="ext_ZiskStrataZMajetkovýchÚčastí" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZiskStrataZMajetkovýchÚčastí" xlink:to="ext_ZiskStrataZMajetkovýchÚčastí_lbl" xlink:type="arc"/>
+      <link:label id="id_9620" xlink:label="ext_ZiskStrataZMajetkovýchÚčastí_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Profit Loss From Equity Investments</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" xlink:label="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" xlink:to="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote_lbl" xlink:type="arc"/>
+      <link:label id="id_9622" xlink:label="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Net Income Loss On Property Investment Property</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" xlink:label="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" xlink:to="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát_lbl" xlink:type="arc"/>
+      <link:label id="id_9624" xlink:label="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Gains Losses On Financial Assets Liabilities At Fair Value Through Profit Or Loss</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:to="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:type="arc"/>
+      <link:label id="id_9626" xlink:label="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Gains Losses On Financial Assets Measured At Fair Value Through Other Comprehensive Income</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskZaÚčtovnéObdobie" xlink:label="ext_ZiskZaÚčtovnéObdobie" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZiskZaÚčtovnéObdobie" xlink:to="ext_ZiskZaÚčtovnéObdobie_lbl" xlink:type="arc"/>
+      <link:label id="id_9628" xlink:label="ext_ZiskZaÚčtovnéObdobie_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Profit Loss Retained Earnings</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZmenyRezerv" xlink:label="ext_ZmenyRezerv" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZmenyRezerv" xlink:to="ext_ZmenyRezerv_lbl" xlink:type="arc"/>
+      <link:label id="id_9630" xlink:label="ext_ZmenyRezerv_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Changes In Provisions</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:label="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:to="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky_lbl" xlink:type="arc"/>
+      <link:label id="id_9632" xlink:label="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Changes In Loan Commitments And Financial Guarantees Given</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" xlink:label="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" xlink:to="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom_lbl" xlink:type="arc"/>
+      <link:label id="id_9634" xlink:label="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Increase Decrease Through Transfer Between Translation Reserve And Retained Earnings</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát_lbl" xlink:type="arc"/>
+      <link:label id="id_9636" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Increase Decrease In Working Capital Financial Assets At Fair Value Through Profit Or Loss</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote_lbl" xlink:type="arc"/>
+      <link:label id="id_9638" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Increase Decrease In Working Capital Financial Assets At Amortised Cost</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát_lbl" xlink:type="arc"/>
+      <link:label id="id_9640" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Increase Decrease In Working Capital Financial Liabilities At Fair Value Through Profit Or Loss</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote_lbl" xlink:type="arc"/>
+      <link:label id="id_9642" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Increase Decrease In Working Capital Financial Liabilities At Amortised Cost</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_KurzovéRozdielyZKonsolidácie" xlink:label="ext_KurzovéRozdielyZKonsolidácie" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_KurzovéRozdielyZKonsolidácie" xlink:to="ext_KurzovéRozdielyZKonsolidácie_lbl" xlink:type="arc"/>
+      <link:label id="id_9643" xlink:label="ext_KurzovéRozdielyZKonsolidácie_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Fx Difference From Consolidation [member]</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_NerozdelenýZisk" xlink:label="ext_NerozdelenýZisk" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_NerozdelenýZisk" xlink:to="ext_NerozdelenýZisk_lbl" xlink:type="arc"/>
+      <link:label id="id_9645" xlink:label="ext_NerozdelenýZisk_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Retained Earnings Excluding Profit Loss For The Current Period [member]</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_RezervnýFondAOstatnéKapitálovéFondy" xlink:label="ext_RezervnýFondAOstatnéKapitálovéFondy" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_RezervnýFondAOstatnéKapitálovéFondy" xlink:to="ext_RezervnýFondAOstatnéKapitálovéFondy_lbl" xlink:type="arc"/>
+      <link:label id="id_9647" xlink:label="ext_RezervnýFondAOstatnéKapitálovéFondy_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Reserve Fund And Other Capital Funds [member]</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚčelovýRezervnýFond" xlink:label="ext_ÚčelovýRezervnýFond" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ÚčelovýRezervnýFond" xlink:to="ext_ÚčelovýRezervnýFond_lbl" xlink:type="arc"/>
+      <link:label id="id_9649" xlink:label="ext_ÚčelovýRezervnýFond_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Special Purpose Reserve Fund [member]</link:label>
+
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskZaObdobie" xlink:label="ext_ZiskZaObdobie" xlink:type="locator"/>
+      <link:labelArc order="1.0" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="ext_ZiskZaObdobie" xlink:to="ext_ZiskZaObdobie_lbl" xlink:type="arc"/>
+      <link:label id="id_9651" xlink:label="ext_ZiskZaObdobie_lbl" xlink:role="http://www.xbrl.org/2003/role/label" xlink:type="resource" xml:lang="en">Profit For The Period [member]</link:label>
+
+   </link:labelLink>
+
+</link:linkbase>

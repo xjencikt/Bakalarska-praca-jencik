@@ -1,0 +1,98 @@
+<schema xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:Tatra="https://www.tatrabanka.sk" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" targetNamespace="https://www.tatrabanka.sk" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd" namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" />
+  <import schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/instance" />
+  <import schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/linkbase" />
+  <import schemaLocation="http://www.xbrl.org/2006/xbrldi-2006.xsd" namespace="http://xbrl.org/2006/xbrldi" />
+  <import schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/non-numeric" />
+  <import schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/numeric" />
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="3157002JBFAI478MD587-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="3157002JBFAI478MD587-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="3157002JBFAI478MD587-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="3157002JBFAI478MD587-2021-12-31_lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="3157002JBFAI478MD587-2021-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/GeneralInformation" id="GeneralInformation">
+        <link:definition>General Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/IncomeStatement" id="IncomeStatement">
+        <link:definition>Income Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/ComprehensiveIncome" id="ComprehensiveIncome">
+        <link:definition>Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/Earningspershare" id="Earningspershare">
+        <link:definition>Earnings per share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/BalanceSheet" id="BalanceSheet">
+        <link:definition>Balance Sheet</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/ChangesinEquity" id="ChangesinEquity">
+        <link:definition>Changes in Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/CashFlow" id="CashFlow">
+        <link:definition>Cash Flow</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.tatrabanka.sk/role/Anchoring" id="Anchoring">
+        <link:definition>Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <element name="AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" id="Tatra_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToBanksAndCustomers" id="Tatra_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToBanksAndCustomers" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForDecreaseIncreaseInTangibleAssets" id="Tatra_AdjustmentsForDecreaseIncreaseInTangibleAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForFairValueGainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax" id="Tatra_AdjustmentsForFairValueGainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeNetOfTax" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForGainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" id="Tatra_AdjustmentsForGainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForGainsLossesOnChangeInFairValueOfDerivativesAndFinancialAssetsHeldForTrading" id="Tatra_AdjustmentsForGainsLossesOnChangeInFairValueOfDerivativesAndFinancialAssetsHeldForTrading" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForIncreaseDecreaseInDepositsFromCustomersAndBanks" id="Tatra_AdjustmentsForIncreaseDecreaseInDepositsFromCustomersAndBanks" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssetsHeldForSale" id="Tatra_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssetsHeldForSale" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="BasicAndDilutedEarningsLossNominalValue4000EurPerOrdinaryShare" id="Tatra_BasicAndDilutedEarningsLossNominalValue4000EurPerOrdinaryShare" type="num:perShareItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:periodType="duration" />
+  <element name="BasicAndDilutedEarningsLossNominalValue4EurPerPreferenceShare" id="Tatra_BasicAndDilutedEarningsLossNominalValue4EurPerPreferenceShare" type="num:perShareItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:periodType="duration" />
+  <element name="BasicAndDilutedEarningsLossNominalValue800EurPerOrdinaryShare" id="Tatra_BasicAndDilutedEarningsLossNominalValue800EurPerOrdinaryShare" type="num:perShareItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:periodType="duration" />
+  <element name="CapitalAt1Member" id="Tatra_CapitalAt1Member" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+  <element name="CashflowsFromUsedInOperatingActivitiesBeforeInterestsAndIncomeTaxes" id="Tatra_CashflowsFromUsedInOperatingActivitiesBeforeInterestsAndIncomeTaxes" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="CashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtAmortisedCost" id="Tatra_CashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtAmortisedCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="CashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtFairValueThroughOtherComprehensiveIncome" id="Tatra_CashPaymentsToAcquireEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtAmortisedCost" id="Tatra_CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtAmortisedCost" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtFairValueThroughOtherComprehensiveIncome" id="Tatra_CashReceiptsFromSalesOfEquityOrDebtInstrumentsOfOtherEntitiesClassifiedAsInvestingActivitiesMeasuredAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="ContributionToTheResolutionFundAndTheDepositProtectionFund" id="Tatra_ContributionToTheResolutionFundAndTheDepositProtectionFund" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="DistributionOfGainsFromAt1" id="Tatra_DistributionOfGainsFromAt1" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="DividendsRecognisedAsDistributionsToOwnersOrdinaryShares" id="Tatra_DividendsRecognisedAsDistributionsToOwnersOrdinaryShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="DividendsRecognisedAsDistributionsToOwnersPreferenceShares" id="Tatra_DividendsRecognisedAsDistributionsToOwnersPreferenceShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="EquityExcludingProfitLossForReportingPeriod" id="Tatra_EquityExcludingProfitLossForReportingPeriod" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="instant" />
+  <element name="GainLossArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCostAndFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" id="Tatra_GainLossArisingFromDerecognitionOfFinancialAssetsMeasuredAtAmortisedCostAndFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="GainLossesOnNonCurrentAssetsHeldForSale" id="Tatra_GainLossesOnNonCurrentAssetsHeldForSale" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTradingAndGainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss" id="Tatra_GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTradingAndGainsLossesOnExchangeDifferencesOnTranslationRecognisedInProfitOrLoss" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="IncreaseDecreaseInLegalProceedingsProvisions" id="Tatra_IncreaseDecreaseInLegalProceedingsProvisions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="IncreaseDecreaseProvisionsForExpectedLossesOnCommitmentsAndGuarantees" id="Tatra_IncreaseDecreaseProvisionsForExpectedLossesOnCommitmentsAndGuarantees" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="InterestRevenueCalculatedNotUsingEffectiveInterestMethod" id="Tatra_InterestRevenueCalculatedNotUsingEffectiveInterestMethod" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="InterestRevenueExpenseAndDividends" id="Tatra_InterestRevenueExpenseAndDividends" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="IssuedCapitalOrdinarySharesMember" id="Tatra_IssuedCapitalOrdinarySharesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+  <element name="ProfitDistribution" id="Tatra_ProfitDistribution" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="ProfitOrLossForReportingPeriod" id="Tatra_ProfitOrLossForReportingPeriod" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="instant" />
+  <element name="PurchaseOfGoodwillClassifiedAsInvestingActivities" id="Tatra_PurchaseOfGoodwillClassifiedAsInvestingActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="Reclassification" id="Tatra_Reclassification" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="RetainedEarningsExcludingProfitLossForReportingPeriodMember" id="Tatra_RetainedEarningsExcludingProfitLossForReportingPeriodMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+  <element name="RetainedEarningsProfitLossForReportingPeriodMember" id="Tatra_RetainedEarningsProfitLossForReportingPeriodMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+  <element name="SaleOfOrdinaryAndPreferenceShares" id="Tatra_SaleOfOrdinaryAndPreferenceShares" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="SharePremiumOrdinarySharesMember" id="Tatra_SharePremiumOrdinarySharesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+  <element name="SpecialLevyOfSelectedFinancialInstitutions" id="Tatra_SpecialLevyOfSelectedFinancialInstitutions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="TransferWithinTheComponentsOfEquity" id="Tatra_TransferWithinTheComponentsOfEquity" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+</schema>

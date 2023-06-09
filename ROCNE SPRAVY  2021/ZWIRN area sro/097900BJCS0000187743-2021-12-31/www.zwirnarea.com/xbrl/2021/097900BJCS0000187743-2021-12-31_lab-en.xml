@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd">
+  <!-- INTEGIX by Ez-XBRL -->
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedLabel" roleURI="http://www.xbrl.org/2009/role/negatedLabel"/>
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodEndLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodEndLabel"/>
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedPeriodStartLabel" roleURI="http://www.xbrl.org/2009/role/negatedPeriodStartLabel"/>
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTotalLabel" roleURI="http://www.xbrl.org/2009/role/negatedTotalLabel"/>
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedNetLabel" roleURI="http://www.xbrl.org/2009/role/negatedNetLabel"/>
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd#negatedTerseLabel" roleURI="http://www.xbrl.org/2009/role/negatedTerseLabel"/>
+  <roleRef xlink:type="simple" xlink:href="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd#netLabel" roleURI="http://www.xbrl.org/2009/role/netLabel"/>
+  <labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Costofsaleofinventories" xlink:label="loc_zwi_Costofsaleofinventories_1"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Decreasethroughothercontributionsbyowners" xlink:label="loc_zwi_Decreasethroughothercontributionsbyowners_2"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Increasethroughothercontributionsbyowners" xlink:label="loc_zwi_Increasethroughothercontributionsbyowners_3"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Paymentsofothercontributionsbyowners" xlink:label="loc_zwi_Paymentsofothercontributionsbyowners_4"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Proceedsfrombankborowingsclassifiedasfinancingactivities" xlink:label="loc_zwi_Proceedsfrombankborowingsclassifiedasfinancingactivities_5"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Proceedsfromothercontributionsbyowner" xlink:label="loc_zwi_Proceedsfromothercontributionsbyowner_6"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities" xlink:label="loc_zwi_Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities_7"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities" xlink:label="loc_zwi_Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities_8"/>
+    <loc xlink:type="locator" xlink:href="097900BJCS0000187743-2021-12-31.xsd#zwi_Statutoryandotherreserves" xlink:label="loc_zwi_Statutoryandotherreserves_9"/>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Costofsaleofinventories_0" xml:lang="en">Costofsaleofinventories</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Decreasethroughothercontributionsbyowners_0" xml:lang="en">Decreasethroughothercontributionsbyowners</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Increasethroughothercontributionsbyowners_0" xml:lang="en">Increasethroughothercontributionsbyowners</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Paymentsofothercontributionsbyowners_0" xml:lang="en">Paymentsofothercontributionsbyowners</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Proceedsfrombankborowingsclassifiedasfinancingactivities_0" xml:lang="en">Proceedsfrombankborowingsclassifiedasfinancingactivities</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Proceedsfromothercontributionsbyowner_0" xml:lang="en">Proceedsfromothercontributionsbyowner</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities_0" xml:lang="en">Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities_0" xml:lang="en">Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities</label>
+    <label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xlink:label="lab_zwi_Statutoryandotherreserves_0" xml:lang="en">Statutoryandotherreserves</label>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Costofsaleofinventories_1" xlink:to="lab_zwi_Costofsaleofinventories_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Decreasethroughothercontributionsbyowners_2" xlink:to="lab_zwi_Decreasethroughothercontributionsbyowners_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Increasethroughothercontributionsbyowners_3" xlink:to="lab_zwi_Increasethroughothercontributionsbyowners_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Paymentsofothercontributionsbyowners_4" xlink:to="lab_zwi_Paymentsofothercontributionsbyowners_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Proceedsfrombankborowingsclassifiedasfinancingactivities_5" xlink:to="lab_zwi_Proceedsfrombankborowingsclassifiedasfinancingactivities_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Proceedsfromothercontributionsbyowner_6" xlink:to="lab_zwi_Proceedsfromothercontributionsbyowner_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities_7" xlink:to="lab_zwi_Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities_8" xlink:to="lab_zwi_Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities_0"/>
+    <labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="loc_zwi_Statutoryandotherreserves_9" xlink:to="lab_zwi_Statutoryandotherreserves_0"/>
+  </labelLink>
+</linkbase>

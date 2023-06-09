@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tp:taxonomyPackage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd" xmlns:tp="http://xbrl.org/2016/taxonomy-package">
+  <tp:identifier>https://www.idcholding.com/xbrl/2021-12-31</tp:identifier>
+  <tp:name xml:lang="en">I.D.C. Holding, a.s. XBRL Taxonomy</tp:name>
+  <tp:name xml:lang="sk">I.D.C. Holding, a.s. XBRL Taxonomy</tp:name>
+  <tp:description xml:lang="en">Financial report prepared for the European Standard Electronic Format.</tp:description>
+  <tp:description xml:lang="sk">Financial report prepared for the European Standard Electronic Format.</tp:description>
+  <tp:version>2022-04-28</tp:version>
+  <tp:publisher xml:lang="en">I.D.C. Holding, a.s.</tp:publisher>
+  <tp:publisher xml:lang="sk">I.D.C. Holding, a.s.</tp:publisher>
+  <tp:publisherURL>https://www.idcholding.com</tp:publisherURL>
+  <tp:publisherCountry>SK</tp:publisherCountry>
+  <tp:publicationDate>2022-04-28</tp:publicationDate>
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name xml:lang="en">I.D.C. Holding, a.s. XBRL taxonomy for the period from 2021-01-01 to 2021-12-31</tp:name>
+      <tp:name xml:lang="sk">I.D.C. Holding, a.s. XBRL taxonomy for the period from 2021-01-01 to 2021-12-31</tp:name>
+      <tp:description xml:lang="en">Entry point to be used to load I.D.C. Holding, a.s. XBRL report for the period from 2021-01-01 to 2021-12-31</tp:description>
+      <tp:description xml:lang="sk">Entry point to be used to load I.D.C. Holding, a.s. XBRL report for the period from 2021-01-01 to 2021-12-31</tp:description>
+      <tp:entryPointDocument href="https://www.idcholding.com/31570020000000005512-2021-12-31.xsd" />
+      <tp:languages>
+        <tp:language>sk</tp:language>
+        <tp:language>en</tp:language>
+      </tp:languages>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>

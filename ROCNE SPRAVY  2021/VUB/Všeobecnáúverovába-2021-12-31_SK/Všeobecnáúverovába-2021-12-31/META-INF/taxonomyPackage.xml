@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tp:taxonomyPackage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:lang="en" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd" xmlns:tp="http://xbrl.org/2016/taxonomy-package">
+  <tp:identifier>https://www.vub.sk/2021/</tp:identifier>
+  <tp:name>Všeobecná úverová banka, a.s. XBRL Taxonomy 2022. Version: 1.0.0.0</tp:name>
+  <tp:description>Taxonomy for ESEF reporting</tp:description>
+  <tp:version>1.0.0.0</tp:version>
+  <tp:publisher>Všeobecná úverová banka, a.s.</tp:publisher>
+  <tp:publisherURL>https://vub.sk/</tp:publisherURL>
+  <tp:publisherCountry>SK</tp:publisherCountry>
+  <tp:publicationDate>2022-04-29</tp:publicationDate>
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name>Všeobecná úverová banka, a.s. XBRL Taxonomy 2021 entry point</tp:name>
+      <tp:description>Entry point to be used to load Všeobecná úverová banka, a.s. taxonomy and Annual Report for 2021</tp:description>
+      <tp:entryPointDocument href="https://www.vub.sk/2021/Všeobecnáúverovába-2021-12-31.xsd" />
+      <tp:languages>
+        <tp:language>en</tp:language>
+      </tp:languages>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>

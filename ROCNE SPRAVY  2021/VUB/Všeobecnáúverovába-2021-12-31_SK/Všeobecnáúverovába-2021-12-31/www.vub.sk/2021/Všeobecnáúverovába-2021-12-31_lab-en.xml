@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<link:linkbase xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_NonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" xlink:label="loc_1" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssetsAtFvThroughOciOfWhichPledgedAsCollateral" xlink:label="loc_2" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssestsAtAmortisedCostDueFromOtherBanks" xlink:label="loc_3" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssetsAtAmortisedCostDueFromCustomers" xlink:label="loc_4" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialAssetsAtAmortisedCostOfWhichPledgedAsCollateral" xlink:label="loc_5" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialLiabilitiesAtAmortisedCostDueToBanks" xlink:label="loc_6" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialLiabilitiesAtAmortisedCostDueToCustomers" xlink:label="loc_7" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_FinancialLiabilitiesAtAmortisedCostLeaseLiabilities" xlink:label="loc_8" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_OtherInterestIncome" xlink:label="loc_9" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_InterestAndSimilarExpense" xlink:label="loc_10" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_SpecialLevyOfSelectedFinancialInstitution" xlink:label="loc_11" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_NetModificationLosses" xlink:label="loc_12" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_ProvisionsNet" xlink:label="loc_13" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_ReversalOfDeferredIncomeTaxOnDisposedPropertyAndEquipment" xlink:label="loc_14" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_ReversalOfDeferredIncomeTaxOnFtaReserveDueToVubLeasingMergerIntoVubBank" xlink:label="loc_15" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskAssets" xlink:label="loc_16" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskLiabilities" xlink:label="loc_17" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_DisposalOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" xlink:label="loc_18" />
+    <link:loc xlink:type="locator" xlink:href="Všeobecnáúverovába-2021-12-31.xsd#VUB_RepaymentsOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" xlink:label="loc_19" />
+    <link:labelArc xlink:from="loc_1" xlink:to="label_9597" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_2" xlink:to="label_9585" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_3" xlink:to="label_9613" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_4" xlink:to="label_9587" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_5" xlink:to="label_9589" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_6" xlink:to="label_9591" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_7" xlink:to="label_9593" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_8" xlink:to="label_9595" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_9" xlink:to="label_9599" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_10" xlink:to="label_9601" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_11" xlink:to="label_9603" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_12" xlink:to="label_9605" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_13" xlink:to="label_9607" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_14" xlink:to="label_9609" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_15" xlink:to="label_9611" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_16" xlink:to="label_9615" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_17" xlink:to="label_9617" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_18" xlink:to="label_9619" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:labelArc xlink:from="loc_19" xlink:to="label_9621" xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" />
+    <link:label xlink:type="resource" xlink:label="label_9597" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9597">Non-trading Financial assets at fair value through profit or loss </link:label>
+    <link:label xlink:type="resource" xlink:label="label_9585" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9585">Financial assets at FV through OCI of which pledged as collateral</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9613" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9613">Financial assests at amortised cost Due from other banks</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9587" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9587">Financial assets at amortised cost Due from customers</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9589" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9589">Financial assets at amortised cost of which pledged as collateral</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9591" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9591">Financial liabilities at amortised cost Due to banks</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9593" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9593">Financial liabilities at amortised cost Due to customers</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9595" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9595">Financial liabilities at amortised cost Lease liabilities</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9599" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9599">Other interest income</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9601" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9601">Interest and similar expense</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9603" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9603">Special levy of selected financial institution</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9605" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9605">Net modification losses</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9607" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9607">Provisions (net)</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9609" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9609">Reversal of deferred income tax on disposed property and equipment</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9611" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9611">Reversal of deferred income tax on FTA Reserve due to VÚB Leasing merger into VÚB Bank</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9615" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9615">Decrease increase in fair value changes of the hedged items in portfolio hedge of interest rate risk assets</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9617" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9617">Decrease increase in fair value changes of the hedged items in portfolio hedge of interest rate risk liabilities</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9619" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9619">Disposal of financial assets at fair value through other comprehensive income</link:label>
+    <link:label xlink:type="resource" xlink:label="label_9621" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="en" id="label_9621">Repayments of financial assets at fair value through other comprehensive income</link:label>
+  </link:labelLink>
+</link:linkbase>

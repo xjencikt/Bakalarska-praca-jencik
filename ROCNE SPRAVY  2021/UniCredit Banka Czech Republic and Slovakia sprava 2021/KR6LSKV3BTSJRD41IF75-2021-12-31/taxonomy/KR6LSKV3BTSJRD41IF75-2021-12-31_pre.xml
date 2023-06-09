@@ -1,0 +1,1699 @@
+<link:linkbase
+    xmlns:link="http://www.xbrl.org/2003/linkbase"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+    >
+
+   <link:roleRef xlink:type="simple" xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#id_157" roleURI="https://www.unicreditbank.cz/xbrl/role/all/esef_role-000000"/>
+   <link:roleRef xlink:type="simple" xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#id_160" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000"/>
+   <link:roleRef xlink:type="simple" xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#id_8" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-310000"/>
+   <link:roleRef xlink:type="simple" xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#id_161" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000"/>
+   <link:roleRef xlink:type="simple" xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#id_10" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000"/>
+   <link:roleRef xlink:type="simple" xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#id_181" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000"/>
+   <!-- http://www.xbrl.org/2003/arcrole/parent-child https://www.unicreditbank.cz/xbrl/role/all/esef_role-000000 -->
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/esef_role-000000" xlink:type="extended">
+      <link:loc xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd#esef_cor_NotesAccountingPoliciesAndMandatoryTags" xlink:label="esef_cor_NotesAccountingPoliciesAndMandatoryTags" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_NameOfReportingEntityOrOtherMeansOfIdentification" xlink:label="ifrs-full_NameOfReportingEntityOrOtherMeansOfIdentification" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_NameOfReportingEntityOrOtherMeansOfIdentification"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DomicileOfEntity" xlink:label="ifrs-full_DomicileOfEntity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_DomicileOfEntity"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_LegalFormOfEntity" xlink:label="ifrs-full_LegalFormOfEntity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_LegalFormOfEntity"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CountryOfIncorporation" xlink:label="ifrs-full_CountryOfIncorporation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_CountryOfIncorporation"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AddressOfRegisteredOfficeOfEntity" xlink:label="ifrs-full_AddressOfRegisteredOfficeOfEntity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_AddressOfRegisteredOfficeOfEntity"
+                            order="60.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_PrincipalPlaceOfBusiness" xlink:label="ifrs-full_PrincipalPlaceOfBusiness" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_PrincipalPlaceOfBusiness"
+                            order="70.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities" xlink:label="ifrs-full_DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_DescriptionOfNatureOfEntitysOperationsAndPrincipalActivities"
+                            order="80.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_NameOfParentEntity" xlink:label="ifrs-full_NameOfParentEntity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_NameOfParentEntity"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_NameOfUltimateParentOfGroup" xlink:label="ifrs-full_NameOfUltimateParentOfGroup" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="esef_cor_NotesAccountingPoliciesAndMandatoryTags"
+                          xlink:to="ifrs-full_NameOfUltimateParentOfGroup"
+                            order="100.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <!-- http://www.xbrl.org/2003/arcrole/parent-child https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000 -->
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AssetsAbstract" xlink:label="ifrs-full_AssetsAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashAndBankBalancesAtCentralBanks" xlink:label="ifrs-full_CashAndBankBalancesAtCentralBanks" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_CashAndBankBalancesAtCentralBanks"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:label="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLoss"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading" xlink:label="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" xlink:label="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_FinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome" xlink:label="ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_FinancialAssetsAtFairValueThroughOtherComprehensiveIncome"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsAtAmortisedCost" xlink:label="ifrs-full_FinancialAssetsAtAmortisedCost" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_FinancialAssetsAtAmortisedCost"
+                            order="60.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_LoansAndAdvancesToBanks" xlink:label="ifrs-full_LoansAndAdvancesToBanks" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_LoansAndAdvancesToBanks"
+                            order="70.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_LoansAndAdvancesToCustomers" xlink:label="ifrs-full_LoansAndAdvancesToCustomers" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_LoansAndAdvancesToCustomers"
+                            order="80.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DerivativeFinancialAssetsHeldForHedging" xlink:label="ifrs-full_DerivativeFinancialAssetsHeldForHedging" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_DerivativeFinancialAssetsHeldForHedging"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AccumulatedFairValueHedgeAdjustmentOnHedgedItemIncludedInCarryingAmountAssets" xlink:label="ifrs-full_AccumulatedFairValueHedgeAdjustmentOnHedgedItemIncludedInCarryingAmountAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_AccumulatedFairValueHedgeAdjustmentOnHedgedItemIncludedInCarryingAmountAssets"
+                            order="100.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InvestmentAccountedForUsingEquityMethod" xlink:label="ifrs-full_InvestmentAccountedForUsingEquityMethod" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_InvestmentAccountedForUsingEquityMethod"
+                            order="110.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_PropertyPlantAndEquipment" xlink:label="ifrs-full_PropertyPlantAndEquipment" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_PropertyPlantAndEquipment"
+                            order="120.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InvestmentProperty" xlink:label="ifrs-full_InvestmentProperty" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_InvestmentProperty"
+                            order="130.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IntangibleAssetsOtherThanGoodwill" xlink:label="ifrs-full_IntangibleAssetsOtherThanGoodwill" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_IntangibleAssetsOtherThanGoodwill"
+                            order="140.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_DaňovéPohľadávky" xlink:label="ext_DaňovéPohľadávky" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ext_DaňovéPohľadávky"
+                            order="150.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CurrentTaxAssetsCurrent" xlink:label="ifrs-full_CurrentTaxAssetsCurrent" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_CurrentTaxAssetsCurrent"
+                            order="160.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DeferredTaxAssets" xlink:label="ifrs-full_DeferredTaxAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_DeferredTaxAssets"
+                            order="170.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale" xlink:label="ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_NoncurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale"
+                            order="180.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherAssets" xlink:label="ifrs-full_OtherAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_OtherAssets"
+                            order="190.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Assets" xlink:label="ifrs-full_Assets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AssetsAbstract"
+                          xlink:to="ifrs-full_Assets"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="200.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAbstract" xlink:label="ifrs-full_EquityAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IssuedCapital" xlink:label="ifrs-full_IssuedCapital" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAbstract"
+                          xlink:to="ifrs-full_IssuedCapital"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_SharePremium" xlink:label="ifrs-full_SharePremium" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAbstract"
+                          xlink:to="ifrs-full_SharePremium"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_FondyZPrecenenia" xlink:label="ext_FondyZPrecenenia" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAbstract"
+                          xlink:to="ext_FondyZPrecenenia"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_NerozdelenýZiskARezervnéFondy" xlink:label="ext_NerozdelenýZiskARezervnéFondy" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAbstract"
+                          xlink:to="ext_NerozdelenýZiskARezervnéFondy"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskZaÚčtovnéObdobie" xlink:label="ext_ZiskZaÚčtovnéObdobie" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAbstract"
+                          xlink:to="ext_ZiskZaÚčtovnéObdobie"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Equity" xlink:label="ifrs-full_Equity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAbstract"
+                          xlink:to="ifrs-full_Equity"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="60.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAndLiabilitiesAbstract" xlink:label="ifrs-full_EquityAndLiabilitiesAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_LiabilitiesAbstract" xlink:label="ifrs-full_LiabilitiesAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAndLiabilitiesAbstract"
+                          xlink:to="ifrs-full_LiabilitiesAbstract"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAbstract" xlink:label="ifrs-full_EquityAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAndLiabilitiesAbstract"
+                          xlink:to="ifrs-full_EquityAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAndLiabilities" xlink:label="ifrs-full_EquityAndLiabilities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAndLiabilitiesAbstract"
+                          xlink:to="ifrs-full_EquityAndLiabilities"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_LiabilitiesAbstract" xlink:label="ifrs-full_LiabilitiesAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLoss" xlink:label="ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLoss"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading" xlink:label="ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_FinancialLiabilitiesAtFairValueThroughProfitOrLossClassifiedAsHeldForTrading"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialLiabilitiesAtAmortisedCost" xlink:label="ifrs-full_FinancialLiabilitiesAtAmortisedCost" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_FinancialLiabilitiesAtAmortisedCost"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DepositsFromBanks" xlink:label="ifrs-full_DepositsFromBanks" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_DepositsFromBanks"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DepositsFromCustomers" xlink:label="ifrs-full_DepositsFromCustomers" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_DepositsFromCustomers"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_BondsIssued" xlink:label="ifrs-full_BondsIssued" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_BondsIssued"
+                            order="60.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DerivativeFinancialLiabilitiesHeldForHedging" xlink:label="ifrs-full_DerivativeFinancialLiabilitiesHeldForHedging" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_DerivativeFinancialLiabilitiesHeldForHedging"
+                            order="70.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AccumulatedFairValueHedgeAdjustmentOnHedgedItemIncludedInCarryingAmountLiabilities" xlink:label="ifrs-full_AccumulatedFairValueHedgeAdjustmentOnHedgedItemIncludedInCarryingAmountLiabilities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_AccumulatedFairValueHedgeAdjustmentOnHedgedItemIncludedInCarryingAmountLiabilities"
+                            order="80.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_DaňovéZáväzky" xlink:label="ext_DaňovéZáväzky" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ext_DaňovéZáväzky"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CurrentTaxLiabilitiesCurrent" xlink:label="ifrs-full_CurrentTaxLiabilitiesCurrent" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_CurrentTaxLiabilitiesCurrent"
+                            order="100.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DeferredTaxLiabilities" xlink:label="ifrs-full_DeferredTaxLiabilities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_DeferredTaxLiabilities"
+                            order="110.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherLiabilities" xlink:label="ifrs-full_OtherLiabilities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_OtherLiabilities"
+                            order="120.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Provisions" xlink:label="ifrs-full_Provisions" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_Provisions"
+                            order="130.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Liabilities" xlink:label="ifrs-full_Liabilities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_Liabilities"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="140.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProvisionsAbstract" xlink:label="ifrs-full_ProvisionsAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_LiabilitiesAbstract"
+                          xlink:to="ifrs-full_ProvisionsAbstract"
+                            order="160.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProvisionsAbstract" xlink:label="ifrs-full_ProvisionsAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Provisions" xlink:label="ifrs-full_Provisions" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProvisionsAbstract"
+                          xlink:to="ifrs-full_Provisions"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfFinancialPositionAbstract" xlink:label="ifrs-full_StatementOfFinancialPositionAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AssetsAbstract" xlink:label="ifrs-full_AssetsAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfFinancialPositionAbstract"
+                          xlink:to="ifrs-full_AssetsAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAndLiabilitiesAbstract" xlink:label="ifrs-full_EquityAndLiabilitiesAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfFinancialPositionAbstract"
+                          xlink:to="ifrs-full_EquityAndLiabilitiesAbstract"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <!-- http://www.xbrl.org/2003/arcrole/parent-child https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-310000 -->
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-310000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeStatementAbstract" xlink:label="ifrs-full_IncomeStatementAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLossAbstract" xlink:label="ifrs-full_ProfitLossAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_IncomeStatementAbstract"
+                          xlink:to="ifrs-full_ProfitLossAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLossAttributableToAbstract" xlink:label="ifrs-full_ProfitLossAttributableToAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_IncomeStatementAbstract"
+                          xlink:to="ifrs-full_ProfitLossAttributableToAbstract"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-310000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLossAbstract" xlink:label="ifrs-full_ProfitLossAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InterestRevenueCalculatedUsingEffectiveInterestMethod" xlink:label="ifrs-full_InterestRevenueCalculatedUsingEffectiveInterestMethod" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_InterestRevenueCalculatedUsingEffectiveInterestMethod"
+                            order="19.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InterestRevenueExpense" xlink:label="ifrs-full_InterestRevenueExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_InterestRevenueExpense"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FeeAndCommissionIncome" xlink:label="ifrs-full_FeeAndCommissionIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_FeeAndCommissionIncome"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FeeAndCommissionExpense" xlink:label="ifrs-full_FeeAndCommissionExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_FeeAndCommissionExpense"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FeeAndCommissionIncomeExpense" xlink:label="ifrs-full_FeeAndCommissionIncomeExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_FeeAndCommissionIncomeExpense"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RevenueFromDividends" xlink:label="ifrs-full_RevenueFromDividends" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_RevenueFromDividends"
+                            order="60.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_TradingIncomeExpense" xlink:label="ifrs-full_TradingIncomeExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_TradingIncomeExpense"
+                            order="70.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnHedgingInstrument" xlink:label="ifrs-full_GainsLossesOnHedgingInstrument" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnHedgingInstrument"
+                            order="80.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ČistýZiskStrataZPredajaAleboSpätnéhoOdkúpenia" xlink:label="ext_ČistýZiskStrataZPredajaAleboSpätnéhoOdkúpenia" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_ČistýZiskStrataZPredajaAleboSpätnéhoOdkúpenia"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnFinancialAssetsAtAmortisedCost" xlink:label="ifrs-full_GainsLossesOnFinancialAssetsAtAmortisedCost" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnFinancialAssetsAtAmortisedCost"
+                            order="100.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok"
+                            order="110.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnFinancialLiabilitiesAtAmortisedCost" xlink:label="ifrs-full_GainsLossesOnFinancialLiabilitiesAtAmortisedCost" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnFinancialLiabilitiesAtAmortisedCost"
+                            order="120.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" xlink:label="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát"
+                            order="130.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" xlink:label="ifrs-full_GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnFinancialAssetsAtFairValueThroughProfitOrLossMandatorilyMeasuredAtFairValue"
+                            order="140.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RevenueAndOperatingIncome" xlink:label="ifrs-full_RevenueAndOperatingIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_RevenueAndOperatingIncome"
+                            order="150.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ImpairmentLossImpairmentGainAndReversalOfImpairmentLossDeterminedInAccordanceWithIFRS9" xlink:label="ifrs-full_ImpairmentLossImpairmentGainAndReversalOfImpairmentLossDeterminedInAccordanceWithIFRS9" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_ImpairmentLossImpairmentGainAndReversalOfImpairmentLossDeterminedInAccordanceWithIFRS9"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedLabel"
+                            order="160.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:label="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote"
+                            order="170.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok"
+                            order="180.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncreaseDecreaseThroughModificationOfContractualCashFlowsFinancialAssets" xlink:label="ifrs-full_IncreaseDecreaseThroughModificationOfContractualCashFlowsFinancialAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_IncreaseDecreaseThroughModificationOfContractualCashFlowsFinancialAssets"
+                            order="190.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdministrativeExpense" xlink:label="ifrs-full_AdministrativeExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_AdministrativeExpense"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedLabel"
+                            order="200.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZmenyRezerv" xlink:label="ext_ZmenyRezerv" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_ZmenyRezerv"
+                            order="210.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:label="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky"
+                            order="220.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ChangesInOtherProvisions" xlink:label="ifrs-full_ChangesInOtherProvisions" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_ChangesInOtherProvisions"
+                            order="230.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DepreciationExpense" xlink:label="ifrs-full_DepreciationExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_DepreciationExpense"
+                            order="240.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AmortisationExpense" xlink:label="ifrs-full_AmortisationExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_AmortisationExpense"
+                            order="250.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherOperatingIncomeExpense" xlink:label="ifrs-full_OtherOperatingIncomeExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_OtherOperatingIncomeExpense"
+                            order="260.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OperatingExpense" xlink:label="ifrs-full_OperatingExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_OperatingExpense"
+                            order="270.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" xlink:label="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote"
+                            order="280.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_TradingIncomeExpenseOnEquityInstruments" xlink:label="ifrs-full_TradingIncomeExpenseOnEquityInstruments" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_TradingIncomeExpenseOnEquityInstruments"
+                            order="290.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLossBeforeTax" xlink:label="ifrs-full_ProfitLossBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_ProfitLossBeforeTax"
+                            order="300.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxExpenseContinuingOperations" xlink:label="ifrs-full_IncomeTaxExpenseContinuingOperations" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_IncomeTaxExpenseContinuingOperations"
+                            order="310.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLoss" xlink:label="ifrs-full_ProfitLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_ProfitLoss"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="320.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InterestExpense" xlink:label="ifrs-full_InterestExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_InterestExpense"
+                            order="330.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RevenueFromInterest" xlink:label="ifrs-full_RevenueFromInterest" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_RevenueFromInterest"
+                            order="340.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnDisposalsOfNoncurrentAssets" xlink:label="ifrs-full_GainsLossesOnDisposalsOfNoncurrentAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnDisposalsOfNoncurrentAssets"
+                            order="350.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-310000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLossAttributableToAbstract" xlink:label="ifrs-full_ProfitLossAttributableToAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLossAttributableToOwnersOfParent" xlink:label="ifrs-full_ProfitLossAttributableToOwnersOfParent" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ProfitLossAttributableToAbstract"
+                          xlink:to="ifrs-full_ProfitLossAttributableToOwnersOfParent"
+                            order="10.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <!-- http://www.xbrl.org/2003/arcrole/parent-child https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000 -->
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowHedgesAbstract" xlink:label="ifrs-full_CashFlowHedgesAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowHedgesAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnCashFlowHedgesBeforeTax" xlink:label="ifrs-full_GainsLossesOnCashFlowHedgesBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowHedgesAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnCashFlowHedgesBeforeTax"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax" xlink:label="ifrs-full_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowHedgesAbstract"
+                          xlink:to="ifrs-full_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome" xlink:label="ifrs-full_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowHedgesAbstract"
+                          xlink:to="ifrs-full_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome"
+                            order="40.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:label="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowHedgesAbstract" xlink:label="ifrs-full_CashFlowHedgesAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ifrs-full_CashFlowHedgesAbstract"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract" xlink:label="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ExchangeDifferencesOnTranslationAbstract" xlink:label="ifrs-full_ExchangeDifferencesOnTranslationAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ifrs-full_ExchangeDifferencesOnTranslationAbstract"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract" xlink:label="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:label="ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:label="ifrs-full_ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:label="ifrs-full_IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_FinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome"
+                            order="40.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ExchangeDifferencesOnTranslationAbstract" xlink:label="ifrs-full_ExchangeDifferencesOnTranslationAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ExchangeDifferencesOnTranslationAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="10.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:label="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation" xlink:label="ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:label="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss" xlink:label="ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                          xlink:to="ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss"
+                            order="40.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncomeAttributableToAbstract" xlink:label="ifrs-full_ComprehensiveIncomeAttributableToAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncome" xlink:label="ifrs-full_ComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComprehensiveIncomeAttributableToAbstract"
+                          xlink:to="ifrs-full_ComprehensiveIncome"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent" xlink:label="ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComprehensiveIncomeAttributableToAbstract"
+                          xlink:to="ifrs-full_ComprehensiveIncomeAttributableToOwnersOfParent"
+                            order="20.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeAbstract" xlink:label="ifrs-full_OtherComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:label="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:label="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ComponentsOfOtherComprehensiveIncomeThatWillBeReclassifiedToProfitOrLossNetOfTaxAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncome" xlink:label="ifrs-full_OtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncome"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeAttributableToOwnersOfParent" xlink:label="ifrs-full_OtherComprehensiveIncomeAttributableToOwnersOfParent" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeAttributableToOwnersOfParent"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:label="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation" xlink:label="ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeBeforeTaxGainsLossesOnRevaluation"
+                            order="100.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss" xlink:label="ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_IncomeTaxRelatingToComponentsOfOtherComprehensiveIncomeThatWillNotBeReclassifiedToProfitOrLoss"
+                            order="110.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxGainsLossesOnRevaluation"
+                            order="120.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:label="ifrs-full_IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_IncomeTaxRelatingToFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome"
+                            order="150.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:label="ifrs-full_ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ReclassificationAdjustmentsOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax"
+                            order="160.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:label="ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeBeforeTax"
+                            order="170.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome"
+                            order="180.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxExchangeDifferencesOnTranslation"
+                            order="190.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome" xlink:label="ifrs-full_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_IncomeTaxRelatingToCashFlowHedgesOfOtherComprehensiveIncome"
+                            order="240.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax" xlink:label="ifrs-full_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ReclassificationAdjustmentsOnCashFlowHedgesBeforeTax"
+                            order="250.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_GainsLossesOnCashFlowHedgesBeforeTax" xlink:label="ifrs-full_GainsLossesOnCashFlowHedgesBeforeTax" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_GainsLossesOnCashFlowHedgesBeforeTax"
+                            order="260.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges" xlink:label="ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeNetOfTaxCashFlowHedges"
+                            order="270.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfComprehensiveIncomeAbstract" xlink:label="ifrs-full_StatementOfComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncomeAbstract" xlink:label="ifrs-full_OtherComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncomeAbstract"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncomeAttributableToAbstract" xlink:label="ifrs-full_ComprehensiveIncomeAttributableToAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ComprehensiveIncomeAttributableToAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncome" xlink:label="ifrs-full_ComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ComprehensiveIncome"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLoss" xlink:label="ifrs-full_ProfitLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ProfitLoss"
+                            order="50.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <!-- http://www.xbrl.org/2003/arcrole/parent-child https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000 -->
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ChangesInEquityAbstract" xlink:label="ifrs-full_ChangesInEquityAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncreaseDecreaseThroughTransferToStatutoryReserve" xlink:label="ifrs-full_IncreaseDecreaseThroughTransferToStatutoryReserve" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ChangesInEquityAbstract"
+                          xlink:to="ifrs-full_IncreaseDecreaseThroughTransferToStatutoryReserve"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DividendsPaid" xlink:label="ifrs-full_DividendsPaid" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ChangesInEquityAbstract"
+                          xlink:to="ifrs-full_DividendsPaid"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedLabel"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" xlink:label="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ChangesInEquityAbstract"
+                          xlink:to="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncomeAbstract" xlink:label="ifrs-full_ComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ChangesInEquityAbstract"
+                          xlink:to="ifrs-full_ComprehensiveIncomeAbstract"
+                            order="40.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncomeAbstract" xlink:label="ifrs-full_ComprehensiveIncomeAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLoss" xlink:label="ifrs-full_ProfitLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ProfitLoss"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherComprehensiveIncome" xlink:label="ifrs-full_OtherComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_OtherComprehensiveIncome"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComprehensiveIncome" xlink:label="ifrs-full_ComprehensiveIncome" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComprehensiveIncomeAbstract"
+                          xlink:to="ifrs-full_ComprehensiveIncome"
+                            preferredLabel="http://www.xbrl.org/2003/role/totalLabel"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComponentsOfEquityAxis" xlink:label="ifrs-full_ComponentsOfEquityAxis" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityMember" xlink:label="ifrs-full_EquityMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_ComponentsOfEquityAxis"
+                          xlink:to="ifrs-full_EquityMember"
+                            order="10.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityMember" xlink:label="ifrs-full_EquityMember" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAttributableToOwnersOfParentMember" xlink:label="ifrs-full_EquityAttributableToOwnersOfParentMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityMember"
+                          xlink:to="ifrs-full_EquityAttributableToOwnersOfParentMember"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_RezervnýFondAOstatnéKapitálovéFondy" xlink:label="ext_RezervnýFondAOstatnéKapitálovéFondy" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityMember"
+                          xlink:to="ext_RezervnýFondAOstatnéKapitálovéFondy"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚčelovýRezervnýFond" xlink:label="ext_ÚčelovýRezervnýFond" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityMember"
+                          xlink:to="ext_ÚčelovýRezervnýFond"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_KurzovéRozdielyZKonsolidácie" xlink:label="ext_KurzovéRozdielyZKonsolidácie" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityMember"
+                          xlink:to="ext_KurzovéRozdielyZKonsolidácie"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_NerozdelenýZisk" xlink:label="ext_NerozdelenýZisk" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityMember"
+                          xlink:to="ext_NerozdelenýZisk"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskZaObdobie" xlink:label="ext_ZiskZaObdobie" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityMember"
+                          xlink:to="ext_ZiskZaObdobie"
+                            order="60.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_EquityAttributableToOwnersOfParentMember" xlink:label="ifrs-full_EquityAttributableToOwnersOfParentMember" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IssuedCapitalMember" xlink:label="ifrs-full_IssuedCapitalMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAttributableToOwnersOfParentMember"
+                          xlink:to="ifrs-full_IssuedCapitalMember"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_SharePremiumMember" xlink:label="ifrs-full_SharePremiumMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAttributableToOwnersOfParentMember"
+                          xlink:to="ifrs-full_SharePremiumMember"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherReservesMember" xlink:label="ifrs-full_OtherReservesMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_EquityAttributableToOwnersOfParentMember"
+                          xlink:to="ifrs-full_OtherReservesMember"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherReservesMember" xlink:label="ifrs-full_OtherReservesMember" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReserveOfCashFlowHedgesMember" xlink:label="ifrs-full_ReserveOfCashFlowHedgesMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherReservesMember"
+                          xlink:to="ifrs-full_ReserveOfCashFlowHedgesMember"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeMember" xlink:label="ifrs-full_ReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherReservesMember"
+                          xlink:to="ifrs-full_ReserveOfGainsAndLossesOnFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncomeMember"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RevaluationSurplusMember" xlink:label="ifrs-full_RevaluationSurplusMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherReservesMember"
+                          xlink:to="ifrs-full_RevaluationSurplusMember"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ReserveOfExchangeDifferencesOnTranslationMember" xlink:label="ifrs-full_ReserveOfExchangeDifferencesOnTranslationMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_OtherReservesMember"
+                          xlink:to="ifrs-full_ReserveOfExchangeDifferencesOnTranslationMember"
+                            order="40.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RetrospectiveApplicationAndRetrospectiveRestatementAxis" xlink:label="ifrs-full_RetrospectiveApplicationAndRetrospectiveRestatementAxis" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RestatedMember" xlink:label="ifrs-full_RestatedMember" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_RetrospectiveApplicationAndRetrospectiveRestatementAxis"
+                          xlink:to="ifrs-full_RestatedMember"
+                            order="10.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfChangesInEquityAbstract" xlink:label="ifrs-full_StatementOfChangesInEquityAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfChangesInEquityTable" xlink:label="ifrs-full_StatementOfChangesInEquityTable" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityAbstract"
+                          xlink:to="ifrs-full_StatementOfChangesInEquityTable"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfChangesInEquityLineItems" xlink:label="ifrs-full_StatementOfChangesInEquityLineItems" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityAbstract"
+                          xlink:to="ifrs-full_StatementOfChangesInEquityLineItems"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfChangesInEquityTable" xlink:label="ifrs-full_StatementOfChangesInEquityTable" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ComponentsOfEquityAxis" xlink:label="ifrs-full_ComponentsOfEquityAxis" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityTable"
+                          xlink:to="ifrs-full_ComponentsOfEquityAxis"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_RetrospectiveApplicationAndRetrospectiveRestatementAxis" xlink:label="ifrs-full_RetrospectiveApplicationAndRetrospectiveRestatementAxis" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityTable"
+                          xlink:to="ifrs-full_RetrospectiveApplicationAndRetrospectiveRestatementAxis"
+                            order="20.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfChangesInEquityLineItems" xlink:label="ifrs-full_StatementOfChangesInEquityLineItems" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Equity" xlink:label="ifrs-full_Equity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityLineItems"
+                          xlink:to="ifrs-full_Equity"
+                            preferredLabel="http://www.xbrl.org/2003/role/periodStartLabel"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ChangesInEquityAbstract" xlink:label="ifrs-full_ChangesInEquityAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityLineItems"
+                          xlink:to="ifrs-full_ChangesInEquityAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_Equity" xlink:label="ifrs-full_Equity_2" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfChangesInEquityLineItems"
+                          xlink:to="ifrs-full_Equity_2"
+                            preferredLabel="http://www.xbrl.org/2003/role/periodEndLabel"
+                            order="30.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <!-- http://www.xbrl.org/2003/arcrole/parent-child https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000 -->
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForReconcileProfitLossAbstract" xlink:label="ifrs-full_AdjustmentsForReconcileProfitLossAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForIncomeTaxExpense" xlink:label="ifrs-full_AdjustmentsForIncomeTaxExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForIncomeTaxExpense"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote"
+                            order="100.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss" xlink:label="ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss"
+                            order="110.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOInéRezervy" xlink:label="ext_ÚpravyOInéRezervy" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ext_ÚpravyOInéRezervy"
+                            order="120.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:label="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky"
+                            order="130.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForProvisions" xlink:label="ifrs-full_AdjustmentsForProvisions" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForProvisions"
+                            order="140.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains" xlink:label="ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains"
+                            order="150.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForFairValueGainsLosses" xlink:label="ifrs-full_AdjustmentsForFairValueGainsLosses" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForFairValueGainsLosses"
+                            order="170.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets" xlink:label="ifrs-full_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets"
+                            order="200.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherAdjustmentsToReconcileProfitLoss" xlink:label="ifrs-full_OtherAdjustmentsToReconcileProfitLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                          xlink:to="ifrs-full_OtherAdjustmentsToReconcileProfitLoss"
+                            order="220.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract" xlink:label="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DividendsPaidClassifiedAsFinancingActivities" xlink:label="ifrs-full_DividendsPaidClassifiedAsFinancingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract"
+                          xlink:to="ifrs-full_DividendsPaidClassifiedAsFinancingActivities"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedTerseLabel"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_DlhovéCennéPapiereEmitovanéASplatené" xlink:label="ext_DlhovéCennéPapiereEmitovanéASplatené" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract"
+                          xlink:to="ext_DlhovéCennéPapiereEmitovanéASplatené"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities" xlink:label="ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract"
+                          xlink:to="ifrs-full_PaymentsOfLeaseLiabilitiesClassifiedAsFinancingActivities"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedTerseLabel"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInFinancingActivities" xlink:label="ifrs-full_CashFlowsFromUsedInFinancingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInFinancingActivities"
+                            preferredLabel="http://www.xbrl.org/2009/role/netLabel"
+                            order="40.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract" xlink:label="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" xlink:label="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract"
+                          xlink:to="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProceedsFromDisposalsOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets" xlink:label="ifrs-full_ProceedsFromDisposalsOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract"
+                          xlink:to="ifrs-full_ProceedsFromDisposalsOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets" xlink:label="ifrs-full_PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract"
+                          xlink:to="ifrs-full_PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_DividendsReceivedClassifiedAsInvestingActivities" xlink:label="ifrs-full_DividendsReceivedClassifiedAsInvestingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract"
+                          xlink:to="ifrs-full_DividendsReceivedClassifiedAsInvestingActivities"
+                            preferredLabel="http://www.xbrl.org/2003/role/terseLabel"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInInvestingActivities" xlink:label="ifrs-full_CashFlowsFromUsedInInvestingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInInvestingActivities"
+                            preferredLabel="http://www.xbrl.org/2009/role/netLabel"
+                            order="50.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract" xlink:label="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss" xlink:label="ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLoss"
+                            order="10.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForFairValueGainsLosses" xlink:label="ifrs-full_AdjustmentsForFairValueGainsLosses" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForFairValueGainsLosses"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForProvisions" xlink:label="ifrs-full_AdjustmentsForProvisions" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForProvisions"
+                            order="50.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:label="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky"
+                            order="60.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOInéRezervy" xlink:label="ext_ÚpravyOInéRezervy" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyOInéRezervy"
+                            order="70.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForDepreciationExpense" xlink:label="ifrs-full_AdjustmentsForDepreciationExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForDepreciationExpense"
+                            order="80.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForAmortisationExpense" xlink:label="ifrs-full_AdjustmentsForAmortisationExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForAmortisationExpense"
+                            order="90.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" xlink:label="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia"
+                            order="100.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:label="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok"
+                            order="120.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZiskStrataZMajetkovýchÚčastí" xlink:label="ext_ZiskStrataZMajetkovýchÚčastí" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ZiskStrataZMajetkovýchÚčastí"
+                            order="140.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForIncomeTaxExpense" xlink:label="ifrs-full_AdjustmentsForIncomeTaxExpense" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForIncomeTaxExpense"
+                            order="160.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains" xlink:label="ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForUnrealisedForeignExchangeLossesGains"
+                            order="170.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_OtherAdjustmentsToReconcileProfitLoss" xlink:label="ifrs-full_OtherAdjustmentsToReconcileProfitLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_OtherAdjustmentsToReconcileProfitLoss"
+                            order="180.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets" xlink:label="ifrs-full_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForLossesGainsOnDisposalOfNoncurrentAssets"
+                            order="190.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital" xlink:label="ifrs-full_CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapital"
+                            order="200.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát"
+                            order="210.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForDecreaseIncreaseInFinancialAssetsHeldForTrading" xlink:label="ifrs-full_AdjustmentsForDecreaseIncreaseInFinancialAssetsHeldForTrading" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForDecreaseIncreaseInFinancialAssetsHeldForTrading"
+                            order="220.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" xlink:label="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote"
+                            order="230.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote"
+                            order="240.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToBanks" xlink:label="ifrs-full_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToBanks" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToBanks"
+                            order="250.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToCustomers" xlink:label="ifrs-full_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToCustomers" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForDecreaseIncreaseInLoansAndAdvancesToCustomers"
+                            order="260.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets" xlink:label="ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForDecreaseIncreaseInOtherAssets"
+                            order="270.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát"
+                            order="280.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesHeldForTrading" xlink:label="ifrs-full_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesHeldForTrading" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesHeldForTrading"
+                            order="290.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="KR6LSKV3BTSJRD41IF75-2021-12-31.xsd#ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" xlink:label="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote"
+                            order="300.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromBanks" xlink:label="ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromBanks" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromBanks"
+                            order="310.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromCustomers" xlink:label="ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromCustomers" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForIncreaseDecreaseInDepositsFromCustomers"
+                            order="320.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities" xlink:label="ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForIncreaseDecreaseInOtherLiabilities"
+                            order="330.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities" xlink:label="ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_IncomeTaxesPaidRefundClassifiedAsOperatingActivities"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedTerseLabel"
+                            order="340.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInOperations" xlink:label="ifrs-full_CashFlowsFromUsedInOperations" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInOperations"
+                            preferredLabel="http://www.xbrl.org/2009/role/netLabel"
+                            order="350.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InterestReceivedClassifiedAsOperatingActivities" xlink:label="ifrs-full_InterestReceivedClassifiedAsOperatingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_InterestReceivedClassifiedAsOperatingActivities"
+                            preferredLabel="http://www.xbrl.org/2003/role/terseLabel"
+                            order="360.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_InterestPaidClassifiedAsOperatingActivities" xlink:label="ifrs-full_InterestPaidClassifiedAsOperatingActivities" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_InterestPaidClassifiedAsOperatingActivities"
+                            preferredLabel="http://www.xbrl.org/2009/role/negatedTerseLabel"
+                            order="370.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_AdjustmentsForReconcileProfitLossAbstract" xlink:label="ifrs-full_AdjustmentsForReconcileProfitLossAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_AdjustmentsForReconcileProfitLossAbstract"
+                            order="380.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_ProfitLoss" xlink:label="ifrs-full_ProfitLoss" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                          xlink:to="ifrs-full_ProfitLoss"
+                            order="440.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+   <link:presentationLink xlink:role="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000" xlink:type="extended">
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_StatementOfCashFlowsAbstract" xlink:label="ifrs-full_StatementOfCashFlowsAbstract" xlink:type="locator"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract" xlink:label="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfCashFlowsAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInOperatingActivitiesAbstract"
+                            order="20.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract" xlink:label="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfCashFlowsAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInInvestingActivitiesAbstract"
+                            order="30.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract" xlink:label="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfCashFlowsAbstract"
+                          xlink:to="ifrs-full_CashFlowsFromUsedInFinancingActivitiesAbstract"
+                            order="40.0"
+                          xlink:type="arc"/>
+      <link:loc xlink:href="http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/full_ifrs-cor_2020-03-16.xsd#ifrs-full_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition" xlink:label="ifrs-full_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition" xlink:type="locator"/>
+      <link:presentationArc
+                          xlink:arcrole="http://www.xbrl.org/2003/arcrole/parent-child"
+                          xlink:from="ifrs-full_StatementOfCashFlowsAbstract"
+                          xlink:to="ifrs-full_CashAndCashEquivalentsIfDifferentFromStatementOfFinancialPosition"
+                            order="50.0"
+                          xlink:type="arc"/>
+   </link:presentationLink>
+
+</link:linkbase>

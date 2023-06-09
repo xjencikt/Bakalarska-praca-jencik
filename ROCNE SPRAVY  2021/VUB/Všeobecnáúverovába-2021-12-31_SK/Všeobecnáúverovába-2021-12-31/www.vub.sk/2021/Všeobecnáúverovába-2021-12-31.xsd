@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:VUB="https://www.vub.sk/2021/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:gen="http://xbrl.org/2008/generic" xmlns:lei="http://www.xbrl.org/taxonomy/int/lei/2018-11-01" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:esef_cor="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" elementFormDefault="unqualified" targetNamespace="https://www.vub.sk/2021/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/instance" />
+  <xsd:import schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd" namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" />
+  <xsd:import schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/numeric" />
+  <xsd:import schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/non-numeric" />
+  <xsd:import schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" namespace="http://xbrl.org/2005/xbrldt" />
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="Všeobecnáúverovába-2021-12-31_pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Všeobecnáúverovába-2021-12-31_def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Všeobecnáúverovába-2021-12-31_cal.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Všeobecnáúverovába-2021-12-31_lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="Všeobecnáúverovába-2021-12-31_lab-sk.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-gen-sk.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/LinkbaseRef" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-sk.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+      <link:roleType roleURI="https://vub.sk/role/ConsolidatedStatementOfFinancialPosition" id="ConsolidatedStatementOfFinancialPosition">
+        <link:definition>Consolidated statement of financial position</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://vub.sk/role/ConsolidatedStatementOfProfitOrLossAndOtherComprehensiveIncome" id="ConsolidatedStatementOfProfitOrLossAndOtherComprehensiveIncome">
+        <link:definition>Consolidated statement of profit or loss and other comprehensive income</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://vub.sk/role/ConsolidatedStatementOfChangesInEquity2021" id="ConsolidatedStatementOfChangesInEquity2021">
+        <link:definition>Consolidated statement of changes in equity 2021</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://vub.sk/role/ConsolidatedStatementOfChangesInEquity2020" id="ConsolidatedStatementOfChangesInEquity2020">
+        <link:definition>Consolidated statement of changes in equity 2020</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://vub.sk/role/ConsolidatedStatementOfCashFlows" id="ConsolidatedStatementOfCashFlows">
+        <link:definition>Consolidated statement of cash flows</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://vub.sk/role/Esef_role-000000_reported" id="Esef_role-000000_reported">
+        <link:definition>esef_role-000000_reported</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://vub.sk/role/Anchoring" id="Anchoring">
+        <link:definition>Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:element id="VUB_FinancialAssetsAtFvThroughOciOfWhichPledgedAsCollateral" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" name="FinancialAssetsAtFvThroughOciOfWhichPledgedAsCollateral" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_FinancialAssetsAtAmortisedCostDueFromCustomers" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" name="FinancialAssetsAtAmortisedCostDueFromCustomers" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_FinancialAssetsAtAmortisedCostOfWhichPledgedAsCollateral" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" name="FinancialAssetsAtAmortisedCostOfWhichPledgedAsCollateral" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_FinancialLiabilitiesAtAmortisedCostDueToBanks" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" name="FinancialLiabilitiesAtAmortisedCostDueToBanks" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_FinancialLiabilitiesAtAmortisedCostDueToCustomers" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" name="FinancialLiabilitiesAtAmortisedCostDueToCustomers" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_FinancialLiabilitiesAtAmortisedCostLeaseLiabilities" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" name="FinancialLiabilitiesAtAmortisedCostLeaseLiabilities" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_NonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" name="NonTradingFinancialAssetsAtFairValueThroughProfitOrLoss" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_OtherInterestIncome" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" name="OtherInterestIncome" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_InterestAndSimilarExpense" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="InterestAndSimilarExpense" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_SpecialLevyOfSelectedFinancialInstitution" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="SpecialLevyOfSelectedFinancialInstitution" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_NetModificationLosses" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="NetModificationLosses" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_ProvisionsNet" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="ProvisionsNet" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_ReversalOfDeferredIncomeTaxOnDisposedPropertyAndEquipment" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="ReversalOfDeferredIncomeTaxOnDisposedPropertyAndEquipment" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_ReversalOfDeferredIncomeTaxOnFtaReserveDueToVubLeasingMergerIntoVubBank" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="ReversalOfDeferredIncomeTaxOnFtaReserveDueToVubLeasingMergerIntoVubBank" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_FinancialAssestsAtAmortisedCostDueFromOtherBanks" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" name="FinancialAssestsAtAmortisedCostDueFromOtherBanks" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskAssets" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskAssets" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskLiabilities" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" name="DecreaseIncreaseInFairValueChangesOfTheHedgedItemsInPortfolioHedgeOfInterestRateRiskLiabilities" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_DisposalOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="DisposalOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" substitutionGroup="xbrli:item" />
+  <xsd:element id="VUB_RepaymentsOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" name="RepaymentsOfFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" substitutionGroup="xbrli:item" />
+</xsd:schema>

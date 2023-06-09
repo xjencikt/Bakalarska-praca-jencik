@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linkbase xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xbrl.org/2003/linkbase">
+  <labelLink xlink:role="http://www.xbrl.org/2003/role/link" xlink:type="extended" xmlns:xlink="http://www.w3.org/1999/xlink" />
+</linkbase>

@@ -1,0 +1,169 @@
+<?instance-generator id="AMANA XBRL Engine" version="4.0.40.205" creationdate="2022-06-10T18:12:22+02:00"?>
+<!--Created by AMANA XBRL Engine - 4.0.40.205 - Amana consulting GmbH -  https://www.amana-consulting.de-->
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:xbrldi="http://xbrl.org/2006/xbrldi" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2021-03-24/ifrs-full">
+  <link:schemaRef xlink:href="http://propartnersholdingas.com/xbrl/2021/propartnersholdingas-2021-12-31.xsd" xlink:type="simple" />
+  <xbrli:context id="c-1">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">097900BGMJ0000059415</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2021-01-01</xbrli:startDate>
+      <xbrli:endDate>2021-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c-2">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">097900BGMJ0000059415</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2021-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c-3">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">097900BGMJ0000059415</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2020-12-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="c-4">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://standards.iso.org/iso/17442">097900BGMJ0000059415</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2020-01-01</xbrli:startDate>
+      <xbrli:endDate>2020-12-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:unit id="u-1">
+    <xbrli:measure>iso4217:EUR</xbrli:measure>
+  </xbrli:unit>
+  <ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification contextRef="c-1" id="fact-1">Pro Partners Holding, a.s.</ifrs-full:NameOfReportingEntityOrOtherMeansOfIdentification>
+  <ifrs-full:DomicileOfEntity contextRef="c-1" id="fact-2">Malý trh 2/A,  Bratislava 811 08</ifrs-full:DomicileOfEntity>
+  <ifrs-full:LegalFormOfEntity contextRef="c-1" id="fact-3">Akciová spoločnosť </ifrs-full:LegalFormOfEntity>
+  <ifrs-full:StatementOfIFRSCompliance contextRef="c-1" id="fact-4">Táto  konsolidovaná  úètovná  závierka  bola  zostavená  v  súlade  s  Medzinárodnými  štandardmi  pre  finanèné výkazníctvo  (ïalej  len  „IFRS“)  platnými  v  Európskej  únii  za  obdobie  konèiace  31.  decembra  2021.</ifrs-full:StatementOfIFRSCompliance>
+  <ifrs-full:NameOfParentEntity contextRef="c-1" id="fact-5">Pro Partners Holidings (Cyprus) Limited </ifrs-full:NameOfParentEntity>
+  <ifrs-full:FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition contextRef="c-2" unitRef="u-1" id="fact-6" decimals="0">93523</ifrs-full:FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition>
+  <ifrs-full:FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition contextRef="c-3" unitRef="u-1" id="fact-7" decimals="0">0</ifrs-full:FinancialAssetsAtFairValueThroughProfitOrLossDesignatedAsUponInitialRecognition>
+  <ifrs-full:LoansAndReceivables contextRef="c-2" unitRef="u-1" id="fact-8" decimals="0">2898</ifrs-full:LoansAndReceivables>
+  <ifrs-full:LoansAndReceivables contextRef="c-3" unitRef="u-1" id="fact-9" decimals="0">0</ifrs-full:LoansAndReceivables>
+  <ifrs-full:PropertyPlantAndEquipment contextRef="c-2" unitRef="u-1" id="fact-10" decimals="0">374</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:PropertyPlantAndEquipment contextRef="c-3" unitRef="u-1" id="fact-11" decimals="0">8730</ifrs-full:PropertyPlantAndEquipment>
+  <ifrs-full:InvestmentPropertyCompleted contextRef="c-2" unitRef="u-1" id="fact-12" decimals="0">0</ifrs-full:InvestmentPropertyCompleted>
+  <ifrs-full:InvestmentPropertyCompleted contextRef="c-3" unitRef="u-1" id="fact-13" decimals="0">2129</ifrs-full:InvestmentPropertyCompleted>
+  <ifrs-full:IntangibleAssetsOtherThanGoodwill contextRef="c-2" unitRef="u-1" id="fact-14" decimals="0">23</ifrs-full:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-full:IntangibleAssetsOtherThanGoodwill contextRef="c-3" unitRef="u-1" id="fact-15" decimals="0">254</ifrs-full:IntangibleAssetsOtherThanGoodwill>
+  <ifrs-full:Goodwill contextRef="c-2" unitRef="u-1" id="fact-16" decimals="0">0</ifrs-full:Goodwill>
+  <ifrs-full:Goodwill contextRef="c-3" unitRef="u-1" id="fact-17" decimals="0">12778</ifrs-full:Goodwill>
+  <ifrs-full:InvestmentAccountedForUsingEquityMethod contextRef="c-2" unitRef="u-1" id="fact-18" decimals="0">0</ifrs-full:InvestmentAccountedForUsingEquityMethod>
+  <ifrs-full:InvestmentAccountedForUsingEquityMethod contextRef="c-3" unitRef="u-1" id="fact-19" decimals="0">36968</ifrs-full:InvestmentAccountedForUsingEquityMethod>
+  <ifrs-full:NoncurrentHeldtomaturityInvestments contextRef="c-2" unitRef="u-1" id="fact-20" decimals="0">0</ifrs-full:NoncurrentHeldtomaturityInvestments>
+  <ifrs-full:NoncurrentHeldtomaturityInvestments contextRef="c-3" unitRef="u-1" id="fact-21" decimals="0">24641</ifrs-full:NoncurrentHeldtomaturityInvestments>
+  <ifrs-full:OtherAssets contextRef="c-2" unitRef="u-1" id="fact-22" decimals="0">0</ifrs-full:OtherAssets>
+  <ifrs-full:OtherAssets contextRef="c-3" unitRef="u-1" id="fact-23" decimals="0">307</ifrs-full:OtherAssets>
+  <ifrs-full:NoncurrentPrepaymentsAndNoncurrentAccruedIncomeIncludingNoncurrentContractAssets contextRef="c-2" unitRef="u-1" id="fact-24" decimals="0">48</ifrs-full:NoncurrentPrepaymentsAndNoncurrentAccruedIncomeIncludingNoncurrentContractAssets>
+  <ifrs-full:NoncurrentPrepaymentsAndNoncurrentAccruedIncomeIncludingNoncurrentContractAssets contextRef="c-3" unitRef="u-1" id="fact-25" decimals="0">0</ifrs-full:NoncurrentPrepaymentsAndNoncurrentAccruedIncomeIncludingNoncurrentContractAssets>
+  <ifrs-full:NoncurrentAssets contextRef="c-2" unitRef="u-1" id="fact-26" decimals="0">96866</ifrs-full:NoncurrentAssets>
+  <ifrs-full:NoncurrentAssets contextRef="c-3" unitRef="u-1" id="fact-27" decimals="0">85807</ifrs-full:NoncurrentAssets>
+  <ifrs-full:CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition contextRef="c-2" unitRef="u-1" id="fact-28" decimals="0">9479</ifrs-full:CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition>
+  <ifrs-full:CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition contextRef="c-3" unitRef="u-1" id="fact-29" decimals="0">0</ifrs-full:CurrentFinancialAssetsAtFairValueThroughProfitOrLossDesignatedUponInitialRecognition>
+  <ifrs-full:CurrentFinancialAssetsAtAmortisedCost contextRef="c-2" unitRef="u-1" id="fact-30" decimals="0">0</ifrs-full:CurrentFinancialAssetsAtAmortisedCost>
+  <ifrs-full:CurrentFinancialAssetsAtAmortisedCost contextRef="c-3" unitRef="u-1" id="fact-31" decimals="0">4389</ifrs-full:CurrentFinancialAssetsAtAmortisedCost>
+  <ifrs-full:CurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome contextRef="c-2" unitRef="u-1" id="fact-32" decimals="0">0</ifrs-full:CurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome>
+  <ifrs-full:CurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome contextRef="c-3" unitRef="u-1" id="fact-33" decimals="0">176</ifrs-full:CurrentFinancialAssetsMeasuredAtFairValueThroughOtherComprehensiveIncome>
+  <ifrs-full:ShorttermBorrowings contextRef="c-2" unitRef="u-1" id="fact-34" decimals="0">8608</ifrs-full:ShorttermBorrowings>
+  <ifrs-full:ShorttermBorrowings contextRef="c-3" unitRef="u-1" id="fact-35" decimals="0">0</ifrs-full:ShorttermBorrowings>
+  <ifrs-full:AccruedIncomeIncludingContractAssets contextRef="c-2" unitRef="u-1" id="fact-36" decimals="0">385</ifrs-full:AccruedIncomeIncludingContractAssets>
+  <ifrs-full:AccruedIncomeIncludingContractAssets contextRef="c-3" unitRef="u-1" id="fact-37" decimals="0">623</ifrs-full:AccruedIncomeIncludingContractAssets>
+  <ifrs-full:TradeAndOtherReceivables contextRef="c-2" unitRef="u-1" id="fact-38" decimals="0">10639</ifrs-full:TradeAndOtherReceivables>
+  <ifrs-full:TradeAndOtherReceivables contextRef="c-3" unitRef="u-1" id="fact-39" decimals="0">23802</ifrs-full:TradeAndOtherReceivables>
+  <ifrs-full:CashAndCashEquivalents contextRef="c-2" unitRef="u-1" id="fact-40" decimals="0">4741</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CashAndCashEquivalents contextRef="c-3" unitRef="u-1" id="fact-41" decimals="0">3924</ifrs-full:CashAndCashEquivalents>
+  <ifrs-full:CurrentAssets contextRef="c-2" unitRef="u-1" id="fact-42" decimals="0">33852</ifrs-full:CurrentAssets>
+  <ifrs-full:CurrentAssets contextRef="c-3" unitRef="u-1" id="fact-43" decimals="0">32914</ifrs-full:CurrentAssets>
+  <ifrs-full:Assets contextRef="c-2" unitRef="u-1" id="fact-44" decimals="0">130718</ifrs-full:Assets>
+  <ifrs-full:Assets contextRef="c-3" unitRef="u-1" id="fact-45" decimals="0">118721</ifrs-full:Assets>
+  <ifrs-full:IssuedCapitalOrdinaryShares contextRef="c-2" unitRef="u-1" id="fact-46" decimals="0">10057</ifrs-full:IssuedCapitalOrdinaryShares>
+  <ifrs-full:IssuedCapitalOrdinaryShares contextRef="c-3" unitRef="u-1" id="fact-47" decimals="0">10057</ifrs-full:IssuedCapitalOrdinaryShares>
+  <ifrs-full:StatutoryReserve contextRef="c-2" unitRef="u-1" id="fact-48" decimals="0">2667</ifrs-full:StatutoryReserve>
+  <ifrs-full:StatutoryReserve contextRef="c-3" unitRef="u-1" id="fact-49" decimals="0">2410</ifrs-full:StatutoryReserve>
+  <ifrs-full:RetainedEarnings contextRef="c-2" unitRef="u-1" id="fact-50" decimals="0">38946</ifrs-full:RetainedEarnings>
+  <ifrs-full:RetainedEarnings contextRef="c-3" unitRef="u-1" id="fact-51" decimals="0">22912</ifrs-full:RetainedEarnings>
+  <ifrs-full:NoncontrollingInterests contextRef="c-2" unitRef="u-1" id="fact-52" decimals="0">0</ifrs-full:NoncontrollingInterests>
+  <ifrs-full:NoncontrollingInterests contextRef="c-3" unitRef="u-1" id="fact-53" decimals="0">901</ifrs-full:NoncontrollingInterests>
+  <ifrs-full:Equity contextRef="c-2" unitRef="u-1" id="fact-54" decimals="0">51670</ifrs-full:Equity>
+  <ifrs-full:Equity contextRef="c-3" unitRef="u-1" id="fact-55" decimals="0">36280</ifrs-full:Equity>
+  <ifrs-full:NoncurrentFinancialLiabilities contextRef="c-2" unitRef="u-1" id="fact-56" decimals="0">50723</ifrs-full:NoncurrentFinancialLiabilities>
+  <ifrs-full:NoncurrentFinancialLiabilities contextRef="c-3" unitRef="u-1" id="fact-57" decimals="0">39047</ifrs-full:NoncurrentFinancialLiabilities>
+  <ifrs-full:LongtermBorrowings contextRef="c-2" unitRef="u-1" id="fact-58" decimals="0">0</ifrs-full:LongtermBorrowings>
+  <ifrs-full:LongtermBorrowings contextRef="c-3" unitRef="u-1" id="fact-59" decimals="0">4267</ifrs-full:LongtermBorrowings>
+  <ifrs-full:OtherNoncurrentPayables contextRef="c-2" unitRef="u-1" id="fact-60" decimals="0">7</ifrs-full:OtherNoncurrentPayables>
+  <ifrs-full:OtherNoncurrentPayables contextRef="c-3" unitRef="u-1" id="fact-61" decimals="0">250</ifrs-full:OtherNoncurrentPayables>
+  <ifrs-full:NoncurrentLiabilities contextRef="c-2" unitRef="u-1" id="fact-62" decimals="0">50730</ifrs-full:NoncurrentLiabilities>
+  <ifrs-full:NoncurrentLiabilities contextRef="c-3" unitRef="u-1" id="fact-63" decimals="0">43564</ifrs-full:NoncurrentLiabilities>
+  <ifrs-full:CurrentFinancialLiabilitiesAtAmortisedCost contextRef="c-2" unitRef="u-1" id="fact-64" decimals="0">27172</ifrs-full:CurrentFinancialLiabilitiesAtAmortisedCost>
+  <ifrs-full:CurrentFinancialLiabilitiesAtAmortisedCost contextRef="c-3" unitRef="u-1" id="fact-65" decimals="0">14576</ifrs-full:CurrentFinancialLiabilitiesAtAmortisedCost>
+  <ifrs-full:OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings contextRef="c-2" unitRef="u-1" id="fact-66" decimals="0">120</ifrs-full:OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings>
+  <ifrs-full:OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings contextRef="c-3" unitRef="u-1" id="fact-67" decimals="0">0</ifrs-full:OtherCurrentBorrowingsAndCurrentPortionOfOtherNoncurrentBorrowings>
+  <ifrs-full:OtherCurrentLiabilities contextRef="c-2" unitRef="u-1" id="fact-68" decimals="0">107</ifrs-full:OtherCurrentLiabilities>
+  <ifrs-full:OtherCurrentLiabilities contextRef="c-3" unitRef="u-1" id="fact-69" decimals="0">737</ifrs-full:OtherCurrentLiabilities>
+  <ifrs-full:TradeAndOtherCurrentPayables contextRef="c-2" unitRef="u-1" id="fact-70" decimals="0">919</ifrs-full:TradeAndOtherCurrentPayables>
+  <ifrs-full:TradeAndOtherCurrentPayables contextRef="c-3" unitRef="u-1" id="fact-71" decimals="0">23564</ifrs-full:TradeAndOtherCurrentPayables>
+  <ifrs-full:CurrentLiabilities contextRef="c-2" unitRef="u-1" id="fact-72" decimals="0">28318</ifrs-full:CurrentLiabilities>
+  <ifrs-full:CurrentLiabilities contextRef="c-3" unitRef="u-1" id="fact-73" decimals="0">38877</ifrs-full:CurrentLiabilities>
+  <ifrs-full:Liabilities contextRef="c-2" unitRef="u-1" id="fact-74" decimals="0">79048</ifrs-full:Liabilities>
+  <ifrs-full:Liabilities contextRef="c-3" unitRef="u-1" id="fact-75" decimals="0">82441</ifrs-full:Liabilities>
+  <ifrs-full:EquityAndLiabilities contextRef="c-2" unitRef="u-1" id="fact-76" decimals="0">130718</ifrs-full:EquityAndLiabilities>
+  <ifrs-full:EquityAndLiabilities contextRef="c-3" unitRef="u-1" id="fact-77" decimals="0">118721</ifrs-full:EquityAndLiabilities>
+  <ifrs-full:RevenueFromDividends contextRef="c-1" unitRef="u-1" id="fact-78" decimals="0">6188</ifrs-full:RevenueFromDividends>
+  <ifrs-full:RevenueFromDividends contextRef="c-4" unitRef="u-1" id="fact-79" decimals="0">0</ifrs-full:RevenueFromDividends>
+  <ifrs-full:FinanceIncome contextRef="c-1" unitRef="u-1" id="fact-80" decimals="0">2852</ifrs-full:FinanceIncome>
+  <ifrs-full:FinanceIncome contextRef="c-4" unitRef="u-1" id="fact-81" decimals="0">0</ifrs-full:FinanceIncome>
+  <ifrs-full:OtherFinanceIncomeCost contextRef="c-1" unitRef="u-1" id="fact-82" decimals="0">0</ifrs-full:OtherFinanceIncomeCost>
+  <ifrs-full:OtherFinanceIncomeCost contextRef="c-4" unitRef="u-1" id="fact-83" decimals="0">17880</ifrs-full:OtherFinanceIncomeCost>
+  <ifrs-full:Revenue contextRef="c-1" unitRef="u-1" id="fact-84" decimals="0">9040</ifrs-full:Revenue>
+  <ifrs-full:Revenue contextRef="c-4" unitRef="u-1" id="fact-85" decimals="0">17880</ifrs-full:Revenue>
+  <ifrs-full:EmployeeBenefitsExpense contextRef="c-1" unitRef="u-1" id="fact-86" decimals="0">1504</ifrs-full:EmployeeBenefitsExpense>
+  <ifrs-full:EmployeeBenefitsExpense contextRef="c-4" unitRef="u-1" id="fact-87" decimals="0">4577</ifrs-full:EmployeeBenefitsExpense>
+  <ifrs-full:ServicesExpense contextRef="c-1" unitRef="u-1" id="fact-88" decimals="0">1101</ifrs-full:ServicesExpense>
+  <ifrs-full:ServicesExpense contextRef="c-4" unitRef="u-1" id="fact-89" decimals="0">8902</ifrs-full:ServicesExpense>
+  <ifrs-full:OtherOperatingIncomeExpense contextRef="c-1" unitRef="u-1" id="fact-90" decimals="0">-241</ifrs-full:OtherOperatingIncomeExpense>
+  <ifrs-full:OtherOperatingIncomeExpense contextRef="c-4" unitRef="u-1" id="fact-91" decimals="0">-2716</ifrs-full:OtherOperatingIncomeExpense>
+  <ifrs-full:OperatingExpenseExcludingCostOfSales contextRef="c-1" unitRef="u-1" id="fact-92" decimals="0">2846</ifrs-full:OperatingExpenseExcludingCostOfSales>
+  <ifrs-full:OperatingExpenseExcludingCostOfSales contextRef="c-4" unitRef="u-1" id="fact-93" decimals="0">16195</ifrs-full:OperatingExpenseExcludingCostOfSales>
+  <ifrs-full:ProfitLossFromOperatingActivities contextRef="c-1" unitRef="u-1" id="fact-94" decimals="0">6194</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:ProfitLossFromOperatingActivities contextRef="c-4" unitRef="u-1" id="fact-95" decimals="0">1685</ifrs-full:ProfitLossFromOperatingActivities>
+  <ifrs-full:InterestRevenueCalculatedUsingEffectiveInterestMethod contextRef="c-1" unitRef="u-1" id="fact-96" decimals="0">767</ifrs-full:InterestRevenueCalculatedUsingEffectiveInterestMethod>
+  <ifrs-full:InterestRevenueCalculatedUsingEffectiveInterestMethod contextRef="c-4" unitRef="u-1" id="fact-97" decimals="0">0</ifrs-full:InterestRevenueCalculatedUsingEffectiveInterestMethod>
+  <ifrs-full:InterestIncomeOnHeldtomaturityInvestments contextRef="c-1" unitRef="u-1" id="fact-98" decimals="0">974</ifrs-full:InterestIncomeOnHeldtomaturityInvestments>
+  <ifrs-full:InterestIncomeOnHeldtomaturityInvestments contextRef="c-4" unitRef="u-1" id="fact-99" decimals="0">1831</ifrs-full:InterestIncomeOnHeldtomaturityInvestments>
+  <ifrs-full:InterestExpenseOnDebtInstrumentsIssued contextRef="c-1" unitRef="u-1" id="fact-100" decimals="0">3652</ifrs-full:InterestExpenseOnDebtInstrumentsIssued>
+  <ifrs-full:InterestExpenseOnDebtInstrumentsIssued contextRef="c-4" unitRef="u-1" id="fact-101" decimals="0">3309</ifrs-full:InterestExpenseOnDebtInstrumentsIssued>
+  <ifrs-full:InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss contextRef="c-1" unitRef="u-1" id="fact-102" decimals="0">18443</ifrs-full:InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss>
+  <ifrs-full:InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss contextRef="c-4" unitRef="u-1" id="fact-103" decimals="0">0</ifrs-full:InterestIncomeOnFinancialAssetsDesignatedAtFairValueThroughProfitOrLoss>
+  <ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossLoansAndAdvances contextRef="c-1" unitRef="u-1" id="fact-104" decimals="0">6370</ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossLoansAndAdvances>
+  <ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossLoansAndAdvances contextRef="c-4" unitRef="u-1" id="fact-105" decimals="0">0</ifrs-full:ImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossLoansAndAdvances>
+  <ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod contextRef="c-1" unitRef="u-1" id="fact-106" decimals="0">0</ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod>
+  <ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod contextRef="c-4" unitRef="u-1" id="fact-107" decimals="0">4792</ifrs-full:ShareOfProfitLossOfAssociatesAndJointVenturesAccountedForUsingEquityMethod>
+  <ifrs-full:OtherFinanceIncome contextRef="c-1" unitRef="u-1" id="fact-108" decimals="0">224</ifrs-full:OtherFinanceIncome>
+  <ifrs-full:OtherFinanceIncome contextRef="c-4" unitRef="u-1" id="fact-109" decimals="0">1232</ifrs-full:OtherFinanceIncome>
+  <ifrs-full:OtherFinanceCost contextRef="c-1" unitRef="u-1" id="fact-110" decimals="0">10386</ifrs-full:OtherFinanceCost>
+  <ifrs-full:OtherFinanceCost contextRef="c-4" unitRef="u-1" id="fact-111" decimals="0">2082</ifrs-full:OtherFinanceCost>
+  <ifrs-full:ProfitLossBeforeTax contextRef="c-1" unitRef="u-1" id="fact-112" decimals="0">16580</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:ProfitLossBeforeTax contextRef="c-4" unitRef="u-1" id="fact-113" decimals="0">3767</ifrs-full:ProfitLossBeforeTax>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations contextRef="c-1" unitRef="u-1" id="fact-114" decimals="0">-239</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:IncomeTaxExpenseContinuingOperations contextRef="c-4" unitRef="u-1" id="fact-115" decimals="0">-1098</ifrs-full:IncomeTaxExpenseContinuingOperations>
+  <ifrs-full:ProfitLoss contextRef="c-1" unitRef="u-1" id="fact-116" decimals="0">16341</ifrs-full:ProfitLoss>
+  <ifrs-full:ProfitLoss contextRef="c-4" unitRef="u-1" id="fact-117" decimals="0">2669</ifrs-full:ProfitLoss>
+  <ifrs-full:ComprehensiveIncomeFromContinuingOperations contextRef="c-1" unitRef="u-1" id="fact-118" decimals="0">16341</ifrs-full:ComprehensiveIncomeFromContinuingOperations>
+  <ifrs-full:ComprehensiveIncomeFromContinuingOperations contextRef="c-4" unitRef="u-1" id="fact-119" decimals="0">2669</ifrs-full:ComprehensiveIncomeFromContinuingOperations>
+  <ifrs-full:OtherIndividuallyImmaterialComponentsOfOtherComprehensiveIncomeNetOfTax contextRef="c-1" unitRef="u-1" id="fact-120" decimals="0">0</ifrs-full:OtherIndividuallyImmaterialComponentsOfOtherComprehensiveIncomeNetOfTax>
+  <ifrs-full:OtherIndividuallyImmaterialComponentsOfOtherComprehensiveIncomeNetOfTax contextRef="c-4" unitRef="u-1" id="fact-121" decimals="0">143</ifrs-full:OtherIndividuallyImmaterialComponentsOfOtherComprehensiveIncomeNetOfTax>
+  <ifrs-full:ComprehensiveIncome contextRef="c-1" unitRef="u-1" id="fact-122" decimals="0">16341</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:ComprehensiveIncome contextRef="c-4" unitRef="u-1" id="fact-123" decimals="0">2526</ifrs-full:ComprehensiveIncome>
+  <ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent contextRef="c-1" unitRef="u-1" id="fact-124" decimals="0">16341</ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent>
+  <ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent contextRef="c-4" unitRef="u-1" id="fact-125" decimals="0">1968</ifrs-full:ComprehensiveIncomeAttributableToOwnersOfParent>
+  <ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests contextRef="c-1" unitRef="u-1" id="fact-126" decimals="0">0</ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests>
+  <ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests contextRef="c-4" unitRef="u-1" id="fact-127" decimals="0">558</ifrs-full:ComprehensiveIncomeAttributableToNoncontrollingInterests>
+</xbrli:xbrl>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Created by Sturnis 365, Powered by IRIS Carbon, Unique Code 6255264054148f0774fc7cb3, Generated At Tue, 12 Apr 2022 07:18:15 GMT-->
+<xsd:schema xmlns:ifrs-full="http://xbrl.ifrs.org/taxonomy/2020-03-16/ifrs-full" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:esef_cor="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:csob="http://www.csob.sk/xbrl/2021" elementFormDefault="qualified" attributeFormDefault="unqualified" targetNamespace="http://www.csob.sk/xbrl/2021">
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:type="simple" xlink:href="52990096Q5LMCH1WU462-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="52990096Q5LMCH1WU462-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="52990096Q5LMCH1WU462-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="52990096Q5LMCH1WU462-2021-12-31_lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:linkbaseRef xlink:type="simple" xlink:href="52990096Q5LMCH1WU462-2021-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" />
+      <link:roleType roleURI="http://www.csob.sk/xbrl/role/CompanyInformation" id="CompanyInformation">
+        <link:definition>0000 - Document - Company Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.csob.sk/xbrl/role/KONSOLIDOVANÝVÝKAZOFINANČNEJSITUÁCII" id="KONSOLIDOVANÝVÝKAZOFINANČNEJSITUÁCII">
+        <link:definition>0010 - Statement - KONSOLIDOVANÝ VÝKAZ O FINANČNEJ SITUÁCII</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.csob.sk/xbrl/role/KONSOLIDOVANÝVÝKAZZISKOVASTRÁTAINÉHOKOMPLEXNÉHOVÝSLEDKU" id="KONSOLIDOVANÝVÝKAZZISKOVASTRÁTAINÉHOKOMPLEXNÉHOVÝSLEDKU">
+        <link:definition>0020 - Statement - KONSOLIDOVANÝ VÝKAZ ZISKOV A STRÁT A INÉHO KOMPLEXNÉHO VÝSLEDKU</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.csob.sk/xbrl/role/KONSOLIDOVANÝVÝKAZZMIENVOVLASTNOMIMANÍ" id="KONSOLIDOVANÝVÝKAZZMIENVOVLASTNOMIMANÍ">
+        <link:definition>0030 - Statement - KONSOLIDOVANÝ VÝKAZ ZMIEN VO VLASTNOM IMANÍ</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.csob.sk/xbrl/role/KONSOLIDOVANÝVÝKAZPEŇAŽNÝCHTOKOV" id="KONSOLIDOVANÝVÝKAZPEŇAŽNÝCHTOKOV">
+        <link:definition>0040 - Statement - KONSOLIDOVANÝ VÝKAZ PEŇAŽNÝCH TOKOV</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.csob.sk/xbrl/role/Anchoring" id="Anchoring">
+        <link:definition>2000 - Anchoring - ANCHORING</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:import namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2003/XLink" schemaLocation="http://www.xbrl.org/2003/xl-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.w3.org/1999/xlink" schemaLocation="http://www.xbrl.org/2003/xlink-2003-12-31.xsd" />
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+  <xsd:element name="CashCashBalancesWithCentralBanksAndOtherDemandDepositsWithCreditInstitutions" id="csob_CashCashBalancesWithCentralBanksAndOtherDemandDepositsWithCreditInstitutions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element name="SimilarInterestIncome" id="csob_SimilarInterestIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="SimilarInterestExpense" id="csob_SimilarInterestExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="NetTradingResultAndExchangeDifferences" id="csob_NetTradingResultAndExchangeDifferences" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="NetRealisedResultFromFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" id="csob_NetRealisedResultFromFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="ImpairmentLossesAndProvisionsForOffBalanceSheetRisks" id="csob_ImpairmentLossesAndProvisionsForOffBalanceSheetRisks" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForImpairmentLossesAndProvisions" id="csob_AdjustmentsForImpairmentLossesAndProvisions" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForExpensesRelatedToShortTermLowValueLeaseAndVariableExpensesRelatedToLeases" id="csob_AdjustmentsForExpensesRelatedToShortTermLowValueLeaseAndVariableExpensesRelatedToLeases" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLoss" id="csob_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughProfitOrLoss" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" id="csob_AdjustmentsForDecreaseIncreaseInFinancialAssetsAtFairValueThroughOtherComprehensiveIncome" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForDecreaseIncreaseInPropertyAndEquipmentForOperatingLeaseAndOtherAssets" id="csob_AdjustmentsForDecreaseIncreaseInPropertyAndEquipmentForOperatingLeaseAndOtherAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesAtFairValueThroughProfitOrLoss" id="csob_AdjustmentsForIncreaseDecreaseInFinancialLiabilitiesAtFairValueThroughProfitOrLoss" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="PaymentsForInterestPortionOfLeaseLiabilityClassifiedAsOperatingActivities" id="csob_PaymentsForInterestPortionOfLeaseLiabilityClassifiedAsOperatingActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="PaymentsRelatedToShortTermLowValueLeaseAndVariablePaymentsRelatedToLeasesClassifiedAsOperatingActivities" id="csob_PaymentsRelatedToShortTermLowValueLeaseAndVariablePaymentsRelatedToLeasesClassifiedAsOperatingActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="ExpenseFromOperatingLease" id="csob_ExpenseFromOperatingLease" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="PropertyAndEquipmentAndInvestmentProperty" id="csob_PropertyAndEquipmentAndInvestmentProperty" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element name="AdjustmentsForUnrealisedLossesGainsFromFinancialInstruments" id="csob_AdjustmentsForUnrealisedLossesGainsFromFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="AdjustmentsForLossesGainsOnSaleOfAssetsHeldForSale" id="csob_AdjustmentsForLossesGainsOnSaleOfAssetsHeldForSale" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element name="IncreaseDecreaseThroughItemsAcquiredThroughMerger" id="csob_IncreaseDecreaseThroughItemsAcquiredThroughMerger" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element name="OtherRevaluationReserve" id="csob_OtherRevaluationReserve" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="true" abstract="false" xbrli:balance="credit" xbrli:periodType="instant" />
+</xsd:schema>

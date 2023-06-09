@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD Entity Resolution XML Catalog V1.0//EN" "http://www.oasis-open.org/committees/entity/release/1.0/catalog.dtd">
+<!--Created by Sturnis 365, Powered by IRIS Carbon, Unique Code 6255264054148f0774fc7cb3, Generated At Tue, 12 Apr 2022 07:18:15 GMT-->
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <rewriteURI rewritePrefix="../www.csob.sk/xbrl/2021/" uriStartString="http://www.csob.sk/xbrl/2021/" />
+</catalog>

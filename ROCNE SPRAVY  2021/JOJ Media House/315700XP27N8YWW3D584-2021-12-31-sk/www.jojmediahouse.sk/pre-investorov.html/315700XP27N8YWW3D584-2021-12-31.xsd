@@ -1,0 +1,82 @@
+<schema xmlns:JOJMe="http://www.jojmediahouse.sk/pre-investorov.html" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" targetNamespace="http://www.jojmediahouse.sk/pre-investorov.html" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd" namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" />
+  <import schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/instance" />
+  <import schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/linkbase" />
+  <import schemaLocation="http://www.xbrl.org/2006/xbrldi-2006.xsd" namespace="http://xbrl.org/2006/xbrldi" />
+  <import schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/non-numeric" />
+  <import schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/numeric" />
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="315700XP27N8YWW3D584-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="315700XP27N8YWW3D584-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="315700XP27N8YWW3D584-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="315700XP27N8YWW3D584-2021-12-31_lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="315700XP27N8YWW3D584-2021-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/GeneralInformation" id="GeneralInformation">
+        <link:definition>General Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/IncomeStatement" id="IncomeStatement">
+        <link:definition>Income Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/ComprehensiveIncome" id="ComprehensiveIncome">
+        <link:definition>Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/BalanceSheet" id="BalanceSheet">
+        <link:definition>Balance Sheet</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/ChangesinEquity" id="ChangesinEquity">
+        <link:definition>Changes in Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/CashFlow" id="CashFlow">
+        <link:definition>Cash Flow</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.jojmediahouse.sk/pre-investorov.html/role/Anchoring" id="Anchoring">
+        <link:definition>Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <element name="AdjustmentsForBargainPurchaseTransaction" id="JOJMe_AdjustmentsForBargainPurchaseTransaction" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForGainLossOnLeaseTermination" id="JOJMe_AdjustmentsForGainLossOnLeaseTermination" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForGainLossOnLoanModification" id="JOJMe_AdjustmentsForGainLossOnLoanModification" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForGainOnWrittenOffLiabilities" id="JOJMe_AdjustmentsForGainOnWrittenOffLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossAccruedInternalProgramRights" id="JOJMe_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossAccruedInternalProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossTradeAndOtherReceivablesAndInventories" id="JOJMe_AdjustmentsForImpairmentLossReversalOfImpairmentLossRecognisedInProfitOrLossTradeAndOtherReceivablesAndInventories" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForIncreaseDecreaseInProgramRightsAndInternalProgramRights" id="JOJMe_AdjustmentsForIncreaseDecreaseInProgramRightsAndInternalProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForIncreaseDecreaseInTradeAndOtherReceivablesAndOtherAssets" id="JOJMe_AdjustmentsForIncreaseDecreaseInTradeAndOtherReceivablesAndOtherAssets" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForIncreaseDecreaseInTradeLiabilitiesOtherFinancialLiabilitiesAndOtherLiabilities" id="JOJMe_AdjustmentsForIncreaseDecreaseInTradeLiabilitiesOtherFinancialLiabilitiesAndOtherLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForNetInterestIncomeOrExpense" id="JOJMe_AdjustmentsForNetInterestIncomeOrExpense" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="AdjustmentsForWriteOffOfAccruedInternalProgramRightsAndProgramRights" id="JOJMe_AdjustmentsForWriteOffOfAccruedInternalProgramRightsAndProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="CashFlowsFromUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" id="JOJMe_CashFlowsFromUsedInObtainingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="CashFlowsUsedInLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" id="JOJMe_CashFlowsUsedInLosingControlOfSubsidiariesOrOtherBusinessesClassifiedAsInvestingActivities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="CurrentAccruedInternalProgramRights" id="JOJMe_CurrentAccruedInternalProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <element name="CurrentProgramRights" id="JOJMe_CurrentProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <element name="GainsLossesOnFinancialInstruments" id="JOJMe_GainsLossesOnFinancialInstruments" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="ChangesInFairValueOfEquitySecuritiesAndEmployeeBenefitsRecalculationIas19" id="JOJMe_ChangesInFairValueOfEquitySecuritiesAndEmployeeBenefitsRecalculationIas19" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="NoncontrollingInterestInAcquireeRecognisedAtAcquisitionDate" id="JOJMe_NoncontrollingInterestInAcquireeRecognisedAtAcquisitionDate" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="NonCurrentAccruedInternalProgramRights" id="JOJMe_NonCurrentAccruedInternalProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <element name="NonCurrentProgramRights" id="JOJMe_NonCurrentProgramRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <element name="PaymentsForOwnBondsNotesAndDebentures" id="JOJMe_PaymentsForOwnBondsNotesAndDebentures" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="PostingPrintingAndRemovalOfAdvertising" id="JOJMe_PostingPrintingAndRemovalOfAdvertising" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="ProceedsFromIncreaseOfOtherCapitalReserve" id="JOJMe_ProceedsFromIncreaseOfOtherCapitalReserve" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="ProductionAndImpairmentCostsOfTvAndRadioBroadcasting" id="JOJMe_ProductionAndImpairmentCostsOfTvAndRadioBroadcasting" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="ProfitLossBeforeInterestsAndIncomeTax" id="JOJMe_ProfitLossBeforeInterestsAndIncomeTax" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+  <element name="RevaluationReservesMember" id="JOJMe_RevaluationReservesMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+  <element name="TelevisualFormat" id="JOJMe_TelevisualFormat" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="instant" />
+  <element name="UseAndWriteOffOfProgrammeRights" id="JOJMe_UseAndWriteOffOfProgrammeRights" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="debit" xbrli:periodType="duration" />
+</schema>

@@ -1,0 +1,1267 @@
+<xsd:schema
+  targetNamespace='https://www.unicreditbank.cz/esef/2021-12-31'
+  xmlns:link='http://www.xbrl.org/2003/linkbase'
+  xmlns:xlink='http://www.w3.org/1999/xlink'
+  xmlns:xs='http://www.w3.org/2001/XMLSchema'
+  xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+  xmlns:xbrli="http://www.xbrl.org/2003/instance"
+  xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+  xmlns:num="http://www.xbrl.org/dtr/type/numeric"
+  xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+>
+
+<xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+<xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+<xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+<xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+
+  <xsd:import
+    namespace='http://www.esma.europa.eu/xbrl/esef/arcrole/wider-narrower'
+    schemaLocation='http://www.xbrl.org/lrr/arcrole/esma-arcrole-2018-11-21.xsd'
+   />
+  <xsd:import
+    namespace='http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor'
+    schemaLocation='http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd'
+   />
+
+
+
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:href='http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-en.xml' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-gen-en.xml' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/labels/lab_full_ifrs-en_2020-03-16.xml' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='http://xbrl.ifrs.org/taxonomy/2020-03-16/full_ifrs/labels/doc_full_ifrs-en_2020-03-16.xml' xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='KR6LSKV3BTSJRD41IF75-2021-12-31_lab-sk.xml' xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='KR6LSKV3BTSJRD41IF75-2021-12-31_lab-en.xml' xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='KR6LSKV3BTSJRD41IF75-2021-12-31_def.xml' xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='KR6LSKV3BTSJRD41IF75-2021-12-31_cal.xml' xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+      <link:linkbaseRef xlink:href='KR6LSKV3BTSJRD41IF75-2021-12-31_pre.xml' xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole='http://www.w3.org/1999/xlink/properties/linkbase' xlink:type='simple' />
+
+        <link:roleType id="id_1" roleURI="https://www.unicreditbank.cz/esef/2021-12-31/roles/Anchoring">
+            <link:definition>Role for anchoring relationships</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_2" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs-dim_role-901000">
+            <link:definition>[901000] Os – Spätná aplikácia a spätné prehodnotenie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_3" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs-dim_role-901100">
+            <link:definition>[901100] Os – Odchýlenie od požiadavky IFRS</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_4" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs-dim_role-901500">
+            <link:definition>[901500] Os – Dátum vytvorenia</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_5" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs-dim_role-903000">
+            <link:definition>[903000] Os – Pokračujúce a ukončené činnosti</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_6" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs-dim_role-904000">
+            <link:definition>[904000] Os – Majetok a záväzky klasifikované ako držané na predaj</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_7" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs-dim_role-913000">
+            <link:definition>[913000] Os – Konsolidovaná a individuálna účtovná závierka</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_8" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-310000">
+            <link:definition>[310000] Výkaz komplexného výsledku, výsledok hospodárenia, podľa funkcie nákladov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_9" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-320000">
+            <link:definition>[320000] Výkaz komplexného výsledku, výsledok hospodárenia, podľa povahy nákladov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_10" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-610000">
+            <link:definition>[610000] Výkaz zmien vlastného imania</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_11" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-810000">
+            <link:definition>[810000] Poznámky – Informácie o spoločnosti a vyhlásenie o súlade so štandardmi IFRS</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_12" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-810000a">
+            <link:definition>[810000] Poznámky – Informácie o spoločnosti a vyhlásenie o súlade so štandardmi IFRS</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_13" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-810000b">
+            <link:definition>[810000] Poznámky – Informácie o spoločnosti a vyhlásenie o súlade so štandardmi IFRS</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_14" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-810000c">
+            <link:definition>[810000] Poznámky – Informácie o spoločnosti a vyhlásenie o súlade so štandardmi IFRS</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_15" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-861000">
+            <link:definition>[861000] Poznámky – Analýza ostatných súčasti komplexného výsledku po jednotlivých položkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_16" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-861200a">
+            <link:definition>[861200] Poznámky – Základné imanie, rezervy a iné podiely na vlastnom imaní</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_17" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-861200b">
+            <link:definition>[861200] Poznámky – Základné imanie, rezervy a iné podiely na vlastnom imaní</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_18" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_10_role-815000">
+            <link:definition>[815000] Poznámky – Udalosti po období vykazovania</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_19" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_12_role-835110">
+            <link:definition>[835110] Poznámky – Dane z príjmov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_20" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_16_role-822100">
+            <link:definition>[822100] Poznámky – Nehnuteľnosti, stroje a zariadenia</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_21" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_19_role-834480">
+            <link:definition>[834480] Poznámky – Zamestnanecké požitky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_22" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_19_role-834480a">
+            <link:definition>[834480] Poznámky – Zamestnanecké požitky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_23" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_19_role-834480b">
+            <link:definition>[834480] Poznámky – Zamestnanecké požitky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_24" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_19_role-834480c">
+            <link:definition>[834480] Poznámky – Zamestnanecké požitky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_25" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_19_role-834480d">
+            <link:definition>[834480] Poznámky – Zamestnanecké požitky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_26" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_24_role-818000">
+            <link:definition>[818000] Poznámky – Spriaznená osoba</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_27" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_24_role-818000a">
+            <link:definition>[818000] Poznámky – Spriaznená osoba</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_28" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_27_role-825480">
+            <link:definition>[825480] Poznámky – Individuálna účtovná závierka</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_29" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_27_role-825480a">
+            <link:definition>[825480] Poznámky – Individuálna účtovná závierka</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_30" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_27_role-825480c">
+            <link:definition>[825480] Poznámky – Individuálna účtovná závierka</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_31" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_36_role-832410a">
+            <link:definition>[832410] Poznámky – Zníženie hodnoty majetku</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_32" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_36_role-832410b">
+            <link:definition>[832410] Poznámky – Zníženie hodnoty majetku</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_33" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_36_role-832410c">
+            <link:definition>[832410] Poznámky – Zníženie hodnoty majetku</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_34" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_36_role-832410d">
+            <link:definition>[832410] Poznámky – Zníženie hodnoty majetku</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_35" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_37_role-827570a">
+            <link:definition>[827570] Poznámky – Iné rezervy, podmienené záväzky a podmienené aktíva</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_36" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_37_role-827570b">
+            <link:definition>[827570] Poznámky – Iné rezervy, podmienené záväzky a podmienené aktíva</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_37" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_38_role-823180">
+            <link:definition>[823180] Poznámky – Nehmotný majetok</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_38" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_38_role-823180a">
+            <link:definition>[823180] Poznámky – Nehmotný majetok</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_39" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_38_role-823180b">
+            <link:definition>[823180] Poznámky – Nehmotný majetok</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_40" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_38_role-823180c">
+            <link:definition>[823180] Poznámky – Nehmotný majetok</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_41" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_40_role-825100">
+            <link:definition>[825100] Poznámky – Investičný nehnuteľný majetok</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_42" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_41_role-824180">
+            <link:definition>[824180] Poznámky – Poľnohospodárstvo</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_43" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_41_role-824180a">
+            <link:definition>[824180] Poznámky – Poľnohospodárstvo</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_44" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_41_role-824180b">
+            <link:definition>[824180] Poznámky – Poľnohospodárstvo</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_45" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-851100">
+            <link:definition>[851100] Poznámky – Výkaz peňažných tokov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_46" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_8_role-811000">
+            <link:definition>[811000] Poznámky – Účtovná politika, zmeny v účtovných odhadoch a chyby</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_47" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_8_role-811000a">
+            <link:definition>[811000] Poznámky – Účtovná politika, zmeny v účtovných odhadoch a chyby</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_48" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_8_role-811000b">
+            <link:definition>[811000] Poznámky – Účtovná politika, zmeny v účtovných odhadoch a chyby</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_49" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_8_role-811000c">
+            <link:definition>[811000] Poznámky – Účtovná politika, zmeny v účtovných odhadoch a chyby</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_50" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_1_role-819100a">
+            <link:definition>[819100] Poznámky – Prvé uplatnenie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_51" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_1_role-819100b">
+            <link:definition>[819100] Poznámky – Prvé uplatnenie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_52" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_1_role-819100c">
+            <link:definition>[819100] Poznámky – Prvé uplatnenie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_53" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_54" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700a">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_55" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700b">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_56" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700c">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_57" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700d">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_58" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700e">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_59" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700f">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_60" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_12_role-825700g">
+            <link:definition>[825700] Poznámky – Podiely v iných účtovných jednotkách</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_61" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_62" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000a">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_63" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000b">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_64" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000c">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_65" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000d">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_66" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000e">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_67" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000f">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_68" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000g">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_69" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000h">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_70" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_13_role-823000i">
+            <link:definition>[823000] Poznámky – Oceňovanie reálnou hodnotou.</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_71" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_14_role-824500">
+            <link:definition>[824500] Poznámky – Účty časového rozlíšenia pri cenovej regulácii</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_72" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_14_role-824500a">
+            <link:definition>[824500] Poznámky – Účty časového rozlíšenia pri cenovej regulácii</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_73" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_15_role-831150">
+            <link:definition>[831150] Poznámky – Výnosy zo zmlúv so zákazníkmi</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_74" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_15_role-831150a">
+            <link:definition>[831150] Poznámky – Výnosy zo zmlúv so zákazníkmi</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_75" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_15_role-831150b">
+            <link:definition>[831150] Poznámky – Výnosy zo zmlúv so zákazníkmi</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_76" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_15_role-831150c">
+            <link:definition>[831150] Poznámky – Výnosy zo zmlúv so zákazníkmi</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_77" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_16_role-832610">
+            <link:definition>[832610] Poznámky – Lízingy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_78" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_16_role-832610a">
+            <link:definition>[832610] Poznámky – Lízingy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_79" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_16_role-832610b">
+            <link:definition>[832610] Poznámky – Lízingy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_80" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_81" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600a">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_82" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600b">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_83" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600c">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_84" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600d">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_85" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600e">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_86" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600f">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_87" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600g">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_88" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600h">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_89" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600i">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_90" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600j">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_91" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600k">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_92" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600l">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_93" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600m">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_94" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_17_role-836600n">
+            <link:definition>[836600] Poznámky – Poistné zmluvy (IFRS 17)</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_95" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_2_role-834120a">
+            <link:definition>[834120] Poznámky – Dohody o platbách na základe podielov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_96" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_2_role-834120b">
+            <link:definition>[834120] Poznámky – Dohody o platbách na základe podielov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_97" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_2_role-834120c">
+            <link:definition>[834120] Poznámky – Dohody o platbách na základe podielov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_98" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_3_role-817000">
+            <link:definition>[817000] Poznámky – Podnikové kombinácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_99" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_3_role-817000a">
+            <link:definition>[817000] Poznámky – Podnikové kombinácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_100" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_3_role-817000b">
+            <link:definition>[817000] Poznámky – Podnikové kombinácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_101" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_3_role-817000c">
+            <link:definition>[817000] Poznámky – Podnikové kombinácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_102" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_3_role-817000d">
+            <link:definition>[817000] Poznámky – Podnikové kombinácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_103" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_104" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500a">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_105" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500b">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_106" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500c">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_107" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500d">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_108" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500e">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_109" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500f">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_110" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500g">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_111" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500h">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_112" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500i">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_113" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500j">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_114" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500k">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_115" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500l">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_116" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500m">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_117" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_4_role-836500n">
+            <link:definition>[836500] Poznámky – Poistné zmluvy</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_118" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_5_role-825900">
+            <link:definition>[825900] Poznámky – Dlhodobý majetok držaný na predaj a ukončené činnosti</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_119" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390a">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_120" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390b">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_121" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390c">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_122" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390d">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_123" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390e">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_124" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390f">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_125" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390g">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_126" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390h">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_127" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390i">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_128" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390j">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_129" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390k">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_130" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390l">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_131" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390m">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_132" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390n">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_133" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390o">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_134" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390p">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_135" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390q">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_136" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390r">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_137" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390s">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_138" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390t">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_139" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390u">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_140" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390v">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_141" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390w">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_142" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390x">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_143" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390y">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_144" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390z">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_145" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390za">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_146" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390zb">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_147" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390zc">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_148" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390zd">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_149" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390ze">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_150" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390zf">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_151" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390zg">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_152" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_8_role-871100a">
+            <link:definition>[871100] Poznámky – Prevádzkové segmenty</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_153" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_8_role-871100b">
+            <link:definition>[871100] Poznámky – Prevádzkové segmenty</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_154" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_8_role-871100c">
+            <link:definition>[871100] Poznámky – Prevádzkové segmenty</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_155" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_8_role-871100d">
+            <link:definition>[871100] Poznámky – Prevádzkové segmenty</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_156" roleURI="https://www.unicreditbank.cz/xbrl/role/all/sic_29_role-832900">
+            <link:definition>[832900] Poznámky – Dojednania o koncesiách na poskytovanie služieb</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_157" roleURI="https://www.unicreditbank.cz/xbrl/role/all/esef_role-000000">
+            <link:definition>[000000] Značky, ktoré sa musia použiť, ak správa obsahuje zodpovedajúce informácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_158" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-110000">
+            <link:definition>[110000] Všeobecné informácie o účtovných závierkach</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_159" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-210000">
+            <link:definition>[210000] Výkaz o finančnej situácii, podľa krátkodobosti/dlhodobosti</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_160" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-220000">
+            <link:definition>[220000] Výkaz o finančnej situácii, poradie likvidity</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_161" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-410000">
+            <link:definition>[410000] Výkaz komplexného výsledku, zložky ostatných súčastí komplexného výsledku prezentované po odpočítaní dane</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_162" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-420000">
+            <link:definition>[420000] Výkaz komplexného výsledku, zložky ostatných súčastí komplexného výsledku prezentované pred zdanením</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_163" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-800100">
+            <link:definition>[800100] Čiastkové klasifikácie aktív, záväzkov a vlastného imania</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_164" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-800200">
+            <link:definition>[800200] Analýza výnosov a nákladov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_165" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-800400">
+            <link:definition>[800400] Výkaz zmien vlastného imania, dodatočné zverejnenia</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_166" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-800500">
+            <link:definition>[800500] Zoznam poznámok</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_167" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-800600">
+            <link:definition>[800600] Zoznam účtovných politík</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_168" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-861200">
+            <link:definition>[861200] Poznámky – Základné imanie, rezervy a iné podiely na vlastnom imaní</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_169" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-880000">
+            <link:definition>[880000] Poznámky – Dodatočné informácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_170" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_2_role-826380">
+            <link:definition>[826380] Poznámky – Zásoby</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_171" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_20_role-831400">
+            <link:definition>[831400] Poznámky – Štátne dotácie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_172" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_21_role-842000">
+            <link:definition>[842000] Poznámky – Vplyvy zmien kurzov cudzích mien</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_173" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_23_role-836200">
+            <link:definition>[836200] Poznámky – Náklady na prijaté úvery a pôžičky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_174" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_26_role-710000">
+            <link:definition>[710000] Výkaz zmien v čistom majetku k dispozícii pre požitky</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_175" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_29_role-816000">
+            <link:definition>[816000] Poznámky – Hyperinflačné vykazovanie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_176" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_33_role-838000">
+            <link:definition>[838000] Poznámky – Zisk na akciu</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_177" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_34_role-813000">
+            <link:definition>[813000] Poznámky – Finančné vykazovanie v priebehu účtovného roka</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_178" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_36_role-832410">
+            <link:definition>[832410] Poznámky – Zníženie hodnoty majetku</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_179" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_37_role-827570">
+            <link:definition>[827570] Poznámky – Iné rezervy, podmienené záväzky a podmienené aktíva</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_180" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-510000">
+            <link:definition>[510000] Výkaz o peňažných tokoch, priama metóda</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_181" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-520000">
+            <link:definition>[520000] Výkaz o peňažných tokoch, nepriama metóda</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_182" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_7_role-800300">
+            <link:definition>[800300] Výkaz o peňažných tokoch, dodatočné zverejnenia</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_183" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifric_2_role-868500">
+            <link:definition>[868500] Poznámky – Členské podiely v družstvách a podobné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_184" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifric_5_role-868200">
+            <link:definition>[868200] Poznámky – Práva na podiely z fondov určených na ukončenie prevádzky, recykláciu a na obnovu životného prostredia</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_185" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_1_role-819100">
+            <link:definition>[819100] Poznámky – Prvé uplatnenie</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_186" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_2_role-834120">
+            <link:definition>[834120] Poznámky – Dohody o platbách na základe podielov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_187" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_6_role-822200">
+            <link:definition>[822200] Poznámky – Prieskum a vyhodnocovanie nerastných zdrojov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_188" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_7_role-822390">
+            <link:definition>[822390] Poznámky – Finančné nástroje</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_189" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ifrs_8_role-871100">
+            <link:definition>[871100] Poznámky – Prevádzkové segmenty</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_190" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_1_role-800100a">
+            <link:definition>[800100] Čiastkové klasifikácie aktív, záväzkov a vlastného imania</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_191" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_12_role-835110a">
+            <link:definition>[835110] Poznámky – Dane z príjmov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+        <link:roleType id="id_192" roleURI="https://www.unicreditbank.cz/xbrl/role/all/ias_12_role-835110b">
+            <link:definition>[835110] Poznámky – Dane z príjmov</link:definition>
+            <link:usedOn>link:definitionLink</link:usedOn>
+            <link:usedOn>link:presentationLink</link:usedOn>
+            <link:usedOn>link:calculationLink</link:usedOn>
+        </link:roleType>
+
+    </xsd:appinfo>
+  </xsd:annotation>
+
+    <xsd:element abstract="false" id="ext_ČistýZiskStrataZPredajaAleboSpätnéhoOdkúpenia" name="ČistýZiskStrataZPredajaAleboSpätnéhoOdkúpenia" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_DaňovéPohľadávky" name="DaňovéPohľadávky" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_DaňovéZáväzky" name="DaňovéZáväzky" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_DlhovéCennéPapiereEmitovanéASplatené" name="DlhovéCennéPapiereEmitovanéASplatené" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_FondyZPrecenenia" name="FondyZPrecenenia" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_NerozdelenýZiskARezervnéFondy" name="NerozdelenýZiskARezervnéFondy" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" name="OstatnéHotovostnéPlatbyZPredajaKapitálovýchAleboDlhovýchNástrojovInýchSubjektovKlasifikovanýchAkoInvestičnéAktivity" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" name="StratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" name="StratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyOInéRezervy" name="ÚpravyOInéRezervy" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" name="ÚpravyORezervyNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" name="ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" name="ÚpravyOStratyZoZníženiaHodnotyZrušenieStratyZoZníženiaHodnotyFinančnýchAktívVUmorovanejHodnote" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" name="ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpenia" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" name="ÚpravyOZiskStratuZPredajaAleboSpätnéhoOdkúpeniaFinančnýchAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" name="ÚpravyOZvýšeníPoklesFinančnéAktívaPovinneOceňovanéVReálnejHodnote" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ÚpravyReklasifikácieRezervyZPreceneniaBezDane" name="ÚpravyReklasifikácieRezervyZPreceneniaBezDane" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ZiskStrataZMajetkovýchÚčastí" name="ZiskStrataZMajetkovýchÚčastí" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" name="ZiskStrataZMajetkuAZInvestíciíDoNehnuteľnostíOceňovanýchVReálnejHodnote" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" name="ZiskyStratyZFinančnýchAktívAZáväzkovVReálnejHodnoteCezVýkazZiskovAStrát" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" name="ZiskyStratyZFinančnychAktívVReálnejHodnoteCezOstatnýKomplexnýVýsledok" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZiskZaÚčtovnéObdobie" name="ZiskZaÚčtovnéObdobie" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="instant" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZmenyRezerv" name="ZmenyRezerv" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" name="ZmenyRezervNaÚverovéPrísľubyAPoskytnutéFinančnéZáruky" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" name="ZvyšeniePoklesProstredníctvomPrevoduMedziRezervouZCudzomenovéhoPrepočtuANerozdelenýmZiskom" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="credit"
+    />
+    <xsd:element abstract="false" id="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" name="ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVReálnejHodnoteCezVýkazZiskovAStrát" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" name="ZvýšenieZníženiaPracovnéhoKapitáluFinančnéAktívaVUmorovanejHodnote" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" name="ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVReálnejHodnoteCezVýkazZiskovAStrát" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="false" id="ext_ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" name="ZvýšenieZníženiaPracovnéhoKapitáluFinančnéZáväzkyVUmorovanejHodnote" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:periodType="duration" xbrli:balance="debit"
+    />
+    <xsd:element abstract="true" id="ext_KurzovéRozdielyZKonsolidácie" name="KurzovéRozdielyZKonsolidácie" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" 
+    />
+    <xsd:element abstract="true" id="ext_NerozdelenýZisk" name="NerozdelenýZisk" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" 
+    />
+    <xsd:element abstract="true" id="ext_RezervnýFondAOstatnéKapitálovéFondy" name="RezervnýFondAOstatnéKapitálovéFondy" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" 
+    />
+    <xsd:element abstract="true" id="ext_ÚčelovýRezervnýFond" name="ÚčelovýRezervnýFond" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" 
+    />
+    <xsd:element abstract="true" id="ext_ZiskZaObdobie" name="ZiskZaObdobie" nillable="false" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" 
+    />
+
+
+</xsd:schema>

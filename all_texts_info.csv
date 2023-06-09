@@ -1,0 +1,612 @@
+Column1;text;page;other_classes;ce1;ce2;ce3;ce4;words;chars;alpha
+0;regulovaná informácia;1;[];;-1;-1;-1;2;21;20
+1;ROÈNÁ SPRÁVA;1;[];44;-1;-1;-1;2;12;11
+2;emitenta;1;[];-1;;-1;-1;1;8;8
+3;v zmysle zákona o burze cennıch papierov;1;[];-1;;-1;-1;7;40;34
+4;Èas 1.- Identifikácia emitenta;1;[];-1;-1;-1;;4;31;25
+5;Informaèná povinnos za rok:;1;['ce5'];-1;-1;-1;-1;4;28;24
+6;IÈO:;1;['ce9'];-1;-1;-1;-1;1;4;3
+7;LEI:;1;['ce9'];-1;-1;-1;-1;1;4;3
+8;097900BGMX0000063288;1;[];46;-1;-1;-1;1;20;4
+9;Úètovné obdobie:;1;['ce5'];-1;-1;-1;-1;2;16;14
+10;od:;1;[];47;-1;-1;-1;1;3;2
+11;do:;1;[];47;-1;-1;-1;1;3;2
+12;Právna forma;1;['ce5'];-1;-1;-1;-1;2;12;11
+13;Akciová spoloènos;1;[];46;-1;-1;-1;2;18;17
+14;Obchodné meno / názov:;1;['ce9'];-1;-1;-1;-1;4;22;17
+15;OSIVO a.s.;1;[];46;-1;-1;-1;2;10;7
+16;Sídlo:;1;[];0;-1;-1;-1;1;6;5
+17;ulica, èíslo;1;[];1;-1;-1;-1;2;12;10
+18;Kalinèiakova 2391;1;[];50;-1;-1;-1;2;17;12
+19;PSÈ;1;[];1;-1;-1;-1;1;3;3
+20;Obec;1;[];2;-1;-1;-1;1;4;4
+21;Zvolen;1;[];51;-1;-1;-1;1;6;6
+22;Tel.:;1;['ce5'];-1;-1;-1;-1;1;5;3
+23;smerové èíslo;1;[];53;-1;-1;-1;2;13;12
+24;èíslo:;1;[];53;-1;-1;-1;1;6;5
+25;Fax:;1;['ce5'];-1;-1;-1;-1;1;4;3
+26;smerové èíslo;1;[];53;-1;-1;-1;2;13;12
+27;èíslo:;1;[];53;-1;-1;-1;1;6;5
+28;Webové sídlo:;1;['ce5'];-1;-1;-1;-1;2;13;11
+29;www.osivo.sk;1;['T5'];54;-1;-1;-1;1;12;10
+30;Dátum vzniku:;1;['ce5'];-1;-1;-1;-1;2;13;11
+31;Základné imanie (v EUR):;1;['ce5'];-1;-1;-1;-1;4;24;18
+32;Zakladate¾:;1;['ce5'];-1;-1;-1;-1;1;11;10
+33;Oznámenie spôsobu zverejnenia roènej finanènej správy  § 47 ods. 4 zákona o burze;1;['T1'];9;-1;-1;-1;13;81;63
+34;Denná tlaè;1;[];58;-1;-1;-1;2;10;9
+35;Adresa webového sídla emitenta, alebo názov dennej tlaèe, alebo názov všeobecne uznávaného informaèného systému, v ktorej bola roèná finanèná správa zverejnená;1;[];-1;56;-1;-1;21;159;136
+36;Denník PRAVDA                                            internetová stránka:  www.osivo.sk;1;[];-1;-1;36;-1;5;91;40
+37;Dátum zverejnenia;1;[];-1;58;-1;-1;2;17;16
+38;27.04.2022  denník Pravda                                         intenetová stránka: www.osivo.sk:  29.4.2022;1;[];-1;-1;38;-1;7;110;39
+39;Èas zverejnenia                    § 47 ods. 8 zákona o burze;1;['T3'];-1;60;-1;-1;9;61;29
+40;20,00 hod.;1;[];-1;-1;40;-1;2;10;3
+41;Predmet podnikania:;1;[];-1;3;-1;-1;2;19;17
+42;zmluvné zabezpeèenie vıroby a nákupu osív a sadív, technologická úprava osív a sadív a ich skladovanievırobno - odbytová èinnos, obchodná èinnos,nákladná autodopravazahranièno-obchodná èinnos všetkého druhu s vıminkou vecí, na ktoré sa vyaduje povolenie pod¾a platnıch právnych predpisovmlynárstvo-vıroba a predaj mlynskıch vırobkov,                                                                                                                                                       vıroba sladu, predaj agrechemickıch prípravkov - pesticídovprevádzkovanie verejnıch skladov v zmysle osvedèenia Ministerstva pôdohospodárstva SR reg. è. 0022laboratórna chemická analıza po¾nohospodárskych produktov                                                                                                                                 podnikate¾ské poradenstvo v rozsahu vo¾nıch ivnostívykonávanie po¾nıch prehliadok, odber vzoriek a laboratórne skúšanie mnoite¾ského materiálu pestovanıch rastlín;1;[];61;-1;-1;-1;80;995;621
+43;Èas 2. Úètovná závierka;1;[];-1;-1;-1;;4;24;19
+44;Úètovná závierka je zostavená pod¾a SAS(Slovenské štandardy), alebo pod¾a IAS/IFRS (medzinárodné štandardy);1;['T1', 'T2'];-1;7;-1;-1;12;107;90
+45;SAS;1;[];-1;-1;59;-1;1;3;3
+46;Úètovná závierka pod¾a SAS;1;[];-1;8;-1;-1;4;26;23
+47;Úètovná závierka-základné údaje;1;[];-1;63;-1;-1;3;31;28
+48;Príloha è. 1 (P1Úètovná závierka);1;[];-1;-1;42;-1;5;33;24
+49;Tieto formuláre sú pre emitentov cennıch papierov, ktorí zostavujú úètovnú závierku pod¾a slovenskıch úètovnıch štandardov.;1;[];-1;9;-1;-1;15;123;107
+50;Súvaha-aktíva;1;[];-1;64;-1;-1;1;13;12
+51;Príloha è. 2 (P2Súvaha-aktíva);1;[];-1;-1;43;-1;4;30;21
+52;Súvaha-pasíva;1;[];-1;65;-1;-1;1;13;12
+53;Príloha è. 3 (P3Súvaha-pasíva);1;[];-1;-1;44;-1;4;30;21
+54;Vıkaz ziskov  a strát;1;[];-1;65;-1;-1;4;21;17
+55;Príloha è. 4 (P4Vıkaz ziskov a strát);1;[];-1;-1;44;-1;7;37;26
+56;Pod¾a zákona o úètovníctve emitenti, ktorí emitovali cenné papiere a tie boli prijaté na obchodovanie na regulovanom trhu ktoréhoko¾vek èlenského štátu Európskej únie sú subjektom verejného záujmu.;1;[];-1;-1;1;-1;27;197;169
+57;Poznámky;1;[];-1;65;-1;-1;1;8;8
+58;Príloha è. 5 (P5Poznámky);1;[];-1;-1;44;-1;4;25;17
+59;CASH-FLOW-Priama metóda;1;[];-1;65;-1;-1;2;23;20
+60;Príloha è. 6 (P6CASH-FLOW-Priama metóda);1;[];-1;-1;44;-1;5;40;29
+61;CASH-FLOW-Nepriama metóda;1;[];-1;66;-1;-1;2;25;22
+62;Príloha è. 7 (P7CASH FLOW-Nepriama metóda);1;[];-1;-1;45;-1;6;42;31
+63;alebo;1;[];-1;-1;3;-1;1;5;5
+64;Úètovná závierka pod¾a IAS/IFRS;1;[];-1;-1;4;-1;4;31;27
+65;Úètovná závierka-základné údaje;1;[];71;-1;-1;-1;3;31;28
+66;Príloha è. 1 (P1Úètovná závierka);1;[];-1;-1;47;-1;5;33;24
+67;UPOZORNENIE;1;[];-1;-1;-1;-1;1;11;11
+68;Vıkaz o finanènej situácií pod¾a IAS/IFRS;1;[];-1;68;-1;-1;6;41;35
+69;Príloha è. 8 (P8Súvaha pod¾a IAS);1;[];-1;-1;44;-1;6;33;23
+70;Pod¾a § 17a ods. 3 zákona o úètovníctve úètovná jednotka okrem úètovnej jednotky pod¾a § 17a ods.1 zákona o úètovníctve, ktorá v úètovnom období emitovala cenné papiere a tieto boli prijaté na obchodovanie na regulovanom trhu, ktorá nespåòa podmienky pod¾a  § 17a ods. 2 zákona o úètovníctve, zostavuje individuálnu úètovnú závierku pod¾a medzinárodnıch úètovnıch štandardov ak sa tak rozhodne.;1;[];-1;-1;6;-1;59;394;316
+71;Vıkaz komplexného vısledku pod¾a IAS/IFRS;1;[];-1;70;-1;-1;5;41;36
+72;Príloha è. 9 (P9Vıkaz ZaS pod¾a IAS);1;[];-1;-1;48;-1;7;36;25
+73;V zmysle § 17a zákona o úètovníctve banky a poisovne zostavujú úètovnú závierku pod¾a IAS/IFRS.;1;[];-1;-1;8;-1;15;96;77
+74;Vıkaz zmien vo vlastnom imaní pod¾a IAS/IFRS;1;[];-1;70;-1;-1;7;44;37
+75;Príloha è. 10 (P10Vıkaz zmien vo VI pod¾a IAS);1;[];-1;-1;48;-1;9;46;31
+76;Vıkaz peòanıch tokov pod¾a IAS/IFRS;1;[];-1;70;-1;-1;5;36;31
+77;Príloha è. 11 (P11Vıkaz PT pod¾a IAS);1;[];-1;-1;48;-1;7;37;24
+78;Poznámky pod¾a IAS/IFRS;1;[];-1;71;-1;-1;3;23;20
+79;Príloha è. 13 (P13Poznámky pod¾a IAS);1;[];-1;-1;49;-1;6;37;25
+80;Úètovná závierka bola overená audítorom  ku dòu predloenia roènej finanènej správy(áno/nie);1;['T3'];-1;-1;-1;2;11;92;78
+81;Áno;1;[];-1;-1;50;-1;1;3;3
+82;V zmysle § 34 ods. 5 zákona o burze  úètovná závierka a konsolidovaná úètovná závierka musia by overené audítorom.;1;['ce7'];-1;-1;-1;-1;19;115;90
+83;V zmysle § 34 ods. 6 zákona o burze  správa audítora podpísaná osobou alebo osobami zodpovednımi za audit úètovnıch závierok pod¾a ods. 5 sa v úplnom znení zverejní spolu s roènou správou.;1;[];-1;-1;-1;3;32;188;148
+84;Vo Vıroènej správe emitenta audítor musí vyjadri svoj názor v zmysle § 20 ods. 3 písm. a), b) c), d), e) zákona o úètovníctve.;1;[];-1;-1;-1;5;24;127;89
+85;Obchodné meno audítorskej spoloènosti, sídlo / èíslo licencie alebo meno a priezvisko audítora, adresa/èíslo licencie:;1;[];-1;-1;-1;2;15;118;99
+86;EKOPRAKTIK, spol. s r.o., Kapitulská 14, 917 01 Trnava / Auditorská spoloènos - licencia SKAU è.51;1;[];-1;-1;-1;6;16;99;66
+87;Dátum auditu:;1;[];-1;-1;-1;2;2;13;11
+88;1. Zostavuje konsolidovanú úètovnú závierku  (áno/ v prípade, e nezostavuje uvies nie);1;['T3', 'T4'];-1;-1;-1;2;12;88;70
+89;Nie;1;[];-1;-1;69;-1;1;3;3
+90;Konsolidovaná úètovná závierka pod¾a IAS/IFRS;1;[];-1;-1;-1;9;5;45;40
+91;Vıkaz o finanènej situácií pod¾a IAS/IFRS;1;[];-1;73;-1;-1;6;41;35
+92;Príloha è. 14 (P14Súvaha pod¾a IAS);1;[];-1;-1;43;-1;6;35;23
+93;Vıkaz komplexného vısledku pod¾a IAS/IFRS;1;[];-1;70;-1;-1;5;41;36
+94;Príloha è. 15 (P15Vıkaz ZaS pod¾a IAS);1;[];-1;-1;48;-1;7;38;25
+95;Vıkaz zmien vo vlastnom imaní pod¾a IAS/IFRS;1;[];-1;70;-1;-1;7;44;37
+96;Príloha è. 16 (P16Vıkaz zmien vo VI pod¾a IAS);1;[];-1;-1;48;-1;9;46;31
+97;Vıkaz peòanıch tokov pod¾a IAS/IFRS;1;[];-1;70;-1;-1;5;36;31
+98;Príloha è. 17 (P17Vıkaz PT pod¾a IAS);1;[];-1;-1;48;-1;7;37;24
+99;Poznámky pod¾a IAS/IFRS;1;[];-1;71;-1;-1;3;23;20
+100;Príloha è. 18 (P18Poznámky pod¾a IAS);1;[];-1;-1;49;-1;6;37;25
+101;V zmysle § 34 ods. 3 zákona o burze  ak je emitent povinnı vypracova konsolidovanú úètovnú závierku pod¾a osobitného predpisu, roèná finanèná správa obsahuje aj roènú úètovnú závierku materskej spoloènosti zostavenú v súlade s právnymi predpismi èlenského štátu, v ktorom bola zaloená materská spoloènos.;1;['ce52'];-1;-1;-1;-1;44;307;255
+102;Èas 3. Vıroèná správa;1;['ce54'];-1;-1;-1;-1;4;22;17
+103;"Pod¾a § 34 ods. 2 písm. a) roèná finanèná správa obsahuje vıroènú správu vypracovanú v súlade s osobitnım predpisom, ktorım je § 20 zákona è. 431/2002 Z.z. o úètovníctve v znení neskorších predpisov (ïalej len ""zákon o úètovníctve"")";1;['ce55'];-1;-1;-1;-1;38;232;169
+104;§ 20 ods. 1 zákona o úètovníctve informácie o:;1;['ce58'];-1;-1;-1;-1;9;46;32
+105;"a) vıvoji úètovnej jednotky, o stave, v ktorom sa nachádza, a o vıznamnıch rizikách a neistotách, ktorım je úètovná jednotka vystavená; informácia sa poskytuje vo forme vyváenej a obsiahlej analızy stavu a prognózy vıvoja a obsahuje dôleité finanèné a nefinanèné ukazovatele vrátane informácie o vplyve èinnosti úètovnej jednotky na ivotné prostredie a na zamestnanos, s poukázaním na príslušné údaje uvedené v úètovnej závierke,";1;['ce59'];-1;-1;-1;-1;63;433;363
+106;Spoloènos obchoduje s vlastnımi vırobkami a tovarom.  Nakúpenı mnoite¾skı materiál od mnoite¾ov sa upravuje èistením, morením a vrecovaním, preto sa stáva našim vırobkom. Tovar je osivo, ktoré je nakúpené u dodávate¾a ako tovar, ktorı sa predáva v nezmenenom stave odberate¾om. V roku 2021, napriek pandemickej situácii, spoloènos dosiahla vyšší objem trieb ako v roku 2020. V provnaní s rokom 2020  sa podarilo spoloènosti  v roku 2021 nielen dosiahnu plánované trby, ale oproti plánu boli trby zvıšené. Za predaj tovaru sme zaznamenali nárast trieb oproti roku 2020,  ako aj pri porovnávaní trieb  za vlastné vırobky v roku 2021 je zaznamenané zvıšenie trieb  oproti roku 2020. Spoloènosti sa nepodarilo splni plánované trby z predaja sluieb na rok 2021. Pri porovnaní predaja osív  na plán - nepodarilo sa naplni plán, zároveò spoloènos dosiahla aj medziroènı nárast predaja osív. Slad zaznamenal medziroènı nárast predaja , aj napriek nesplneniu plánovaného predaja. Predaj komodít bol vyšší ako predpokladal plán a zárovaò sa podarilo nadviaza a prekona na priaznivé vısledky roku 2019. Spoloènos za uplynulı rok 2021  vykazuje úètovnı zisk, vıška zisku bola nišia ako plánovaná na rok 2021, dosiahli sa a prekroèili plánované trby a HV je niší v porovnaní s rokom 2020, aj keï nedošlo k predaju majetku ako v minulom roku. Všetky èinnosti spoloènosti sú vykonávané v zmysle všeobecne záväznıch predpisov v oblasti ivotného prostredia. Produkované odpady spoloènosti sú priebene, u v mieste ich vzniku na jednotlivıch  Èistiacich  staniciach triedené a zhromaïované na vyhradenıch miestach - plochách alebo do nádob a obalov a pod¾a potreby prenášané na urèené miesto za celú spoloènos skladovania odpadov v našej spoloènosti, urèeného na skladovanie vybranıch druhov odpadov do doby ich odvezenia na zneškodnenie alebo znehodnotenie, v zmysle Programu odpadového hospodárstva.                                                                                                                                                                                                                                                                                 -  Spoloènos v roku 2021 organizovala svoje èinnosti tak, aby optimalizovala zamestnanos pracovníkov spoloènosti.;1;['ce62'];-1;-1;-1;-1;296;2297;1633
+107;b) udalostiach osobitného vıznamu, ktoré nastali po skonèení úètovného obdobia, za ktoré sa vyhotovuje vıroèná správa;1;['ce65'];-1;-1;-1;-1;16;117;99
+108;Spoloènos zaznamenala po skonèení úètovného obdobia: Koncom roka 2021 sa zaèala zhoršova energetická situácia na trhu z energiou a pokraèovala nepriaznivá epidemiologická situácia na Slovensku. V prvıch mesiacoch roku 2021 sa vírus nerozšíroval a jeho negatívny vplyv vırazne neobmedzoval vırobu a predaj. Aj keï v èase zverejnenia tejto úètovnej závierky vedenie úètovnej jednotky je rozkodujúci vojnovı konflikt na Ukrajine, spoloènos zaznamenala èiastoènı pokles predaja, nako¾ko sa však situácia stále mení, preto nemono predvída budúce dopady na predaj vırobkov ako aj na zabezpeèenie vıroby, ale je moné predpoklada pretrvajúci silnı tlak na nárast cien energií, pohonıch látok a komodít. Manament bude pokraèova v monitorovaní dalšieho potenciálneho dopadu a podnikne všetky moné kroky na zmiernenie akıchko¾vek negatívnych úèinkov na spoloènos a jej zamestnancov. Odo dòa 24.2.2022, kedy vypukol vojnovı konflikt na Ukrajine, vedenie Spoloènosti analızuje moné následky na Spoloènos a priebene reaguje a upravuje vırobu osív a sladu, prehodnocuje stav zásob, plánované opravy a plánované investície na najblišie obdobie. Vedenie Spoloènosti nepredpokladá vıznamné ohrozenie predpokladu nepretritého pokraèovania v èinnosti v blízkej budúcnosti (t. j. poèas nasledujúcich 12 mesiacov od dátumu zostavenia UZ).“;1;['ce62'];-1;-1;-1;-1;180;1333;1114
+109;c) predpokladanom budúcom vıvoji èinnosti úètovnej jednotky;1;['ce59'];-1;-1;-1;-1;7;59;52
+110;Spoloènos predpokladá v nasledujúcich rokoch dosiahnutie kladnıch hospodárskych vısledkov. Hlavnou èinnosou spoloènosti je vıroba a predaj osív, sadív a sladu. Spoloènos sa zameriava na širokı sortiment osív a sadív, ktorého inováciou v spolupráci so š¾achtite¾mi zabezpeèuje stabilnı podiel na trhu SR a èiastoène sa presadzuje v exporte. Rozvojovı program je orientovanı na špecializáciu pri vırobe osív, zvyšovanie a optimalizácia vıroby sladu. Spoloènos predpokladá zvıšenie odbytu osív a sladu do krajín EU.;1;['ce62'];-1;-1;-1;-1;71;516;438
+111;d) nákladoch na èinnos v oblasti vıskumu a vıvoja;1;['ce59'];-1;-1;-1;-1;9;50;41
+112;Spoloènos nesleduje náklady na oblas vedy a vıskumu, nako¾ko nemáme uvedenú èinnos.;1;['ce62'];-1;-1;-1;-1;12;86;73
+113;e) nadobúdaní vlastnıch akcií, 27a) doèasnıch listov, obchodnıch podielov a akcií, doèasnıch listov a obchodnıch podielov materskej úètovnej jednotky pod¾a § 22 zákona o úètovníctve (kde 27a) pod èiarou je § 161d ods. 2 Obchodného zákonníka);1;['T1', 'ce67'];-1;-1;-1;-1;36;241;185
+114;Spoloènos v poèiatoènom stave úètu 252 vykazuje nakúpné akcie od akcionárov  v poète 2 291  ks vlastnıch akcií.  Stav úètu 252  k 31.12.2021 je 2 291 kls vlastnıch akcií.  Základné imanie  na úèet 411 je bez zmeny. Obchodné podiely úètované na úèty 061 - 063  sa v porovnaní so súvahou k 31.12.2020  nezmenili.;1;['ce62'];-1;-1;-1;-1;53;311;203
+115;f) návrhu na rozdelenie zisku alebo vyrovnanie straty;1;['ce67'];-1;-1;-1;-1;8;53;45
+116;Návrh na rozdelenie hospodárskeho vısledku za rok 2021 :                                                                                                                                                                                                                                                                                                                                                Úètovnı zisk vo vıške                                                     164 099-- €                                                                                                                                                                                                                                                                                                                                                                                                               - do  zákonného rezervného fondu  =                               16 410,- €                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             - do nerozdeleného zisku minulıch rokov  =                   147 689,- €;1;['ce62'];-1;-1;-1;-1;35;1757;120
+117;g) údajoch poadovanıch pod¾a osobitnıch predpisov;1;['ce69'];-1;-1;-1;-1;6;50;44
+118;Spoloènos nemá iadne ïalšie údaje, ktoré by boli od nás poadované pod¾a osobitnıch predpisov.;1;['ce62'];-1;-1;-1;-1;14;96;81
+119;h) tom, èi úètovná jednotka má organizaènú zloku v zahranièí;1;['ce67'];-1;-1;-1;-1;10;61;50
+120;Spoloènos nemá organizaènú zloku v zahranièí.;1;['ce62'];-1;-1;-1;-1;6;47;41
+121;Pod¾a § 20 ods. 2 zákona o úètovníctve Vıroèná správa  obsahuje roènú správu o platbách orgánom verejnej moci pod¾a § 20a a 20b zákona o úètovníctve.;1;['ce72'];-1;-1;-1;-1;26;149;112
+122;Zostavuje roènú správu o platbách orgánom verejnej moci                                (áno/ v prípade, e nezostavuje uvies nie);1;['ce73'];-1;-1;-1;-1;15;130;81
+123;Nie;1;[];-1;-1;76;-1;1;3;3
+124;§ 20 ods. 5 zákona o úètovníctve;1;['ce58'];-1;-1;-1;-1;7;32;21
+125;Ak je to pre posúdenie aktív, pasív a finanènej situácie úètovnej jednotky, ktorá pouíva nástroje pod¾a osobitného predpisu ( zákon è.  566/2001 Z.z. o cennıch papieroch a investiènıch slubách a o zmene a doplnení niektorıch zákonov ) vıznamné, úètovná jednotka je povinná uvies vo vıroènej správe tie informácie o:;1;['ce59'];-1;-1;-1;-1;49;319;253
+126;a) cie¾och a metódach riadenia rizík v úètovnej jednotke vrátane jej politiky pre zabezpeèenie hlavnıch typov plánovanıch obchodov, pri ktorıch sa pouijú zabezpeèovacie deriváty;1;['ce76'];-1;-1;-1;-1;24;178;153
+127;Spoloènos nemá predpoklad poui zabezpeèovacie deriváty.;1;['ce62'];-1;-1;-1;-1;6;58;52
+128;b) cenovıch rizikách, úverovıch rizikách, rizikách likvidity a rizikách súvisiacich s tokom hotovosti, ktorım je úètovná jednotka vystavená;1;['ce77'];-1;-1;-1;-1;18;139;118
+129;Cenové riziká vyplıvajú predovšetkım z nárastu cien energií,vstupnıch surovín ako aj ostatnıch nákladov na vırobu osív a sladu, ich premietnutia do predajnıch cien osív a sladu pri riešení potrieb odberate¾ov a akceptácia tıchto zvıšenıch cien. Úverové riziká, riziká spojené s likviditou a tokom hotovosti sú v spoloènosti riešené, Covid úverom na preklenutie  epidemiologickej situácie a v mesiaci jún 2022 dochádza k obnove úverovıch vzahov v úverujúcich bankách. Predpokladáme pokraèova v úverovej angaovanosti za podobnıch podmienok ako v minulom roku s pokraèujúcim postupnım zniovaním celkovej úverovej angaovanosti aj v roku 2022/2023, èím bude riešená likvidita na obdobie do júna 2023.;1;['ce62'];-1;-1;-1;-1;99;700;576
+130;§ 20 ods. 6 zákona o úètovníctve;1;['ce58'];-1;-1;-1;-1;7;32;21
+131;"Dávame Vám do pozornosti ""Vyhlásenie o dodriavaní zásad Kódexu správy a riadenia spoloènosti na Slovensku"", ktorého vzor sa nachádza na www.bsse.sk v èasti  ""Poradca emitenta""  v  ""Správe a riadení spoloènosti"".";1;['ce78'];-1;-1;-1;-1;30;212;170
+132;Úètovná jednotka, ktorá emitovala cenné papiere a tie boli prijaté na obchodovanie na regulovanom trhu, je povinná vo vıroènej správe uvies ako osobitnú èas vıroènej správy vyhlásenie o správe a riadení, ktoré obsahuje;1;['ce67'];-1;-1;-1;-1;33;220;185
+133;a) odkaz na kódex o riadení spoloènosti, ktorı sa na òu vzahuje alebo ktorı sa rozhodla dodriava pri riadení, a údaj o tom, kde je kódex o riadení spoloènosti verejne dostupnı;1;['ce76'];-1;-1;-1;-1;31;178;144
+134;Spoloènos má vypracovanı Kódex o riadení spoloènosti, ktorı sa dodriava pri riadení v rámci celej našej akciovej  spoloènosti. Vypracovanı kódex je zverejnenı na internetovej stránke: www.osivo.sk;1;['ce62'];-1;-1;-1;-1;26;198;167
+135;b) všetky vıznamné informácie o metódach riadenia a údaj o tom, kde sú informácie o metódach riadenia zverejnené;1;['ce76'];-1;-1;-1;-1;18;112;93
+136;"Na správe a riadení spoloènosti sa podie¾ajú všetky orgány spoloènosti. Orgánmi spoloènosti sú Valné zhromadenie, predstavenstvo spoloènosti a dozorná rada. Všetky orgány spoloènosti sa riadia platnımi právnymi predpismi a stanovami spoloènosti v ktorıch rozdelené ich rozhodovacie kompetencie, práva a povinnosti ako aj práva a povinnosti akcionárov.     Èlenovia predstavenstva a dozornej rady spoloènosti OSIVO a.s. na základe odporúèaní Úradu pre finanènı trh, Burzy cennıch papierov v Bratislave a OECD chcú zvyšova úroveò corporate governance ako súèas rozvíjania vzahov s investormi a preto èlenovia orgánov spoloènosti sa zaviazali dodriava Kódex správy a riadenia spoloènosti ( ""Kódex správy a riadenia spoloènos emitent uverejní prostredníctvom svojej internetovej stránky : www.osivo sk )";1;['ce62'];-1;-1;-1;-1;108;806;682
+137;c) informácie o odchılkach od kódexu o riadení spoloènosti (napríklad § 18 zákona è. 429/2002 Z.z. o burze cennıch papierov v znení neskorších predpisov) a dôvody tıchto odchılok alebo informáciu o neuplatòovaní iadneho kódexu riadenia spoloènosti a dôvody, pre ktoré sa tak rozhodla;1;['ce59'];-1;-1;-1;-1;43;284;224
+138;"Spoloènos vypracovala Vyhlásenie o dodriavaní zásad Kódexu správy  a riadenia spoloènosti na Slovensku, ktorı prijali èlenovia orgánov spoloènosti za úèelom zvyšovania úrovne corporate governance. ""Vyhlásenie o dodriavaní zásad CG"" je prístupné na internetovej stránke www.osivo.sk spolu s Kódexom";1;['ce62'];-1;-1;-1;-1;38;300;256
+139;d) opis systémov vnútornej kontroly a riadenia rizík vo vzahu k úètovnej závierke;1;['ce76'];-1;-1;-1;-1;13;82;69
+140;Systém vnútornej kontroly je vypracovanı vo vnútropodnikovej smernici  - Kontrolnı systém, v ktorom je vypracovanı úèinnı systém kontroly našej spoloènosti. Èlánkami vnútorného kontrolného systému  sú najmä : dozorná rada, predstavenstvo spoloènosti, riaditelia a vedúci zamestnanci spoloènosti  a vedúci èistiacich staníc osív.Audit  zabezpeèuje nezávislı audítor, ktorého schva¾uje riadne valné zhromadenie.Predstavenstvo na svojich zasadnutiach hodnotí aktuálny stav hospodárenia zameranı na kontrolu štruktúry nákladov a vınosov, poh¾adávok a záväzkov a cash flow. Následne sú prijímané uznesenia, z ktorıch pre èlenov vyplıvajú úlohy s cie¾om zabezpeèi ich riešenia v súlade s internımi predpismi spoloènosti a taktie aj v súlade s právnymi predpismi. Tieto sú pravidelne vyhodnocované. Dozorná rada je informovaná o èinnosti predstavenstva spoloènosti. Èlenovia dozornej rady sa zameriavajú na komplexnú kontrolnú èinnos spoloènosti. Predkladajú správu o svojej èinnosti valnému zhromadeniu, v ktorej informujú o èinnosti predstavenstva, o vypracovanej úètovnej závierke, ktorá bola overená nezávislım audítorom. V správe dozorná rada doporuèuje Valnému zhromadeniu schváli Roènú úètovnú závierku ako aj Vıroènú správu.Vnútorná kontrola smeruje ku kontrole efektivity vıroby a predaja vlastnıch vırobkov a nakúpeného tovaru. Kontrola plnenia plánovanıch úloh, kontrola cenovej, finanènej a mzdovej oblasti, kontrola kvality a kontrola dodriavania predpisov BOZP a PO a ochrany ivotného prostredia.Pravidelne prebieha internı audit, ktorı zabezpeèuje kontrolu procesov prebiehajúcich v spoloènosti. Pri riadení rizík  spoloènos vychádza z princípu minimalizácie rizík pri dosiahnutí optimálnej vıkonnosti a vınosnosti spoloènosti.;1;['ce62'];-1;-1;-1;-1;219;1745;1493
+141;e) informácie o èinnosti valného zhromadenia, jeho právomociach, opis práv akcionárov a postupu ich vykonávania;1;['ce76'];-1;-1;-1;-1;15;112;95
+142;Valné zhromadenie je najvyšším orgánom spoloènosti. Do jeho vıluènej pôsobnosti patrí:       -a) rozhodnutie o zmene stanov spoloènosti,     - b) rozhodnutie o zvıšení alebo zníení základného imania a vydaní dlhopisov,                 -  c) rozhodnutie o zrušení spoloènosti a o zmene právnej formy, - d) vo¾ba a odvolanie èlenov predstavenstva a predsedu predstavenstva, - e)  vo¾ba a odvolanie èlenov dozornej rady, s vınimkou èlenov dozornej rady volenıch zamestnancami,   f) schválenie riadnej, mimoriadnej alebo konsolidovanej úètovnej závierky,   rozhodnutie o rozdelení zisku alebo úhrade strát a urèení tantiém,   - g) schválenie vıroènej správy,  - h) rozhodnutie o  odmenách èlenov dozornej rady a predstavenstva,  - i) rozhodnutie o premene akcií vydanıch ako listinné cenné papiere na zaknihované cenné papiere a naopak, -  j)  schválenie zmluvy o vıkone funkcie èlena predstavenstva a dozornej rady a.s.,  - k) rozhodnutie o ïalších otázkach ktoré tieto stanovy  a právne predpisy zverujú  do pôsobnosti valného zhromadenia, - Riadne valné zhromadenie sa konalo  28.06.2021  o 08,30 hod v zasadaèke budovy akciovej spoloènosti.  Valné zhromadenie prerokovalo  Vıroènú správu akciovej spoloènosti za rok 2020, Riadnu individuálnu  úètovnú závierku za rok 2020 a návrh rozhodnutia o pouití zisku za rok 2020 .  Valné zhromadenia schválilo riadnu  úètovnú závierku za rok 2020 schválilo návrh na rozdelenie zisku za rok 2020 a schválilo Vıroènú správu za rok 2020. Valné zhromadenia v roku 2022 sa bude kona v mesiaci Jún , na ktorom sa bude schva¾ova Riadna úètovná závierka za rok 2021 a Vıroèná správa za rok 2021.Akcionári : Akcionárom spoloènosti môe by právnická alebo fyzická osoba. Práva a povinnosti akcionárov ustanovujú právne predpisy a tieto stanovy, najmä :- Vlastníctvo akcií zakladá právo akcionárov zúèastòova sa na riadení spoloènosti. Toto právo uplatòujú najmä na valnom zhromadení, prièom musia rešpektova organizaèné opatrenia platné pre konanie valného zhromadenia. Na valnom zhromadení môe akcionár poadova vysvetlenia a podáva návrhy k prerokúvanému programu a hlasova.- Akcionár, fyzická alebo právnická osoba, môe vykonáva svoje práva na valnom zhromadení osobne, alebo prostredníctvom fyzickej osoby – splnomocnenca. Akcionára, právnickú osobu, zastupuje jej štatutárny orgán, ktorı sa musí preukáza vıpisom z obchodného registra nie starším ako 3 mesiace. Splnomocnenec musí by k úèasti na valnom zhromadení splnomocnenı písomnım plnomocenstvom s úradne overenım podpisom akcionára. - Akcionár nesmie vykonáva práva akcionára na ujmu oprávnenıch záujmov ostatnıch akcionárov. - Spoloènos musí zaobchádza za rovnakıch podmienok so všetkımi akcionármi rovnako. - Akcionár je oprávnenı zúèastni sa na valnom zhromadení, hlasova na òom, poadova na òom informácie a vysvetlenia tıkajúce sa záleitostí spoloènosti alebo záleitostí osôb ovládanıch spoloènosou, ktoré súvisia s predmetom rokovania valného zhromadenia a uplatòova na òom návrhy. - Poèet hlasov akcionára sa urèuje pomerom menovitej hodnoty jeho akcií k vıške základného imania. - Akcionár má právo na podiel zo zisku spoloènosti (dividendu), ktorı valné zhromadenie pod¾a vısledku hospodárenia urèilo svojím uznesením na rozdelenie, toto právo sa riadi stanovami spoloènosti. Akcionár nie je povinnı vráti spoloènosti dividendu prijatú dobromyse¾ne. - Akcionár po dobu trvania spoloènosti, ani v prípade jej zrušenia, nie je oprávnenı poadova vrátenie svojich majetkovıch vkladov, ale má nárok na podiel na likvidaènom zostatku v prípade likvidácie spoloènosti. - Akcionár má právo kedyko¾vek sa v sídle spoloènosti informova o èinnosti spoloènosti a finanènej situácii spoloènosti.;1;['ce62'];-1;-1;-1;-1;519;3725;3015
+143;f) informácie o zloení a èinnosti orgánov spoloènosti a jeho vıborov;1;['ce76'];-1;-1;-1;-1;11;69;58
+144;f )  Zloenie predstavenstva – Ing. Rudolf Zajac – predseda predstavenstva,Ing. Ján Slanèík – èlen predstavenstva,JUDr. Dušan Kracina – èlen predstavenstva, Ing. Branislav Cvik - èlen predstavenstva                                                                                Prokúra: Ing. Rudolf Zajac - Prokurista koná a podpisuje za spoloènos samostatneDozorná Rada - Ing. Mária Bartalská,  Ing. Peter Brenı,  Ing. Dáša Zajacová Dozorná rada je najvyšším kontrolnım orgánom spoloènosti. Dohliada na vıkon pôsobnosti  predstavenstva spoloènosti a uskutoèòovanie podnikate¾skej èinnosti. V prípade zistenia závanıch nedostatkov v hospodárení spoloènosti, dozorná rada zvolá mimoriadne valné zhromadenie. Èinnos predstavenstva – Predstavenstvo je štatutárnym a riadiacim orgánom  spoloènosti., oprávnené kona v mene spoloènosti vo všetkıch veciach , zastupujúci spoloènos voèi tretím osobám. Predstavenstvo v roku 2021 :riadilo obchodné vedenie spoloènosti , všetky prevádzkové a organizaèné záleitosti a zamestnávate¾ské práva,zabezpeèovalo vedenie predpísaného úètovníctva a evidencie, obchodnıch kníh a ostatnıch dokladov spoloènostischválilo návrh obchodného plánu a finanèného rozpoètu obchodného roka                                                                                                                                                                                                                                                                                                                                       schválilo plán investícií schválilo riadnu úètovnú závierku za rok 2020schválilo vıroènú správu  a návrh na rozdelenie ziskuschválilo termín a scenár riadneho Valného zhromadeniazvolalo riadne Valné zhromadeniePredstavenstvo sa stretlo  na riadnom zasadnutí 6 krát a  okrem uvedenıch základnıch èinností v priebehu kalendárneho roka riešilo ïalšie operatívne záleitosti, na ktorıch sa stretlo 2x v priebehu mesiaca t.j. 24 krát v uvedenom roku. Na svojich zasadnutiach sa venovalo:- pravidelnému prejednávaniu stavu poh¾adávok a záväzkov spoloènosti- prerokovalo dodávate¾ské i odberate¾ské  zmluvy na nákup a predaj osív a sadív, olejnín, okopanín, ïalej zmluvy na energie, poskytnutie stravy pre zamestnancov, poistné zmluvy, zmluvy na nájom nebytovıch priestorov,        -  prerokovávajú mesaène hospodárske vısledky spoloènosti za mesiac a kumulatív mesiac/rok a iné.- schva¾ovalo monos èerpania sociálneho fondu - prerokovalo stanovisko audítora- schva¾ovalo úvery spoloènosti- prerokovalo vısledky inventarizácie- Predsedu predstavenstva, èlenov predstavenstva  a dozornej rady volí Valné zhromadenie spoloènosti.;1;['ce62'];-1;-1;-1;-1;281;2668;1894
+145;g) informácie pod¾a § 20 ods. 7 zákona o úètovníctve;1;['ce83'];-1;-1;-1;-1;10;52;37
+146;Úètovná jednotka, ktorá emitovala cenné papiere a tie boli prijaté na obchodovanie na regulovanom trhu, je povinná vo vıroènej správe zverejni aj údaje o;1;['ce85'];-1;-1;-1;-1;24;154;129
+147;a) štruktúre základného imania vrátane údajov o cennıch papieroch, ktoré neboli prijaté na obchodovanie na regulovanom trhu v iadnom èlenskom štáte alebo štáte Európskeho hospodárskeho priestoru s uvedením druhov akcií, opisu práv a povinností s nimi spojenıch pre kadı druh akcií a ich percentuálny podiel na celkovom základnom imaní;1;['ce86'];-1;-1;-1;-1;49;336;285
+148;b) obmedzeniach prevodite¾nosti cennıch papierov;1;['ce88'];-1;-1;-1;-1;5;48;43
+149;Vydané cenné papiere, ktoré tvoria základné imanie vrátane údajov o cennıch papieroch, ktoré neboli prijaté na obchodovanie na regulovanom trhu v iadnom èlenskom štáte alebo štáte Európskeho hospodárskeho priestoru, okrem dlhopisov (uvies všetky v súèasnosti vydané cenné papiere. V  § 2 ods. 2 zákona o cennıch papieroch sú ustanovené všetky druhy cennıch papierov);1;['ce90'];-1;-1;-1;-1;53;368;305
+150;ISIN;1;[];-1;7;-1;-1;1;4;4
+151;Druh;1;[];-1;76;-1;-1;1;4;4
+152;Forma;1;[];-1;-1;9;-1;1;5;5
+153;Podoba;1;[];-1;-1;9;-1;1;6;6
+154;Poèet;1;[];-1;-1;9;-1;1;5;5
+155;Menovitá hodnota;1;[];-1;-1;72;-1;2;16;15
+156;Opis práv;1;[];-1;-1;-1;37;2;9;8
+157;SK1120007242;1;[];-1;8;-1;-1;1;12;2
+158;akcie;1;[];-1;77;-1;-1;1;5;5
+159;na doruèite¾a;1;[];-1;77;-1;-1;2;13;12
+160;zaknihovaná;1;[];-1;77;-1;-1;1;11;11
+161;% na ZI;1;[];-1;11;-1;-1;3;7;4
+162;Prijaté/neprijaté na obchodovanie;1;[];-1;79;-1;-1;3;33;30
+163;Obmedzená prevodite¾nos (popis);1;[];-1;-1;10;-1;3;32;28
+164;prevodite¾nos bez obmedzenia;1;[];-1;-1;11;-1;3;29;27
+165;Vydané dlhopisy (áno/ v prípade, e v súèasnosti nemá vydané dlhopisy resp. všetky dlhopisy sú splatené uvies nie);1;['T3', 'T4'];9;-1;-1;-1;18;115;93
+166;Nie;1;[];-1;-1;15;-1;1;3;3
+167;ISIN;1;[];-1;-1;-1;2;1;4;4
+168;Druh;1;[];-1;-1;-1;2;1;4;4
+169;Forma;1;[];-1;-1;-1;2;1;5;5
+170;Podoba;1;[];-1;-1;-1;2;1;6;6
+171;Poèet;1;[];-1;-1;-1;2;1;5;5
+172;Men. hodnota;1;[];-1;-1;-1;2;2;12;10
+173;Opis práv;1;[];-1;-1;-1;2;2;9;8
+174;Dátum zaèiatku vydávania;1;['ce98'];-1;-1;-1;-1;3;24;22
+175;Termín splatnosti menovitej hodnoty;1;['ce98'];-1;-1;-1;-1;4;35;32
+176;Spôsob urèenia vınosu;1;['ce98'];-1;-1;-1;-1;3;21;19
+177;Termíny vıplaty;1;['ce98'];-1;-1;-1;-1;2;15;14
+178;Monos predèasného splatenia;1;['ce99'];-1;-1;-1;-1;3;29;27
+179;Záruka za splatnos;1;[];0;-1;-1;-1;3;19;17
+180;Záruky prevzali:;1;[];-1;-1;-1;2;2;16;14
+181;IÈO;1;['ce98'];-1;-1;-1;-1;1;3;3
+182;Obchodné meno;1;[];1;-1;-1;-1;2;13;12
+183;Sídlo;1;[];2;-1;-1;-1;1;5;5
+184;Pri vymenite¾nıch dlhopisoch, postup pri ich vımene za akcie;1;[];4;-1;-1;-1;9;60;51
+185;c) kvalifikovanej úèasti na základnom imaní pod¾a osobitného predpisu, 28aa);1;[];7;-1;-1;-1;10;76;62
+186;(kde poznámka pod èiarou 28aa) je § 8 písm. f) zákona è. 566/2001 Z.z.);1;[];8;-1;-1;-1;14;71;38
+187;Spoloènos má úèas na základnom imaní  z nasledovnıch èlenov: OSIVO ZVOLEN a.s. -  18,37 %,Banskobystrickı pivovar, s.r.o. - 15,12 %, a  ostatní akcionári  -  66,51 %.  Podiel na celkovom Základnom imaní: na jednu akciu pripadá jeden hlas, èo predstavuje na základnom imaní 0,038%, Celkom je vydanıch 103 795 ks akcií, ktoré predstavujú 100% na základnom imaní, ISIN SK1120007242.                                                                                                                                                                                                                                                                   Kvalifikovaná úèast na základnom imaní spoloènosti OSIVO, a.s. pod¾a osobitného predpisu (§ 8 písm. f) zákona è. 566/2001 Z. z.). Spoloènos OSIVO a.s. má kvalifikovaná úèas na ZI z nasledujúcich èlenov:1. OSIVO ZVOLEN a.s  -  18,37 %2. ASPIN a.s.  -                  15,12%.                                                                                                                                                                                                                                                                      3. Ing. Zajacová Dáša   -  10,45 %4. ostatní akcionári     -  56,06 % -----------------------------------------------------------------Spolu úèas na ZI   - 100,00 %;1;['ce62'];-1;-1;-1;-1;118;1343;470
+188;d) majite¾och cennıch papierov s osobitnımi právami kontroly s uvedením opisu tıchto práv;1;[];10;-1;-1;-1;13;89;76
+189;Spoloènos nemá iadne osobitné práva;1;['ce62'];-1;-1;-1;-1;5;37;33
+190;e) obmedzeniach hlasovacích práv;1;[];10;-1;-1;-1;4;32;28
+191;Spoloènos nemá obmedzenia hlasovacích práv;1;['ce62'];-1;-1;-1;-1;5;43;39
+192;f) dohodách medzi majite¾mi cennıch papierov, ktoré sú jej známe a ktoré môu vies k obmedzeniam prevodite¾nosti cennıch papierov a obmedzeniam hlasovacích práv;1;[];10;-1;-1;-1;23;161;137
+193;Spoloènos nemá uzatvorenú iadnu dohodu medzi majite¾mi cennıch papierov;1;['ce62'];-1;-1;-1;-1;9;73;65
+194;g) pravidlách upravujúcich vymenovanie a odvolanie èlenov jej štatutárneho orgánu a zmenu stanov;1;[];10;-1;-1;-1;13;96;83
+195;Menovanie a odvolávanie èlenov spoloènosti a jej štatutárneho orgánu sa vykonáva na valnom zhromadení. Valné zhromadenie na vızvu predsedu valného zhromadenia  rozhoduje hlasovaním   - odovzdaním hlasovacieho lístka  o vo¾be èlenov predstavenstva a dozornej rady. Predseda valného zhromdenia môe poiada, aby sa navrhnutı kandidáti nezúèastnili hlasovania.                                                                                                                                                                                                                                                          Predstavenstvo spoloènosti má 4 èlenov  na dobu 5 rokov, ktorıch volí a odvoláva valné zhromadenie. Èlen predstavnstva môe odstúpi z funkcie len ak o to poiada valné zhromadenie a oznámi svoje odstúpenie predstavenstvu.                                                                                                                                                                                                                 Dozorná rada ma 3 èlenov, z ktorıch dve tretiny volí valné zhromadenie a jednu tretiinu zamestnanci spoloènosti, ak  má spoloènos viac ako 50 zamestnancov v hlavnom pracovnom pomere v èase vo¾by. Vo¾by èlenov dozornej rady volenıch zamestnancami  spoloènosti organizuje predstvanestvo  v spolupráci so zamestnancami. Funkèné obdobie èlenov dozornej rady je pä rokov, konèí však a vo¾bou novıch èlenov dozornej rady. Èlenovia  dozornej rady volení valnım zhormadením sa volia na návrh akcionárov, ktorı predloia predstavenstvu a predstavenstvo ich navrhne na vo¾bu valnému zhromadeniu. Vo¾ba sa vykoná hlasovaním za kadého navrhnutého èlena samostatne.                                               Rozhodnutie o zmene stanov, zvıšení alebo zníení základného imania a zrušení spoloènosti vyaduje dvojtretinovú väèšinu prítomnıch hlasov, v ostatnıch záleitostiach rozhoduje valné zhromadenie jednoduchou väèšinou prítomnıch hlasov. Na rozhodnutie valného zhromadenia o zmene práv spojenıch s niektorım druhom akcií sa vyaduje súhlas dvojtretinovej väèšiny hlasov akcionárov majúcich tieto akcie.;1;['ce62'];-1;-1;-1;-1;218;2152;1397
+196;h) právomociach jej štatutárneho orgánu, najmä ich právomoci rozhodnú o vydaní akcií alebo spätnom odkúpení akcií;1;[];10;-1;-1;-1;16;114;97
+197;Spoloènos nemá iadne právomoci pre štatutárny orgán, ktorı by mohol rozhodova o vydaní akcií alebo o ich spätnom odkúpení;1;['ce62'];-1;-1;-1;-1;19;124;105
+198;"i) všetkıch vıznamnıch dohodách, ktorıch je zmluvnou stranou a ktoré nadobúdajú úèinnos, menia sa alebo ktorıch platnos sa skonèí v dôsledku zmeny jej kontrolnıch pomerov, ku ktorej došlo v súvislosti s ponukou na prevzatie, a o jej úèinkoch s vınimkou prípadu, ak by ju ich zverejnenie váne poškodilo; táto vınimka sa neuplatní, ak je povinná zverejni tieto údaje v rámci plnenia povinností ustanovenıch osobitnımi predpismi";1;[];14;-1;-1;-1;65;429;357
+199;Spoloènos nemá iadne dohody;1;['ce62'];-1;-1;-1;-1;4;29;26
+200;j) všetkıch dohodách uzatvorenıch medzi òou a èlenmi jej orgánov alebo zamestnancami, na ktorıch základe sa im má poskytnú náhrada, ak sa ich funkcia alebo pracovnı pomer skonèí vzdaním sa funkcie, vıpoveïou zo strany zamestnanca, ich odvolaním, vıpoveïou zo strany zamestnávate¾a bez uvedenia dôvodu alebo sa ich funkcia alebo pracovnı pomer skonèí v dôsledku ponuky na prevzatie;1;[];16;-1;-1;-1;57;381;319
+201;Spoloènos nemá uzatvorené iadne dohody;1;['ce62'];-1;-1;-1;-1;5;40;36
+202;oblas spoloèenskej zodpovednosti  nefinanèné informácie pod¾a § 20 ods. 9 zákona o úètovníctve;1;[];19;-1;-1;-1;13;95;77
+203;ak priemernı poèet zamestnancov prekroèí 500, uvedie informácie o vıvoji, konaní, pozícii a o vplyve èinnosti úètovnej jednotky na enviromentálnu, sociálnu a zamestnaneckú oblas, informáciu o dodriavaní ¾udskıch práv a inforáciu o boji proti korupcii a úplatkárstvu, prièom uvedie najmä:;1;[];20;-1;-1;-1;40;289;240
+204;§ 20 ods. 9 a) struènı opis obchodného modelu;1;[];22;-1;-1;-1;9;45;31
+205;§ 20 ods. 9b) opis a vısledky pouívania politiky, ktorú úètovná jednotka uplatòuje v oblasti spoloèenskej zodpovednosti;1;[];19;-1;-1;-1;17;120;97
+206;§ 20 ods. 9c) opis hlavnıch rizík vplyvu úètovnej jednotky na oblas spoloèenskej zodpovednosti vyplıvajúceho z èinnosti úètovnej jednotky, ktorı by mohol ma nepriaznivé dôsledky, a ak je to primerané aj opis obchodnıch vzahov, produktov alebo sluieb, ktoré úètovná jednotka poskytuje, a opis spôsobuakım úètovná jednotka tieto riziká riadi;1;[];22;-1;-1;-1;49;343;284
+207;§ 20 ods. 9d) vıznamné nefinanèné informácie o èinnosti úètovnej jednotky pod¾a jednotlivıch èinností;1;[];22;-1;-1;-1;14;101;82
+208;§ 20 ods. 9e) odkaz na informácie o sumách vykázanıch v úètovnej závierke a vysvetlenie tıchto súm z h¾adiska vplyvov na oblas spoloèenskej zodpovednosti, ak je to vhodné;1;[];22;-1;-1;-1;28;171;137
+209;§ 20 ods. 12 zákona o úètovníctve dôvody nezverejnenia informácií pod¾a § 20 ods. 9 zákona o úètovníctve;1;[];28;-1;-1;-1;18;104;76
+210;§ 20 ods. 13 opis politiky rozmanitosti, ktorú uplatòuje vo svojich správnych orgánoch, riadiacich orgánoch, riadiacich orgánoch a dozornıch orgánoch najmä vo vzahu k veku, pohlaviu, vzdelaniu a profesijnım skúsenostiam èlenov tıchto orgánov, ciele takej politiky, spôsob, akım sa vykonáva, a dosiahnuté vısledky vo vykazovanom období, ak ku dòu ku ktorému sa zostavuje úètovná závierka, splnila aspoò dve z tıchto podmienok:;1;[];29;-1;-1;-1;61;426;348
+211;a) celková suma majetku presiahla 20 000 000 EUR (§26 ods. 3 zákona o úètovníctve);1;[];31;-1;-1;-1;15;82;52
+212;uvies sumu;1;[];-1;-1;20;-1;2;11;10
+213;b)èistı obrat presiahol 40 000 000 EUR;1;[];32;-1;-1;-1;7;38;23
+214;uvies sumu;1;[];-1;-1;21;-1;2;11;10
+215;c) priemernı poèet zamestnancov presiahol 250;1;[];33;-1;-1;-1;6;45;36
+216;uvies poèet;1;[];-1;-1;22;-1;2;12;11
+217;pod¾a § 20 ods. 14 zákona o úètovníctve dôvody neuvedenia opisu politiky rozmanitosti pod¾a § 20 ods. 13 zákona o úètovníctve;1;[];28;-1;-1;-1;21;125;93
+218;Spoloènos neuvádza pod¾a § 20 ods.14 zákona o úètovníctve opis politiky rozmanitosti pod¾a § 20 ods.13 zákona o úètovníctve z dôvodu, e nesplnila ani jednu poadovanú podmienku.;1;['ce62'];-1;-1;-1;-1;27;179;139
+219;§ 34 ods. 2 písm. c) zákona o burze;1;[];36;-1;-1;-1;9;35;20
+220;vyhlásenie zodpovednıch osôb emitenta so zrete¾nım oznaèením ich mena, priezviska a funkcie o tom, e pod¾a ich najlepších znalostí poskytuje úètovná závierka vypracovaná v súlade s osobitnımi predpismi pravdivı a vernı obraz aktív, pasív, finanènej situácie a hospodárskeho vısledku emitenta a spoloèností zaradenıch do celkovej konsolidácie a e vıroèná správa obsahuje pravdivı a vernı preh¾ad vıvoja a vısledkov obchodnej èinnosti a postavenia emitenta a spoloèností zahrnutıch do celkovej konsolidácie spolu s opisom hlavnıch rizík a neistôt, ktorım èelí;1;[];37;-1;-1;-1;78;559;477
+221;Spoloènos v zastúpení Ing. Rudolf Zajac - predseda predstavenstva , Ing. Ján Slanèík - èlen predstavenstva, JUDr. Dušan Kracina - èlen predstavenstva,  Ing. Branislav Cvik - èlen predstavenstva   - vısledky za rok 2021 preukazujú, e hlavnım cie¾om našej spoloènosti  bolo udranie podielu spoloènosti na trhu. V dosiahnutıch plánovanıch  vısledkoch sa prejavilo naplnenie plánovanıch trieb, spoloènos dosiahla v roku 2021  vyšší objem predaja osív a sladu ako v roku 2020. Dosiahnutie  vısledku hospodárenia oproti roku 2020  ovplyvnilo aj realizovanie úspornıch opatrení, zmena organizácie práce. Spoloènos reagovala na vzniknuté problémy v odbyte a vznikom pandemickej epidémie, sústredila sa na ïalšiu optimalizáciu vırobnıch kapacít spoloènosti, rozšírenie odrodovej  a druhovej skladby osív u pri vırobe osív, propagáciu a rozšírenie vırobného programu pre odbyt v zahranièí, èo dáva dobrı predpoklad na udraní objemu predaj v roku 2022.  Spoloènos udrala certifikát chránené zemepisné oznaèenie vırobku „LEVICKİ SLAD“ , èo predpokladáme , e zlepší informovanos o vırobnom programe sladu v štátoch EU a následne aj nárast objemu predaja sladu ïalších rokoch. Spoloènos plánuje v roku 2022 pokraèova v realizácii úspornıch opatrení , zefektívnení  fungovania a riadenia jednotlivıch útvarov spoloènosti, aj investiènou èinnosou s podporou EU fondou  a hlavne sa sústredi na naplnenie plánovaného objemu predaja osív a sladu, tım dosiahnu lepší hospodársky vısledok  ako v roku 2021. Súèasne sa bude sústreïova na prácu s poh¾adávkami, záväzkami a zásobami, aby postupne dochádzalo k zniovaniu úverovej angaovanosti a k zlepšeniu likvidity spoloènosti.                                                                                                                                                                                                                                                                                                                                  Vyhlásenie zodpovednıch osôb emitenta :  Prehlásenie na úèely vyjadrenia názoru, e úètovná závierka zobrazuje verne, vo všetkıch vıznamnıch súvislostiach finanènú situáciu našej spoloènosti za konèiaci rok k dátumu 31.12.2021 v súlade s úètovnımi postupmi a zásadami platnımi v Slovenskej republike. Údaje v úètovníctve sú úplné a zoh¾adòujú èasové rozlíšenie nákladov a vınosov, vıdavkov a príjmov, rezerv na krytie budúcich strát. Prehlasujeme zodpovednos za implementáciu a permanentné fungovanie systému úètovníctva a systému internej kontroly, ktoré sú navrhnuté na prevenciu a odha¾ovanie podvodu a chıb. Posúdili sme riziko v prípade, ak by úètovná závierka obsahovala vıznamné nesprávnosti z dôvodu podvodu a chyby. Poèas auditu za benı rok neboli zistené iadne neupravené rozdiely, ktoré by sa vzahovali na posledné vykazované obdobie. Potvrdzujeme úplnos poskytnutıch informácií o spriaznenıch osobách. Poh¾adávky a záväzky existovali len v rozsahu  uvedenom v roènej bilancií.  Spoloènos má dostatoèné vlastnícke právo na všetok majetok a na majetok spoloènosti sa nevzahuje iadne záloné právo ani iné archy. V prípade, e sa na majetok spoloènosti vzahuje záloné právo alebo archy, uvedené skutoènosti sú riadne zverejnené v úètovnej závierke.  Materská úètovná jednotka má  k 31.12.2021 len jednu dcérsku úètovnú jednotku  OSIVOAGRO Nové zámky, s. r .o., ktorá má vo svojich  vınosoch úètované trby len materskej spoloènosti, preto za konèiaci sa rok 2021 je oslobodená od povinnosti zostavi konsolidovanú úètovnú závierku a konsolidovanú vıroènú správu, pod¾a zákona o Úètovníctve è. 431/2002 Z. z. paragraf 22 ods.12:  Povinnos zostavi konsolidovanú úètovnú závierku a konsolildovanú vıroènú správu nemá materská  úètovná jednotka, ak zostavením len individuálnej úètovnej závierky materskej  úètovnej jednotky sa vıznamne neovplyvní úsudok o finanènej situácií, nákladoch, vınosoch a vısledku hospodárenia za konsolidovanı celok.                                                                                                                                                           Ing. Rudolf Zajac                                                                                                                                                             Prokurista;1;[];26;-1;-1;-1;506;4298;3004
+222;Základné údaje k úètovnej závierke;1;[];-1;-1;-1;66;5;34;30
+223;ÚÈTOVNÁ ZÁVIERKA;1;[];-1;-1;-1;68;2;16;15
+224;( INDIVIDUÁLNA );1;[];-1;-1;-1;66;3;16;12
+225;k;1;['ce501'];-1;-1;-1;-1;1;1;1
+226;(v  celıch eurách);1;['ce533'];-1;-1;-1;-1;3;18;13
+227;Úètovná závierka;1;[];-1;-1;-1;67;2;16;15
+228;x;1;['ce529'];-1;-1;-1;-1;1;1;1
+229;– riadna;1;[];-1;-1;-1;67;2;8;6
+230;– mimoriadna;1;[];-1;-1;-1;67;2;12;10
+231;– priebená;1;[];-1;-1;-1;67;2;11;9
+232;IÈO:;1;[];-1;-1;-1;75;1;4;3
+233;Obchodné meno  ( názov úètovnej jednotky);1;['T6'];-1;-1;-1;77;6;41;33
+234;OSIVO a.s.;1;[];-1;-1;-1;78;2;10;7
+235;Sídlo úètovnej jednotky,  ulica a èíslo;1;['T6'];-1;-1;-1;77;6;39;32
+236;Kalinèiakova 2391;1;[];-1;-1;-1;78;2;17;12
+237;PSÈ;1;[];-1;-1;-1;79;1;3;3
+238;Názov obce;1;['ce515'];-1;-1;-1;-1;2;10;9
+239;Zvolen;1;[];-1;-1;-1;78;1;6;6
+240;Smerové èíslo telefónu:;1;[];-1;-1;-1;80;3;23;20
+241;Èíslo telefónu:;1;[];-1;-1;-1;80;2;15;13
+242;Èíslo faxu:;1;[];-1;-1;-1;80;2;11;9
+243;Zostavená dòa:;1;[];-1;-1;-1;81;2;14;12
+244;Meno a funkcia štatutárneho orgánu úètovnej jednotky alebo èlena štatutárneho orgánu úètovnej jednotky alebo meno a funkciu fyzickej osoby, ktorá je úètovnou jednotkou:;1;['ce508'];-1;-1;-1;-1;23;168;144
+245;Ing. Rudolf Zajac                                                                                                                                                                                                                                Prokurista;1;['ce509'];-1;-1;-1;-1;4;251;24
+246;Schválená dòa:;1;[];-1;-1;-1;81;2;14;12
+247;Súvaha-aktíva -  v plnom rozsahu (v celıch eurách);1;['ce550'];-1;-1;-1;-1;8;50;38
+248;Za obdobie od do:;1;['ce551'];-1;-1;-1;-1;4;17;13
+249;Bezprostredne predchádzajúce obdobie od do:;1;['ce551'];-1;-1;-1;-1;5;43;38
+250;Názov úètovnej jednotky:;1;['ce551'];-1;-1;-1;-1;3;24;21
+251;OSIVO a.s.;1;['ce574'];-1;-1;-1;-1;2;10;7
+252;IÈO:;1;['ce552'];-1;-1;-1;-1;1;4;3
+253;Oznaè.;1;['ce554'];-1;-1;-1;-1;1;6;5
+254;STRANA AKTÍV;1;['ce565'];-1;-1;-1;-1;2;12;11
+255;Èíslo riadku;1;['ce565'];-1;-1;-1;-1;2;12;11
+256;Bené úètovné obdobie;1;['ce565'];-1;-1;-1;-1;3;21;19
+257;Bezprostredne predchádzajúce úètovné obdobie;1;['ce592'];-1;-1;-1;-1;4;44;41
+258;Brutto;1;['ce554'];-1;-1;-1;-1;1;6;6
+259;Netto;1;['ce554'];-1;-1;-1;-1;1;5;5
+260;Korekcia;1;['ce554'];-1;-1;-1;-1;1;8;8
+261;Netto;1;['ce554'];-1;-1;-1;-1;1;5;5
+262;Spolu majetok;1;['ce566'];-1;-1;-1;-1;2;13;12
+263;A.;1;['ce557'];-1;-1;-1;-1;1;2;1
+264;Neobenı majetok;1;['ce566'];-1;-1;-1;-1;2;16;15
+265;A.I.;1;['ce557'];-1;-1;-1;-1;1;4;2
+266;Dlhodobı nehmotnı majetok súèet;1;['ce566'];-1;-1;-1;-1;4;31;28
+267;A. I. 1.;1;['ce555'];-1;-1;-1;-1;3;8;2
+268;Aktivované náklady na vıvoj;1;['ce568'];-1;-1;-1;-1;4;27;24
+269;Softvér;1;['ce568'];-1;-1;-1;-1;1;7;7
+270;Ocenite¾né práva;1;['ce568'];-1;-1;-1;-1;2;16;15
+271;Goodwill;1;['ce568'];-1;-1;-1;-1;1;8;8
+272;Ostatnı dlhodobı nehmotnı majetok;1;['ce568'];-1;-1;-1;-1;4;33;30
+273;Obstarávanı dlhodobı nehmotnı majetok;1;['ce568'];-1;-1;-1;-1;4;37;34
+274;Poskytnuté preddavky na dlhodobı nehmotnı majetok;1;['ce568'];-1;-1;-1;-1;6;49;44
+275;A.II.;1;['ce557'];-1;-1;-1;-1;1;5;3
+276;Dlhodobı hmotnı majetok súèet;1;['ce566'];-1;-1;-1;-1;4;29;26
+277;A.II.1.;1;['ce555'];-1;-1;-1;-1;1;7;3
+278;Pozemky;1;['ce568'];-1;-1;-1;-1;1;7;7
+279;Stavby;1;['ce568'];-1;-1;-1;-1;1;6;6
+280;Samostatné hnute¾né veci a súbory hnute¾nıch vecí;1;['ce568'];-1;-1;-1;-1;7;49;43
+281;Pestovate¾ské celky trvalıch porastov;1;['ce568'];-1;-1;-1;-1;4;37;34
+282;Základné stádo a ané zvieratá;1;['ce568'];-1;-1;-1;-1;5;31;27
+283;Ostatnı dlhodobı hmotnı majetok;1;['ce568'];-1;-1;-1;-1;4;31;28
+284;Obstarávanı dlhodobı hmotnı majetok;1;['ce568'];-1;-1;-1;-1;4;35;32
+285;Poskytnuté preddavky na dlhodobı hmotnı majetok;1;['ce568'];-1;-1;-1;-1;6;47;42
+286;Opravná poloka k nadobudnutému majetku;1;['ce568'];-1;-1;-1;-1;5;39;35
+287;A.III.;1;['ce557'];-1;-1;-1;-1;1;6;4
+288;Dlhodobı finanènı majetok súèet;1;['ce566'];-1;-1;-1;-1;4;31;28
+289;A.III.1.;1;['ce555'];-1;-1;-1;-1;1;8;4
+290;Podielové cenné papiere a podiely v prepojenıch úètovnıch jednotkách;1;['ce568'];-1;-1;-1;-1;9;68;60
+291;Podielové cenné papiere a podiely s podielovou úèasou okrem v prepojenıch úètovnıch jednotkách;1;['ce570'];-1;-1;-1;-1;13;95;83
+292;Ostatné realizovate¾né cenné papiere a podiely;1;['ce568'];-1;-1;-1;-1;6;46;41
+293;Pôièky prepojenım úètovnım jednotkám;1;['ce568'];-1;-1;-1;-1;4;37;34
+294;Pôièky v rámci podielovej úèasti okrem prepojenım úètovnım jednotkám;1;['ce568'];-1;-1;-1;-1;9;69;61
+295;Ostatné pôièky;1;['ce568'];-1;-1;-1;-1;2;15;14
+296;Dlhové cenné papiere a ostatnı dlhodobı finanènı majetok;1;['ce568'];-1;-1;-1;-1;8;56;49
+297;Pôièky a ostatnı dlhodobı finanènı majetok so zostatkovou dobou splatnosti najviac jeden rok;1;['ce570'];-1;-1;-1;-1;13;93;81
+298;Úèty v bankách s dobou viazanosti dlhšou ako jeden rok;1;['ce570'];-1;-1;-1;-1;10;54;45
+299;Obstarávanı dlhodobı finanènı majetok;1;['ce570'];-1;-1;-1;-1;4;37;34
+300;Poskytnuté preddavky na dlhodobı finanènı majetok;1;['ce570'];-1;-1;-1;-1;6;49;44
+301;B.;1;['ce557'];-1;-1;-1;-1;1;2;1
+302;Obenı majetok;1;['ce566'];-1;-1;-1;-1;2;14;13
+303;B.I.;1;['ce557'];-1;-1;-1;-1;1;4;2
+304;Zásoby súèet;1;['ce566'];-1;-1;-1;-1;2;12;11
+305;B.I.1.;1;['ce555'];-1;-1;-1;-1;1;6;2
+306;Materiál;1;['ce568'];-1;-1;-1;-1;1;8;8
+307;Nedokonèená vıroba a polotovary vlastnej vıroby;1;['ce568'];-1;-1;-1;-1;6;47;42
+308;Vırobky;1;['ce568'];-1;-1;-1;-1;1;7;7
+309;Zvieratá;1;['ce568'];-1;-1;-1;-1;1;8;8
+310;Tovar;1;['ce568'];-1;-1;-1;-1;1;5;5
+311;Poskytnuté preddavky na zásoby;1;['ce568'];-1;-1;-1;-1;4;30;27
+312;B.II.;1;['ce557'];-1;-1;-1;-1;1;5;3
+313;Dlhodobé poh¾adávky súèet;1;['ce566'];-1;-1;-1;-1;3;25;23
+314;B.II.1.;1;['ce557'];-1;-1;-1;-1;1;7;3
+315;Poh¾adávky z obchodného styku  súèet;1;['ce566'];-1;-1;-1;-1;5;36;31
+316;1.a.;1;['ce559'];-1;-1;-1;-1;1;4;1
+317;Poh¾adávky z obchodného styku voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;8;64;57
+318;1.b.;1;['ce559'];-1;-1;-1;-1;1;4;1
+319;Poh¾adávky z obchodného styku v rámci podielovej úèasti okrem poh¾adávok voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;14;107;94
+320;1.c.;1;['ce559'];-1;-1;-1;-1;1;4;1
+321;Ostatné poh¾adávky z obchodného styku;1;['ce570'];-1;-1;-1;-1;5;37;33
+322;Èistá hodnota zákazky;1;['ce570'];-1;-1;-1;-1;3;21;19
+323;Ostatné poh¾adávky voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;6;53;48
+324;Ostatné poh¾adávky v rámci podielovej úèasti okrem poh¾adávok voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;12;96;85
+325;Poh¾adávky voèi spoloèníkom,èlenom a zdrueniu;1;['ce568'];-1;-1;-1;-1;5;46;41
+326;Poh¾adávky z derivátovıch operácií;1;['ce568'];-1;-1;-1;-1;4;34;31
+327;Iné poh¾adávky;1;['ce568'];-1;-1;-1;-1;2;14;13
+328;Odloená daòová poh¾adávka;1;['ce568'];-1;-1;-1;-1;3;26;24
+329;B.III.;1;['ce557'];-1;-1;-1;-1;1;6;4
+330;Krátkodobé poh¾adávky súèet;1;['ce566'];-1;-1;-1;-1;3;27;25
+331;B.III.1.;1;['ce557'];-1;-1;-1;-1;1;8;4
+332;Poh¾adávky z obchodného styku súèet;1;['ce566'];-1;-1;-1;-1;5;35;31
+333;1.a.;1;['ce559'];-1;-1;-1;-1;1;4;1
+334;Poh¾adávky z obchodného styku voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;8;64;57
+335;1.b.;1;['ce559'];-1;-1;-1;-1;1;4;1
+336;Poh¾adávky z obchodného styku v rámci podielovej úèasti okrem poh¾adávok voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;14;107;94
+337;1.c.;1;['ce559'];-1;-1;-1;-1;1;4;1
+338;Ostatné poh¾adávky z obchodného styku;1;['ce570'];-1;-1;-1;-1;5;37;33
+339;Èistá hodnota zákazky;1;['ce570'];-1;-1;-1;-1;3;21;19
+340;Ostatné poh¾adávky voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;6;53;48
+341;Ostatné poh¾adávky v rámci podielovej úèasti okrem poh¾adávok voèi prepojenım úètovnım jednotkám;1;['ce570'];-1;-1;-1;-1;12;96;85
+342;Poh¾adávky voèi spoloèníkom,èlenom a zdrueniu;1;['ce568'];-1;-1;-1;-1;5;46;41
+343;Sociálne poistenie;1;['ce568'];-1;-1;-1;-1;2;18;17
+344;Daòové poh¾adávky a dotácie;1;['ce568'];-1;-1;-1;-1;4;27;24
+345;Poh¾adávky z derivátovıch operácií;1;['ce570'];-1;-1;-1;-1;4;34;31
+346;Iné poh¾adávky;1;['ce568'];-1;-1;-1;-1;2;14;13
+347;B.IV.;1;['ce557'];-1;-1;-1;-1;1;5;3
+348;Krátkodobı finanènı majetok súèet;1;['ce566'];-1;-1;-1;-1;4;33;30
+349;B.IV.1.;1;['ce559'];-1;-1;-1;-1;1;7;3
+350;Krátkodobı finanènı majetok v prepojenıch úètovnıch jednotkách;1;['ce570'];-1;-1;-1;-1;7;62;56
+351;Krátkodobı finanènı majetok bez krátkodobého finanèného majetku v prepojenıch úètovnıch jednotkách;1;['ce570'];-1;-1;-1;-1;11;98;88
+352;Vlastné akcie a vlastné obchodné podiely;1;['ce570'];-1;-1;-1;-1;6;40;35
+353;Obstarávanı krátkodobı finanènı majetok;1;['ce570'];-1;-1;-1;-1;4;39;36
+354;B.V.;1;['ce557'];-1;-1;-1;-1;1;4;2
+355;Finanèné úèty;1;['ce566'];-1;-1;-1;-1;2;13;12
+356;B.V.1.;1;['ce555'];-1;-1;-1;-1;1;6;2
+357;Peniaze;1;['ce568'];-1;-1;-1;-1;1;7;7
+358;Úèty v bankách;1;['ce568'];-1;-1;-1;-1;3;14;12
+359;C.;1;['ce557'];-1;-1;-1;-1;1;2;1
+360;Èasové rozlíšenie súèet;1;['ce566'];-1;-1;-1;-1;3;23;21
+361;C.  1.;1;['ce555'];-1;-1;-1;-1;2;6;1
+362;Náklady budúcich období dlhodobé;1;['ce568'];-1;-1;-1;-1;4;32;29
+363;Náklady budúcich období krátkodobé;1;['ce568'];-1;-1;-1;-1;4;34;31
+364;Príjmy budúcich období dlhodobé;1;['ce568'];-1;-1;-1;-1;4;31;28
+365;Príjmy budúcich období krátkodobé;1;['ce568'];-1;-1;-1;-1;4;33;30
+366;Súvaha-pasíva -  v plnom rozsahu (v  celıch eurách);1;['ce550'];-1;-1;-1;-1;8;51;38
+367;Za obdobie od do:;1;['ce551'];-1;-1;-1;-1;4;17;13
+368;Bezprostredne predchádzajúce obdobie od do:;1;['ce551'];-1;-1;-1;-1;5;43;38
+369;Názov úètovnej jednotky:;1;['ce551'];-1;-1;-1;-1;3;24;21
+370;OSIVO a.s.;1;['ce574'];-1;-1;-1;-1;2;10;7
+371;IÈO:;1;['ce551'];-1;-1;-1;-1;1;4;3
+372;Oznaè.;1;['ce599'];-1;-1;-1;-1;1;6;5
+373;STRANA PASÍV;1;['ce599'];-1;-1;-1;-1;2;12;11
+374;Èíslo riadku;1;['ce608'];-1;-1;-1;-1;2;12;11
+375;Bené úètovné obdobie;1;['ce599'];-1;-1;-1;-1;3;21;19
+376;Bezprostredne predchádzajúce úètovné obdobie;1;['ce599'];-1;-1;-1;-1;4;44;41
+377;Spolu vlastné imanie a záväzky;1;['ce605'];-1;-1;-1;-1;5;30;26
+378;A.;1;['ce600'];-1;-1;-1;-1;1;2;1
+379;Vlastné imanie;1;['ce605'];-1;-1;-1;-1;2;14;13
+380;A.I.;1;['ce600'];-1;-1;-1;-1;1;4;2
+381;Základné imanie súèet;1;['ce605'];-1;-1;-1;-1;3;21;19
+382;A.I.   1.;1;['ce601'];-1;-1;-1;-1;2;9;2
+383;Základné imanie;1;['ce606'];-1;-1;-1;-1;2;15;14
+384;Zmena základného imania;1;['ce606'];-1;-1;-1;-1;3;23;21
+385;Poh¾adávky za upísané vlastné imanie;1;['ce606'];-1;-1;-1;-1;5;36;32
+386;A.II.;1;['ce600'];-1;-1;-1;-1;1;5;3
+387;Emisné áio;1;['ce605'];-1;-1;-1;-1;2;11;10
+388;A.III.;1;['ce600'];-1;-1;-1;-1;1;6;4
+389;Ostatné kapitálové fondy;1;['ce605'];-1;-1;-1;-1;3;24;22
+390;A.IV.;1;['ce600'];-1;-1;-1;-1;1;5;3
+391;Zákonné rezervné fondy;1;['ce605'];-1;-1;-1;-1;3;22;20
+392;A.IV.1.;1;['ce602'];-1;-1;-1;-1;1;7;3
+393;Zákonnı rezervnı fond a nedelite¾nı fond;1;['ce606'];-1;-1;-1;-1;6;40;35
+394;Rezervnı fond na vlastné akcie a vlastné podiely;1;['ce606'];-1;-1;-1;-1;8;48;41
+395;A.V.;1;['ce600'];-1;-1;-1;-1;1;4;2
+396;Ostatné fondy zo zisku;1;['ce605'];-1;-1;-1;-1;4;22;19
+397;A.V.1.;1;['ce602'];-1;-1;-1;-1;1;6;2
+398;Štatutárne fondy;1;['ce606'];-1;-1;-1;-1;2;16;15
+399;Ostatné fondy;1;['ce606'];-1;-1;-1;-1;2;13;12
+400;A.VI.;1;['ce600'];-1;-1;-1;-1;1;5;3
+401;Oceòovacie rozdiely z precenenia súèet;1;['ce605'];-1;-1;-1;-1;5;38;34
+402;A.VI.1.;1;['ce602'];-1;-1;-1;-1;1;7;3
+403;Oceòovacie rozdiely z precenenia majetku a záväzkov;1;['ce606'];-1;-1;-1;-1;7;51;45
+404;Oceòovacie rozdiely z kapitálovıch úèastín;1;['ce606'];-1;-1;-1;-1;5;42;38
+405;Oceòovacie rozdiely z precenenia pri zlúèení, splynutí a rozdelení;1;['ce606'];-1;-1;-1;-1;9;66;57
+406;A.VII.;1;['ce600'];-1;-1;-1;-1;1;6;4
+407;Vısledok hospodárenia minulıch rokov;1;['ce605'];-1;-1;-1;-1;4;36;33
+408;A.VII.1.;1;['ce601'];-1;-1;-1;-1;1;8;4
+409;Nerozdelenı zisk minulıch rokov;1;['ce606'];-1;-1;-1;-1;4;31;28
+410;Neuhradená strata minulıch rokov;1;['ce606'];-1;-1;-1;-1;4;32;29
+411;A.VIII.;1;['ce600'];-1;-1;-1;-1;1;7;5
+412;Vısledok hospodárenia za úètovné obdobie po zdanení;1;['ce605'];-1;-1;-1;-1;7;51;45
+413;B.;1;['ce600'];-1;-1;-1;-1;1;2;1
+414;Záväzky;1;['ce605'];-1;-1;-1;-1;1;7;7
+415;B.I.;1;['ce600'];-1;-1;-1;-1;1;4;2
+416;Dlhodobé záväzky súèet;1;['ce605'];-1;-1;-1;-1;3;22;20
+417;B.I.1.;1;['ce600'];-1;-1;-1;-1;1;6;2
+418;Dlhodobé záväzky z obchodného styku súèet;1;['ce605'];-1;-1;-1;-1;6;41;36
+419;1.a.;1;['ce602'];-1;-1;-1;-1;1;4;1
+420;Záväzky z obchodného styku voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;8;61;54
+421;1.b.;1;['ce602'];-1;-1;-1;-1;1;4;1
+422;Záväzky z obchodného styku v rámci podielovej úèasti okrem záväzkov voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;14;102;89
+423;1.c.;1;['ce602'];-1;-1;-1;-1;1;4;1
+424;Ostatné záväzky z obchodného styku;1;['ce606'];-1;-1;-1;-1;5;34;30
+425;Èistá hodnota zákazky;1;['ce606'];-1;-1;-1;-1;3;21;19
+426;Ostatné záväzky voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;6;50;45
+427;Ostatné záväzky v rámci podielovej úèasti okrem záväzkov voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;12;91;80
+428;Ostatné dlhodobé záväzky;1;['ce606'];-1;-1;-1;-1;3;24;22
+429;Dlhodobé prijaté preddavky;1;['ce606'];-1;-1;-1;-1;3;26;24
+430;Dlhodobé zmenky na úhradu;1;['ce606'];-1;-1;-1;-1;4;25;22
+431;Vydané dlhopisy;1;['ce606'];-1;-1;-1;-1;2;15;14
+432;Záväzky zo sociálneho fondu;1;['ce606'];-1;-1;-1;-1;4;27;24
+433;Iné dlhodobé záväzky;1;['ce606'];-1;-1;-1;-1;3;20;18
+434;Dlhodobé záväzky z derivátovıch operácií;1;['ce606'];-1;-1;-1;-1;5;40;36
+435;Odloenı daòovı záväzok;1;['ce606'];-1;-1;-1;-1;3;23;21
+436;B.II.;1;['ce600'];-1;-1;-1;-1;1;5;3
+437;Dlhodobé rezervy;1;['ce605'];-1;-1;-1;-1;2;16;15
+438;B.II.1.;1;['ce601'];-1;-1;-1;-1;1;7;3
+439;Zákonné rezervy;1;['ce606'];-1;-1;-1;-1;2;15;14
+440;Ostatné rezervy;1;['ce606'];-1;-1;-1;-1;2;15;14
+441;B.III.;1;['ce600'];-1;-1;-1;-1;1;6;4
+442;Dlhodobé bankové úvery;1;['ce605'];-1;-1;-1;-1;3;22;20
+443;B.IV.;1;['ce600'];-1;-1;-1;-1;1;5;3
+444;Krátkodobé záväzky súèet;1;['ce605'];-1;-1;-1;-1;3;24;22
+445;B.IV.1.;1;['ce600'];-1;-1;-1;-1;1;7;3
+446;Záväzky z obchodného styku súèet;1;['ce605'];-1;-1;-1;-1;5;32;28
+447;1.a.;1;['ce602'];-1;-1;-1;-1;1;4;1
+448;Záväzky z obchodného styku voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;8;61;54
+449;1.b.;1;['ce602'];-1;-1;-1;-1;1;4;1
+450;Záväzky z obchodného styku v rámci podielovej úèasti okrem záväzkov voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;14;102;89
+451;1.c.;1;['ce602'];-1;-1;-1;-1;1;4;1
+452;Ostatné záväzky z obchodného styku;1;['ce606'];-1;-1;-1;-1;5;34;30
+453;Èistá hodnota zákazky;1;['ce606'];-1;-1;-1;-1;3;21;19
+454;Ostatné záväzky voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;6;50;45
+455;Ostatné záväzky v rámci podielovej úèasti okrem záväzkov voèi prepojenım úètovnım jednotkám;1;['ce606'];-1;-1;-1;-1;12;91;80
+456;Záväzky voèi spoloèníkom a zdrueniu;1;['ce606'];-1;-1;-1;-1;5;36;32
+457;Záväzky voèi zamestnancom;1;['ce606'];-1;-1;-1;-1;3;25;23
+458;Záväzky zo sociálneho poistenia;1;['ce606'];-1;-1;-1;-1;4;31;28
+459;Daòové záväzky a dotácie;1;['ce606'];-1;-1;-1;-1;4;24;21
+460;Záväzky z derivátovıch operácií;1;['ce606'];-1;-1;-1;-1;4;31;28
+461;Iné záväzky;1;['ce606'];-1;-1;-1;-1;2;11;10
+462;B.V.;1;['ce600'];-1;-1;-1;-1;1;4;2
+463;Krátkodobé rezervy;1;['ce605'];-1;-1;-1;-1;2;18;17
+464;B.V.1.;1;['ce601'];-1;-1;-1;-1;1;6;2
+465;Zákonné rezervy;1;['ce606'];-1;-1;-1;-1;2;15;14
+466;Ostatné rezervy;1;['ce606'];-1;-1;-1;-1;2;15;14
+467;B.VI.;1;['ce600'];-1;-1;-1;-1;1;5;3
+468;Bené bankové úvery;1;['ce605'];-1;-1;-1;-1;3;19;17
+469;B.VII.;1;['ce600'];-1;-1;-1;-1;1;6;4
+470;Krátkodobé finanèné vıpomoci;1;['ce605'];-1;-1;-1;-1;3;28;26
+471;C.;1;['ce600'];-1;-1;-1;-1;1;2;1
+472;Èasové rozlíšenie súèet;1;['ce605'];-1;-1;-1;-1;3;23;21
+473;C. 1.;1;['ce601'];-1;-1;-1;-1;2;5;1
+474;Vıdavky budúcich období dlhodobé;1;['ce606'];-1;-1;-1;-1;4;32;29
+475;Vıdavky budúcich období krátkodobé;1;['ce606'];-1;-1;-1;-1;4;34;31
+476;Vınosy budúcich období dlhodobé;1;['ce606'];-1;-1;-1;-1;4;31;28
+477;Vınosy budúcich období krátkodobé;1;['ce606'];-1;-1;-1;-1;4;33;30
+478;Vıkaz ziskov a strát v plnom rozsahu (v  celıch eurách);1;['ce550'];-1;-1;-1;-1;10;55;43
+479;Za obdobie od do:;1;['ce551'];-1;-1;-1;-1;4;17;13
+480;Bezprostredne predchádzajúce obdobie od do:;1;['ce551'];-1;-1;-1;-1;5;43;38
+481;Názov úètovnej jednotky:;1;['ce551'];-1;-1;-1;-1;3;24;21
+482;OSIVO a.s.;1;['ce574'];-1;-1;-1;-1;2;10;7
+483;IÈO:;1;['ce551'];-1;-1;-1;-1;1;4;3
+484;Oznaè.;1;['ce554'];-1;-1;-1;-1;1;6;5
+485;Text;1;['ce554'];-1;-1;-1;-1;1;4;4
+486;Èíslo riadku;1;['ce554'];-1;-1;-1;-1;2;12;11
+487;Skutoènos;1;['ce631'];-1;-1;-1;-1;1;10;10
+488;bezprostredne nasledujúce úètovné obdobie (predpoklad);1;['ce631'];-1;-1;-1;-1;5;54;48
+489;bené úètovné obdobie;1;['ce632'];-1;-1;-1;-1;3;21;19
+490;bezprostredne predchádzajúce úètovné obdobie;1;['ce632'];-1;-1;-1;-1;4;44;41
+491;Èistı obrat;1;['ce626'];-1;-1;-1;-1;2;11;10
+492;Vınosy z hospodárskej èinnosti spolu  súèet;1;['ce626'];-1;-1;-1;-1;6;43;37
+493;I.;1;['ce610'];-1;-1;-1;-1;1;2;1
+494;Trby z predaja tovaru;1;['ce627'];-1;-1;-1;-1;4;22;19
+495;II.;1;['ce610'];-1;-1;-1;-1;1;3;2
+496;Trby z predaja vlastnıch vırobkov;1;['ce628'];-1;-1;-1;-1;5;34;30
+497;III.;1;['ce610'];-1;-1;-1;-1;1;4;3
+498;Trby z predaja sluieb;1;['ce628'];-1;-1;-1;-1;4;23;20
+499;IV.;1;['ce610'];-1;-1;-1;-1;1;3;2
+500;Zmeny stavu vnútroorganizaènıch zásob;1;['ce628'];-1;-1;-1;-1;4;37;34
+501;V.;1;['ce610'];-1;-1;-1;-1;1;2;1
+502;Aktivácia;1;['ce628'];-1;-1;-1;-1;1;9;9
+503;VI.;1;['ce610'];-1;-1;-1;-1;1;3;2
+504;Trby z predaja dlhodobého nehmotného majetku, dlhodobého hmotného majetku a materiálu;1;['ce628'];-1;-1;-1;-1;11;86;75
+505;VII.;1;['ce610'];-1;-1;-1;-1;1;4;3
+506;Ostatné vınosy z hospodárskej èinnosti;1;['ce628'];-1;-1;-1;-1;5;38;34
+507;Náklady na hospodársku èinnos spolu;1;['ce626'];-1;-1;-1;-1;5;36;32
+508;A.;1;['ce610'];-1;-1;-1;-1;1;2;1
+509;Náklady vynaloené na obstaranie predaného tovaru;1;['ce628'];-1;-1;-1;-1;6;49;44
+510;B.;1;['ce610'];-1;-1;-1;-1;1;2;1
+511;Spotreba materiálu, energie a ostatnıch neskladovate¾nıch dodávok;1;['ce628'];-1;-1;-1;-1;7;65;58
+512;C.;1;['ce610'];-1;-1;-1;-1;1;2;1
+513;Opravné poloky k zásobam;1;['ce628'];-1;-1;-1;-1;4;25;22
+514;D.;1;['ce610'];-1;-1;-1;-1;1;2;1
+515;Sluby;1;['ce628'];-1;-1;-1;-1;1;6;6
+516;E.;1;['ce610'];-1;-1;-1;-1;1;2;1
+517;Osobné náklady;1;['ce628'];-1;-1;-1;-1;2;14;13
+518;E.1.;1;['ce610'];-1;-1;-1;-1;1;4;1
+519;Mzdové náklady;1;['ce628'];-1;-1;-1;-1;2;14;13
+520;Odmeny èlenom orgánov spoloènosti a drustva;1;['ce628'];-1;-1;-1;-1;6;44;39
+521;Náklady na sociálne poistenie;1;['ce628'];-1;-1;-1;-1;4;29;26
+522;Sociálne náklady;1;['ce628'];-1;-1;-1;-1;2;16;15
+523;F.;1;['ce610'];-1;-1;-1;-1;1;2;1
+524;Dane a poplatky;1;['ce628'];-1;-1;-1;-1;3;15;13
+525;G.;1;['ce610'];-1;-1;-1;-1;1;2;1
+526;Odpisy a opravné poloky k dlhodobému nehmotného majetku a dlhodobému hmotného majetku;1;['ce628'];-1;-1;-1;-1;12;86;75
+527;G.1.;1;['ce610'];-1;-1;-1;-1;1;4;1
+528;Odpisy  k dlhodobému nehmotného majetku a dlhodobému hmotného majetku;1;['ce628'];-1;-1;-1;-1;9;69;60
+529;Opravné poloky k dlhodobému nehmotného majetku a dlhodobému hmotného majetku;1;['ce628'];-1;-1;-1;-1;10;77;68
+530;H.;1;['ce610'];-1;-1;-1;-1;1;2;1
+531;Zostatková cena predaného dlhodobého majetku a predaného materialu;1;['ce628'];-1;-1;-1;-1;8;66;59
+532;I.;1;['ce610'];-1;-1;-1;-1;1;2;1
+533;Opravné poloky k poh¾adávkam;1;['ce628'];-1;-1;-1;-1;4;29;26
+534;J.;1;['ce610'];-1;-1;-1;-1;1;2;1
+535;Ostatné náklady na hospodársku èinnos;1;['ce628'];-1;-1;-1;-1;5;38;34
+536;Vısledok hospodárenia z hospodárskej èinnosti;1;['ce622'];-1;-1;-1;-1;5;45;41
+537;Pridaná hodnota;1;['ce622'];-1;-1;-1;-1;2;15;14
+538;Vınosy z finanènej èinnosti spolu;1;['ce622'];-1;-1;-1;-1;5;33;29
+539;VIII.;1;['ce610'];-1;-1;-1;-1;1;5;4
+540;Trby z predaja cennıch papierov a podielov;1;['ce628'];-1;-1;-1;-1;7;43;37
+541;IX.;1;['ce610'];-1;-1;-1;-1;1;3;2
+542;Vınosy z dlhodobého finanèného majetku súèet;1;['ce628'];-1;-1;-1;-1;6;44;39
+543;IX.1.;1;['ce610'];-1;-1;-1;-1;1;5;2
+544;Vınosy z cennıch papierov a podielov od prepojenıch úètovnıch jednotiek;1;['ce628'];-1;-1;-1;-1;10;71;62
+545;Vınosy z cennıch papierov a podielov v podielovej úèasti okrem vınosov prepojenıch úètovnıch jednotiek;1;['ce628'];-1;-1;-1;-1;14;102;89
+546;Ostatné vınosy z cennıch papierov a podielov;1;['ce628'];-1;-1;-1;-1;7;44;38
+547;X.;1;['ce610'];-1;-1;-1;-1;1;2;1
+548;Vınosy z krátkodobého finanèného majetku súèet;1;['ce628'];-1;-1;-1;-1;6;46;41
+549;X.1.;1;['ce610'];-1;-1;-1;-1;1;4;1
+550;Vınosy z krátkodobého finanèného majetku od prepojenıch úètovnıch jednotiek;1;['ce628'];-1;-1;-1;-1;9;75;67
+551;Vınosy z krátkodobého finanèného majetku v podielovej úèasti okrem vınosov prepojenıch úètovnıch jednotiek;1;['ce628'];-1;-1;-1;-1;13;106;94
+552;Ostatné vınosy z krátkodobého finanèného majetku;1;['ce628'];-1;-1;-1;-1;6;48;43
+553;XI.;1;['ce610'];-1;-1;-1;-1;1;3;2
+554;Vınosové úroky;1;['ce628'];-1;-1;-1;-1;2;14;13
+555;XI.1.;1;['ce610'];-1;-1;-1;-1;1;5;2
+556;Vınosové úroky od prepojenıch úètovnıch jednotiek;1;['ce628'];-1;-1;-1;-1;6;49;44
+557;Ostatné vınosové úroky;1;['ce628'];-1;-1;-1;-1;3;22;20
+558;XII.;1;['ce610'];-1;-1;-1;-1;1;4;3
+559;Kurzové zisky;1;['ce628'];-1;-1;-1;-1;2;13;12
+560;XIII.;1;['ce610'];-1;-1;-1;-1;1;5;4
+561;Vınosy z precenenia cennıch papierov a vınosy z derivátovıch operácií;1;['ce628'];-1;-1;-1;-1;10;69;60
+562;XIV.;1;['ce610'];-1;-1;-1;-1;1;4;3
+563;Ostatné vınosy z finanènej èinnosti;1;['ce628'];-1;-1;-1;-1;5;35;31
+564;Náklady na finanènú èinnos spolu;1;['ce622'];-1;-1;-1;-1;5;33;29
+565;K.;1;['ce610'];-1;-1;-1;-1;1;2;1
+566;Predané cenné papiere a podiely;1;['ce628'];-1;-1;-1;-1;5;31;27
+567;L.;1;['ce610'];-1;-1;-1;-1;1;2;1
+568;Náklady na krátkodobı finanènı majetok;1;['ce628'];-1;-1;-1;-1;5;38;34
+569;M.;1;['ce610'];-1;-1;-1;-1;1;2;1
+570;Opravné poloky k finanènému majetku;1;['ce628'];-1;-1;-1;-1;5;36;32
+571;N.;1;['ce610'];-1;-1;-1;-1;1;2;1
+572;Nákladové úroky;1;['ce628'];-1;-1;-1;-1;2;15;14
+573;N.1.;1;['ce610'];-1;-1;-1;-1;1;4;1
+574;Nákladové úroky pre prepojené úètovné jednotky;1;['ce628'];-1;-1;-1;-1;6;46;41
+575;Ostatné nákladové úroky;1;['ce628'];-1;-1;-1;-1;3;23;21
+576;O.;1;['ce610'];-1;-1;-1;-1;1;2;1
+577;Kurzové straty;1;['ce628'];-1;-1;-1;-1;2;14;13
+578;P.;1;['ce610'];-1;-1;-1;-1;1;2;1
+579;Náklady na precenenie cennıch papierov a náklady na derivátové operácie;1;['ce628'];-1;-1;-1;-1;10;71;62
+580;Q.;1;['ce610'];-1;-1;-1;-1;1;2;1
+581;Ostatné náklady na finanènú èinnos;1;['ce628'];-1;-1;-1;-1;5;35;31
+582;Vısledok hospodárenia z finanènej èinnosti;1;['ce622'];-1;-1;-1;-1;5;42;38
+583;Vısledok hospodárenia za úètovné obdobie pred zdanením;1;['ce622'];-1;-1;-1;-1;7;54;48
+584;R.;1;['ce610'];-1;-1;-1;-1;1;2;1
+585;Daò z príjmov;1;['ce628'];-1;-1;-1;-1;3;13;11
+586;R.1.;1;['ce610'];-1;-1;-1;-1;1;4;1
+587;Daò z príjmov splatná;1;['ce628'];-1;-1;-1;-1;4;21;18
+588;Daò z príjmov odloená;1;['ce628'];-1;-1;-1;-1;4;22;19
+589;S.;1;['ce610'];-1;-1;-1;-1;1;2;1
+590;Prevod podielov na vısledku hospodárenia spoloèníkom;1;['ce628'];-1;-1;-1;-1;6;52;47
+591;Vısledok hospodárenia za úètovné obdobie po zdanení;1;['ce622'];-1;-1;-1;-1;7;51;45
+592;Kontrolnı list;1;['ce643'];-1;-1;-1;-1;2;14;13
+593;Typ formálnej kontroly;1;['ce644'];-1;-1;-1;-1;3;22;20
+594;Vısledok formálnej kontroly;1;['ce651'];-1;-1;-1;-1;3;27;25
+595;Informaèná povinnos za rok;1;['ce645'];-1;-1;-1;-1;4;27;24
+596;Test vyhovel formálnej kontrole;1;['ce652'];-1;-1;-1;-1;4;31;28
+597;IÈO;1;['ce646'];-1;-1;-1;-1;1;3;3
+598;Test vyhovel formálnej kontrole;1;['ce653'];-1;-1;-1;-1;4;31;28
+599;Obchodné meno;1;['ce647'];-1;-1;-1;-1;2;13;12
+600;Test vyhovel formálnej kontrole;1;['ce654'];-1;-1;-1;-1;4;31;28
+601;Zverejnenie roènej správy,;1;['ce648'];-1;-1;-1;-1;3;26;23
+602;Test vyhovel formálnej kontrole;1;['ce654'];-1;-1;-1;-1;4;31;28
+603;Údaj o audite;1;['ce645'];-1;-1;-1;-1;3;13;11
+604;Test vyhovel formálnej kontrole;1;['ce655'];-1;-1;-1;-1;4;31;28
+605;Údaj o konsolid. úèt. závierke;1;['ce646'];-1;-1;-1;-1;5;30;24
+606;Test vyhovel formálnej kontrole;1;['ce656'];-1;-1;-1;-1;4;31;28
+607;Údaj o dlhopisoch;1;['ce649'];-1;-1;-1;-1;3;17;15
+608;Test vyhovel formálnej kontrole;1;['ce656'];-1;-1;-1;-1;4;31;28
+609;Vyhlásenie zodpovednıch osôb emitenta;1;['ce649'];-1;-1;-1;-1;4;37;34
+610;Test vyhovel formálnej kontrole;1;['ce656'];-1;-1;-1;-1;4;31;28

@@ -1,0 +1,13 @@
+<link:linkbase xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" xlink:label="label_AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities">Úpravy o zníženie a nárast ostatného majetku a záväzkov</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" xlink:label="label_OtherReservesExcludingTranslationReserve">Ostatné rezervy okrem rezervy na kurzové rozdiely</link:label>
+    <link:label xlink:type="resource" xlink:role="http://www.xbrl.org/2003/role/label" xml:lang="sk" xlink:label="label_OtherReservesExcludingTranslationReserveMember">Ostatné rezervy okrem kurzových rozdielov člen</link:label>
+    <link:loc xlink:type="locator" xlink:href="31570020000000005512-2021-12-31.xsd#IDCHo_AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities" xlink:label="AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities" />
+    <link:loc xlink:type="locator" xlink:href="31570020000000005512-2021-12-31.xsd#IDCHo_OtherReservesExcludingTranslationReserve" xlink:label="OtherReservesExcludingTranslationReserve" />
+    <link:loc xlink:type="locator" xlink:href="31570020000000005512-2021-12-31.xsd#IDCHo_OtherReservesExcludingTranslationReserveMember" xlink:label="OtherReservesExcludingTranslationReserveMember" />
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities" xlink:to="label_AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities" order="1" />
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherReservesExcludingTranslationReserve" xlink:to="label_OtherReservesExcludingTranslationReserve" order="1" />
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="OtherReservesExcludingTranslationReserveMember" xlink:to="label_OtherReservesExcludingTranslationReserveMember" order="1" />
+  </link:labelLink>
+</link:linkbase>

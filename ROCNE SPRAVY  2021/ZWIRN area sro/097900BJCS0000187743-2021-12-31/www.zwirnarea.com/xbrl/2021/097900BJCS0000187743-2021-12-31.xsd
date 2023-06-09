@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:zwi="http://www.zwirnarea.com/20211231" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:esef_cor="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor" targetNamespace="http://www.zwirnarea.com/20211231" elementFormDefault="qualified">
+  <!-- INTEGIX by Ez-XBRL -->
+  <import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"/>
+  <import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"/>
+  <import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
+  <import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"/>
+  <import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"/>
+  <import namespace="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor" schemaLocation="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor.xsd"/>
+  <import/>
+  <annotation>
+    <appinfo>
+      <link:roleType roleURI="http://www.zwirnarea.com/role/VeobecnInformcie" id="VeobecnInformcie">
+        <link:definition>0001 - Statement - Všeobecné informácie</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.zwirnarea.com/role/BalanceSheet" id="BalanceSheet">
+        <link:definition>0002 - Statement - FP</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.zwirnarea.com/role/CF" id="CF">
+        <link:definition>0003 - Statement - CF</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.zwirnarea.com/role/Equity" id="Equity">
+        <link:definition>0004 - Statement - Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.zwirnarea.com/role/OCI" id="OCI">
+        <link:definition>0005 - Statement - OCI</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.zwirnarea.com/role/Anchoring" id="Anchoring">
+        <link:definition>0006 - Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="097900BJCS0000187743-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="097900BJCS0000187743-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="097900BJCS0000187743-2021-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="097900BJCS0000187743-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="097900BJCS0000187743-2021-12-31_lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor-lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor-gen-sk.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2021-03-24/esef_cor-gen-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase"/>
+    </appinfo>
+  </annotation>
+  <element name="Costofsaleofinventories" id="zwi_Costofsaleofinventories" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit"/>
+  <element name="Decreasethroughothercontributionsbyowners" id="zwi_Decreasethroughothercontributionsbyowners" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit"/>
+  <element name="Increasethroughothercontributionsbyowners" id="zwi_Increasethroughothercontributionsbyowners" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit"/>
+  <element name="Paymentsofothercontributionsbyowners" id="zwi_Paymentsofothercontributionsbyowners" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit"/>
+  <element name="Proceedsfrombankborowingsclassifiedasfinancingactivities" id="zwi_Proceedsfrombankborowingsclassifiedasfinancingactivities" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit"/>
+  <element name="Proceedsfromothercontributionsbyowner" id="zwi_Proceedsfromothercontributionsbyowner" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit"/>
+  <element name="Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities" id="zwi_Proceedsfromrelatedpartyborowingsclassifiedasfinancingactivities" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="debit"/>
+  <element name="Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities" id="zwi_Repaymentsofrelatedpartyborowingsclassifiedasfinancingactivities" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="duration" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit"/>
+  <element name="Statutoryandotherreserves" id="zwi_Statutoryandotherreserves" type="xbrli:monetaryItemType" abstract="false" xbrli:periodType="instant" substitutionGroup="xbrli:item" nillable="true" xbrli:balance="credit"/>
+</schema>

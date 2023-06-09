@@ -1,0 +1,57 @@
+<schema xmlns:IDCHo="https://www.idcholding.com" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" targetNamespace="https://www.idcholding.com" xmlns="http://www.w3.org/2001/XMLSchema">
+  <import schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd" namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" />
+  <import schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/instance" />
+  <import schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" namespace="http://www.xbrl.org/2003/linkbase" />
+  <import schemaLocation="http://www.xbrl.org/2006/xbrldi-2006.xsd" namespace="http://xbrl.org/2006/xbrldi" />
+  <import schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/non-numeric" />
+  <import schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" namespace="http://www.xbrl.org/dtr/type/numeric" />
+  <annotation>
+    <appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="31570020000000005512-2021-12-31_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="31570020000000005512-2021-12-31_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="31570020000000005512-2021-12-31_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="31570020000000005512-2021-12-31_lab-sk.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="31570020000000005512-2021-12-31_lab-en.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:roleType roleURI="https://www.idcholding.com/role/GeneralInformation" id="GeneralInformation">
+        <link:definition>General Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.idcholding.com/role/BalanceSheet" id="BalanceSheet">
+        <link:definition>Balance Sheet</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.idcholding.com/role/IncomeStatement" id="IncomeStatement">
+        <link:definition>Income Statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.idcholding.com/role/ComprehensiveIncome" id="ComprehensiveIncome">
+        <link:definition>Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.idcholding.com/role/ChangesinEquity" id="ChangesinEquity">
+        <link:definition>Changes in Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.idcholding.com/role/CashFlow" id="CashFlow">
+        <link:definition>Cash Flow</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="https://www.idcholding.com/role/Anchoring" id="Anchoring">
+        <link:definition>Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </appinfo>
+  </annotation>
+  <element name="AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities" id="IDCHo_AdjustmentsForDecreaseIncreaseInOtherAssetsAndLiabilities" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="duration" />
+  <element name="OtherReservesExcludingTranslationReserve" id="IDCHo_OtherReservesExcludingTranslationReserve" type="xbrli:monetaryItemType" substitutionGroup="xbrli:item" nillable="false" abstract="false" xbrli:balance="credit" xbrli:periodType="instant" />
+  <element name="OtherReservesExcludingTranslationReserveMember" id="IDCHo_OtherReservesExcludingTranslationReserveMember" type="nonnum:domainItemType" substitutionGroup="xbrli:item" nillable="false" abstract="true" xbrli:periodType="duration" />
+</schema>

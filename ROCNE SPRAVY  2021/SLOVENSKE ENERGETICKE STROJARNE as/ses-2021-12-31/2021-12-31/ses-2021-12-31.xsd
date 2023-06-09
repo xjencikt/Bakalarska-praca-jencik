@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Taxonomy Schema File created by Certent CDM HD version: 21.3.5-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:SES="http://www.ses.sk/2021-12-31" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:widernarrower="http://www.esma.europa.eu/xbrl/esef/arcrole/wider-narrower" xmlns:p0="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" targetNamespace="http://www.ses.sk/2021-12-31" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo>
+      <link:roleType roleURI="http://www.ses.sk/2021-12-31/xbrl/31/role/Anchoring" id="Anchoring">
+        <link:definition>[000099] Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/esef_role-000000_extended" id="esef_role-000000_extended">
+        <link:definition>[000000] Tags that must be applied if corresponding information is present in a report</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/ias_1_role-210000_extended" id="ias_1_role-210000_extended">
+        <link:definition>[210000] Statement of financial position, current/non-current</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/ias_1_role-320000_extended" id="ias_1_role-320000_extended">
+        <link:definition>[320000] Statement of comprehensive income, profit or loss, by nature of expense</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/ias_1_role-410000_extended" id="ias_1_role-410000_extended">
+        <link:definition>[410000] Statement of comprehensive income, OCI components presented net of tax</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/ias_1_role-420000_extended" id="ias_1_role-420000_extended">
+        <link:definition>[420000] Statement of comprehensive income, OCI components presented before tax</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/ias_1_role-610000_extended" id="ias_1_role-610000_extended">
+        <link:definition>[610000] Statement of changes in equity</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.esma.europa.eu/xbrl/role/all/ias_7_role-520000_extended" id="ias_7_role-520000_extended">
+        <link:definition>[520000] Statement of cash flows, indirect method</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-sk.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef"></link:linkbaseRef>
+      <link:linkbaseRef xlink:type="simple" xlink:href="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor-lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef"></link:linkbaseRef>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ses-2021-12-31_pre.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef"></link:linkbaseRef>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ses-2021-12-31_cal.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef"></link:linkbaseRef>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ses-2021-12-31_def.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef"></link:linkbaseRef>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ses-2021-12-31_lab-sk.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef"></link:linkbaseRef>
+      <link:linkbaseRef xlink:type="simple" xlink:href="ses-2021-12-31_lab-en.xml" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef"></link:linkbaseRef>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"></xs:import>
+  <xs:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"></xs:import>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd"></xs:import>
+  <xs:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd"></xs:import>
+  <xs:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd"></xs:import>
+  <xs:import namespace="http://www.esma.europa.eu/xbrl/esef/arcrole/wider-narrower" schemaLocation="http://www.xbrl.org/lrr/arcrole/esma-arcrole-2018-11-21.xsd"></xs:import>
+  <xs:import namespace="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor" schemaLocation="http://www.esma.europa.eu/taxonomy/2020-03-16/esef_cor.xsd"></xs:import>
+  <xs:element id="SES_EquityAttributableToOwnersOfParentAbstract" abstract="true" name="EquityAttributableToOwnersOfParentAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_FinanceIncomeCostAbstract" abstract="true" name="FinanceIncomeCostAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_OperatingExpenseAbstract" abstract="true" name="OperatingExpenseAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_ProfitLossBeforeTaxAbstract" abstract="true" name="ProfitLossBeforeTaxAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_IncomeTaxExpenseContinuingOperationsAbstract" abstract="true" name="TaxIncomeExpenseAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_ProfitLossFromContinuingOperationsAbstract" abstract="true" name="ProfitLossFromContinuingOperationsAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapitalAbstract" abstract="true" name="CashFlowsFromUsedInOperationsBeforeChangesInWorkingCapitalAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_IncreaseDecreaseInCashAndCashEquivalentsAbstract" abstract="true" name="IncreaseDecreaseInCashAndCashEquivalentsAbstract" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration"></xs:element>
+  <xs:element id="SES_PohladavkyZaZadrzne" xbrli:periodType="instant" xbrli:balance="debit" name="PohladavkyZaZadrzne" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"></xs:element>
+  <xs:element id="SES_AkcionarskePrispevkyAOcenovacieRozdiely" xbrli:periodType="instant" xbrli:balance="credit" name="AkcionarskePrispevkyAOcenovacieRozdiely" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"></xs:element>
+  <xs:element id="SES_AkcionarskePrispevkyAOcenovacieRozdielyMember" xbrli:periodType="duration" abstract="true" name="AkcionarskePrispevkyAOcenovacieRozdielyMember" substitutionGroup="xbrli:item" type="nonnum:domainItemType"></xs:element>
+  <xs:element id="SES_UpravyOZnizenieZvysenieStavuZakazkovejVyroby" xbrli:periodType="duration" xbrli:balance="debit" name="UpravyOZnizenieZvysenieStavuZakazkovejVyroby" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"></xs:element>
+  <xs:element id="SES_UpravyOZvysenieZnizenieOdpisuZavazkov" xbrli:periodType="duration" xbrli:balance="debit" name="UpravyOZvysenieZnizenieOdpisuZavazkov" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType"></xs:element>
+</xs:schema>
