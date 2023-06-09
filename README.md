@@ -20,4 +20,4 @@ xhtml_analysis_beautiful_soup_pdf2htmlEX.ipynb: bližšie spracovanie pdf2htmlEX
 doc_analysis_utils.ipynb: spracovanie dokumentov a nájdenie ich generátorov
 
 Dokumenty .py je možné spustiť po nainštalovaní potrebných knižníc.
-Pre spustenie .ipynb je potrebné mať nainštalované knižnice a potom jednotlivé kódy spúštať postupne.
+Pre spustenie .ipynb je potrebné mať nainštalované knižnice a potom jednotlivé časti kódu v notebooku spúšťať postupne.
