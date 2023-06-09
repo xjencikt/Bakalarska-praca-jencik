@@ -1,11 +1,9 @@
-import os
 import re
-from unidecode import unidecode
+
 
 import bs4
 import pandas as pd
 import nltk.data
-import requests
 from bs4 import BeautifulSoup
 from bs4.element import Comment
 from abc import abstractmethod
@@ -29,7 +27,7 @@ def text_from_html(body):
     return u" ".join(t.strip() for t in visible_texts)
 
 
-class DummyTextAnalyzer:
+class text_analyzer:
 
     def __init__(self):
         self.parent = None
@@ -97,41 +95,34 @@ class DummyTextAnalyzer:
             return print("EMPTY")
         return data
 
-
     @staticmethod
     def write_xhtml(new_file):
-
-        with open(new_file,
-                  "w", encoding="utf8") as file_html:
+        with open(new_file, "w", encoding="utf8") as file_html:
             file_html.write("""<?xml version='1.0' encoding='utf-8' standalone='no'?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title>Test page</title>
-  </head>
-  <body>
-    <p>Hello world</p>
-  </body>
-</html>""")
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+      <head>
+        <title>Test page</title>
+      </head>
+      <body>
+        <p>Hello world</p>
+      </body>
+    </html>""")
         file_html.close()
 
     @staticmethod
     def append_to_xhtml(open_file, new_file):
-        xhtml = open(open_file,
-                     encoding="utf8").read()
-
-        soup2 = bs4.BeautifulSoup(xhtml, 'html.parser')
+        xhtml = open(open_file, encoding="utf8").read()
+        soup2 = BeautifulSoup(xhtml, 'html.parser')
 
         for match in soup2.findAll('span'):
             match.unwrap()
 
-        with open(new_file,
-                  "w", encoding="utf8") as outf:
+        with open(new_file, "w", encoding="utf8") as outf:
             outf.write(str(soup2))
 
     @staticmethod
     def get_text(open_file):
-
         def tag_visible(element):
             if element.parent.name in ['style', 'script', 'head', 'title', 'meta', '[document]',
                                        'xbrli:context', 'ix:references', 'ix:header', 'link:schemaRef',
@@ -140,36 +131,34 @@ class DummyTextAnalyzer:
                                        "xbrli:segment", "xbrli:explicitMember", "xbrli:typedMember",
                                        "xbrli:balance", "xbrli:startDate", "xbrli:endDate", "xbrli:instant",
                                        "xbrli:forever", "xbrli:periodType", "xbrli:entityIdentifier",
-                                       "xbrli:entityScheme"
-                                       ]:
+                                       "xbrli:entityScheme"]:
                 return False
             if isinstance(element, Comment):
                 return False
             return True
 
         openfile = open(open_file, encoding="utf8").read()
-
-        soup = bs4.BeautifulSoup(openfile, 'html.parser')
+        soup = BeautifulSoup(openfile, 'html.parser')
 
         data = []
-
         text = soup.get_text()
 
         text_without_znbsp = re.sub('﻿', '', text)
         text_without_nbsp = re.sub(' ', '', text_without_znbsp)
         text_without_blank = re.sub('\ {2,}', '', text_without_nbsp)
-        text_without_spaces = re.sub('\n*', '', text_without_blank)
 
-        data.append(text_without_spaces.strip())
+        # Add a new line after every comma
+        text_with_newlines = re.sub(',', ',\n', text_without_blank)
+
+        data.append(text_with_newlines.strip())
 
         df = pd.DataFrame(data)
-        return df.to_csv('data_from_text.txt', encoding="utf-16")
+        return df.to_csv('data_from_text.csv', encoding="utf-16")
 
-
-open_file = '../../data/pdfs/ROCNE SPRAVY  2021/GEOCOMPLEX_COPY.xhtml'
-new_file = '../../../data/pdfs/ROCNE SPRAVY  2021/GEOCOMPLEX_COPY_COPYOFCOPY.xhtml'
+open_file = 'ROCNE SPRAVY  2021/test/highlighted/ACROSS FUNDING správa 2021.xhtml'
+new_file = 'ROCNE SPRAVY  2021/test/highlighted/ACROSS FUNDING správa 2021-COPY.xhtml'
 searched_word = 'Payment titles'
 
-DummyTextAnalyzer.get_text(open_file)
+text_analyzer.get_text(open_file)
 
 
