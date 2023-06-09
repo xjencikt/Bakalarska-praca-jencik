@@ -153,7 +153,7 @@ class text_analyzer:
         data.append(text_with_newlines.strip())
 
         df = pd.DataFrame(data)
-        return df.to_csv('data_from_text.csv', encoding="utf-16")
+        return df.to_csv('data_from_text.txt', encoding="utf-16")
 
 open_file = 'ROCNE SPRAVY  2021/test/highlighted/ACROSS FUNDING správa 2021.xhtml'
 new_file = 'ROCNE SPRAVY  2021/test/highlighted/ACROSS FUNDING správa 2021-COPY.xhtml'
